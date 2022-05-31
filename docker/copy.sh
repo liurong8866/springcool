@@ -10,37 +10,37 @@ usage() {
 # copy sql
 echo "begin copy sql "
 cp ../sql/quartz.sql ./mysql/db
-cp ../sql/xueyi_1.sql ./mysql/db
-cp ../sql/xueyi_2.sql ./mysql/db
-cp ../sql/xy_config.sql ./mysql/db
+cp ../sql/cool_1.sql ./mysql/db
+cp ../sql/cool_2.sql ./mysql/db
+cp ../sql/cool_config.sql ./mysql/db
 
 # copy html
 echo "begin copy html "
-cp -r ../xueyi-ui/main/dist/** ./nginx/html/main
-cp -r ../xueyi-ui/administrator/dist/** ./nginx/html/administrator
+cp -r ../cool-ui/main/dist/** ./nginx/html/main
+cp -r ../cool-ui/administrator/dist/** ./nginx/html/administrator
 
 
 # copy jar
-echo "begin copy xueyi-gateway "
-cp ../xueyi-gateway/target/xueyi-gateway.jar ./xueyi/gateway/jar
+echo "begin copy cool-gateway "
+cp ../cool-gateway/target/cool-gateway.jar ./cool/gateway/jar
 
-echo "begin copy xueyi-auth "
-cp ../xueyi-auth/target/xueyi-auth.jar ./xueyi/auth/jar
+echo "begin copy cool-auth "
+cp ../cool-auth/target/cool-auth.jar ./cool/auth/jar
 
-echo "begin copy xueyi-visual "
-cp ../xueyi-visual/xueyi-monitor/target/xueyi-visual-monitor.jar  ./xueyi/visual/monitor/jar
+echo "begin copy cool-visual "
+cp ../cool-visual/cool-monitor/target/cool-visual-monitor.jar  ./cool/visual/monitor/jar
 
-echo "begin copy xueyi-modules-system "
-cp ../xueyi-modules/xueyi-system/target/xueyi-modules-system.jar ./xueyi/modules/system/jar
+echo "begin copy cool-modules-system "
+cp ../cool-modules/cool-system/target/cool-modules-system.jar ./cool/modules/system/jar
 
-echo "begin copy xueyi-modules-tenant "
-cp ../xueyi-modules/xueyi-tenant/target/xueyi-modules-tenant.jar ./xueyi/modules/tenant/jar
+echo "begin copy cool-modules-tenant "
+cp ../cool-modules/cool-tenant/target/cool-modules-tenant.jar ./cool/modules/tenant/jar
 
-echo "begin copy xueyi-modules-file "
-cp ../xueyi-modules/xueyi-file/target/xueyi-modules-file.jar ./xueyi/modules/file/jar
+echo "begin copy cool-modules-file "
+cp ../cool-modules/cool-file/target/cool-modules-file.jar ./cool/modules/file/jar
 
-echo "begin copy xueyi-modules-job "
-cp ../xueyi-modules/xueyi-job/target/xueyi-modules-job.jar ./xueyi/modules/job/jar
+echo "begin copy cool-modules-job "
+cp ../cool-modules/cool-job/target/cool-modules-job.jar ./cool/modules/job/jar
 
-echo "begin copy xueyi-modules-gen "
-cp ../xueyi-modules/xueyi-gen/target/xueyi-modules-gen.jar ./xueyi/modules/gen/jar
+echo "begin copy cool-modules-gen "
+cp ../cool-modules/cool-gen/target/cool-modules-gen.jar ./cool/modules/gen/jar

@@ -29,8 +29,8 @@ create table te_tenant (
 -- 初始化-租户信息表数据
 -- ----------------------------
 insert into te_tenant (id, is_lessor, is_default, strategy_id,  name, system_name, nick, logo)
-values (1, 'Y', 'Y', 1, 'administrator', '租管租户', 'xueYi1', 'https://images.gitee.com/uploads/images/2021/1101/141601_d68e92a4_7382127.jpeg'),
-       (2, 'N', 'N', 1, 'xueYi', '雪忆科技', 'xueYi1', 'https://images.gitee.com/uploads/images/2021/1101/141601_d68e92a4_7382127.jpeg');
+values (1, 'Y', 'Y', 1, 'administrator', '租管租户', 'cool1', 'https://images.gitee.com/uploads/images/2021/1101/141601_d68e92a4_7382127.jpeg'),
+       (2, 'N', 'N', 1, 'cool', '雪忆科技', 'cool1', 'https://images.gitee.com/uploads/images/2021/1101/141601_d68e92a4_7382127.jpeg');
 
 -- ----------------------------
 -- 2、策略信息表
@@ -88,7 +88,7 @@ create table te_source (
 -- 初始化-数据源表数据 | 这条数据为我的基础库，实际使用时调整成自己的库即可
 -- ----------------------------
 insert into te_source(id, name, is_default, slave, driver_class_name, url_prepend, url_append, username, password)
-values (1, '注册数据源', 'Y', 'slave', 'com.mysql.cj.jdbc.Driver', 'jdbc:mysql://localhost:3306/xy-cloud1', '?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8', 'root', 'password');
+values (1, '注册数据源', 'Y', 'slave', 'com.mysql.cj.jdbc.Driver', 'jdbc:mysql://localhost:3306/cool-cloud1', '?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8', 'root', 'password');
 
 -- ----------------------------
 -- 6、模块信息表

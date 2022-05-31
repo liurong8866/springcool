@@ -10,7 +10,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  *
  * @author springcool
  */
-@TableName(value = "xy_material_folder", excludeProperty = {"remark"})
+@TableName(value = "cool_material_folder", excludeProperty = {"remark"})
 public class SysMaterialFolderDto extends SysMaterialFolderPo<SysMaterialFolderDto, SysMaterialDto> {
 
     private static final long serialVersionUID = 1L;

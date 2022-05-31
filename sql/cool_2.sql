@@ -1,11 +1,11 @@
-# DROP DATABASE IF EXISTS `xy-cloud1`;
+# DROP DATABASE IF EXISTS `cool-cloud1`;
 #
-# CREATE DATABASE  `xy-cloud1` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+# CREATE DATABASE  `cool-cloud1` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 # SET NAMES utf8mb4;
 # SET FOREIGN_KEY_CHECKS = 0;
 #
-# USE `xy-cloud1`;
+# USE `cool-cloud1`;
 
 SET NAMES utf8mb4;
 
@@ -117,7 +117,7 @@ create table sys_user (
 insert into sys_user (id, code, user_name, nick_name,user_type, avatar, password, remark, tenant_id)
 values (1, '001', 'admin', 'admin', '00', 'https://images.gitee.com/uploads/images/2021/1101/141155_f3dfce1d_7382127.jpeg', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '超级管理员', 1),
        (2, '001', 'admin', 'admin', '00', 'https://images.gitee.com/uploads/images/2021/1101/141155_f3dfce1d_7382127.jpeg', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '系统管理员', 2),
-       (3, '002', 'xy', 'xy', '01', 'https://images.gitee.com/uploads/images/2021/1101/141155_f3dfce1d_7382127.jpeg', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '管理员', 2);
+       (3, '002', 'cool', 'cool', '01', 'https://images.gitee.com/uploads/images/2021/1101/141155_f3dfce1d_7382127.jpeg', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '管理员', 2);
 
 -- ----------------------------
 -- 4、用户-岗位关联表
@@ -355,8 +355,8 @@ create table sys_organize_role_merge (
 -- ----------------------------
 -- 13、素材信息表|管理素材信息
 -- ----------------------------
-drop table if exists xy_material;
-create table xy_material (
+drop table if exists cool_material;
+create table cool_material (
   id		                bigint	            not null                                comment '素材Id',
   folder_id		            bigint	            not null default 0	                    comment '分类Id',
   nick		                varchar(100)	    not null	                            comment '素材昵称',
@@ -380,8 +380,8 @@ create table xy_material (
 -- ----------------------------
 -- 14、素材分类信息表
 -- ----------------------------
-drop table if exists xy_material_folder;
-create table xy_material_folder (
+drop table if exists cool_material_folder;
+create table cool_material_folder (
   id		                bigint	            not null                                comment '分类Id',
   parent_id		            bigint	            not null default 0                      comment '父类Id',
   name		                varchar(100)	    not null	                            comment '分类名称',

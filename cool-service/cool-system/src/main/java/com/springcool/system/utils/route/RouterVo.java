@@ -30,7 +30,7 @@ public class RouterVo {
     /** 菜单标签设置 */
     private TagVo tag;
 
-    /** 路由参数：如 {"id": 1, "name": "xy"} */
+    /** 路由参数：如 {"id": 1, "name": "cool"} */
     private String paramPath;
 
     /** 其他元素 */

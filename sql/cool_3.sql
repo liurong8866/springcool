@@ -205,8 +205,8 @@
 # -- ----------------------------
 # -- 13、素材信息表|管理素材信息
 # -- ----------------------------
-# drop table if exists xy_material;
-# create table xy_material (
+# drop table if exists cool_material;
+# create table cool_material (
 #   id		                bigint	            not null                                comment '素材Id',
 #   folder_id		            bigint	            not null default 0	                    comment '分类Id',
 #   nick		                varchar(100)	    not null	                            comment '素材昵称',
@@ -230,8 +230,8 @@
 # -- ----------------------------
 # -- 14、素材分类信息表
 # -- ----------------------------
-# drop table if exists xy_material_folder;
-# create table xy_material_folder (
+# drop table if exists cool_material_folder;
+# create table cool_material_folder (
 #   id		                bigint	            not null                                comment '分类Id',
 #   parent_id		            bigint	            not null default 0                      comment '父类Id',
 #   name		                varchar(100)	    not null	                            comment '分类名称',
