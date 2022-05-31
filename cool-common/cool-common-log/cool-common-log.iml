@@ -16,7 +16,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="springcool-common-security" />
+    <orderEntry type="module" module-name="cool-common-security" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.3.19" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.19" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.19" level="project" />
@@ -25,8 +25,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.19" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.19" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.19" level="project" />
-    <orderEntry type="module" module-name="springcool-system-api" />
-    <orderEntry type="module" module-name="springcool-common-core" />
+    <orderEntry type="module" module-name="cool-system-api" />
+    <orderEntry type="module" module-name="cool-common-core" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.6.7" level="project" />
@@ -84,8 +84,8 @@
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-annotations:1.6.2" level="project" />
     <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.7.16" level="project" />
-    <orderEntry type="module" module-name="springcool-tenant-api" />
-    <orderEntry type="module" module-name="springcool-common-redis" />
+    <orderEntry type="module" module-name="cool-tenant-api" />
+    <orderEntry type="module" module-name="cool-common-redis" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.6.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:2.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-keyvalue:2.6.4" level="project" />

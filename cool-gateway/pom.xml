@@ -9,6 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cool-gateway</artifactId>
+    <name>${project.artifactId}</name>
     <description>网关模块</description>
 
     <dependencies>

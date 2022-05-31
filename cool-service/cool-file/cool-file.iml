@@ -114,7 +114,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.2.1" level="project" />
-    <orderEntry type="module" module-name="springcool-common-swagger" />
+    <orderEntry type="module" module-name="cool-common-swagger" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.6.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.6.7" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.2" level="project" />
@@ -141,7 +141,7 @@
     <orderEntry type="library" name="Maven: io.swagger:swagger-annotations:1.6.2" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-models:1.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.4.2.Final" level="project" />
-    <orderEntry type="module" module-name="springcool-file-api" />
+    <orderEntry type="module" module-name="cool-file-api" />
     <orderEntry type="module" module-name="cool-common-core" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:3.1.1" level="project" />

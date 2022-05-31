@@ -5,38 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f549778-5864-40f1-9ee5-6f42b38a79dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/run-auth.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run-auth.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/run-gateway.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run-gateway.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/run-modules-file.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run-modules-file.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/run-modules-gen.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run-modules-gen.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/run-modules-job.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run-modules-job.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/run-modules-system.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run-modules-system.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/run-modules-tenant.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run-modules-tenant.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/run-monitor.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bin/run-monitor.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-auth/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-auth/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/common/core/constant/basic/TenantConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/common/core/constant/basic/TenantConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service-api/cool-system-api/src/main/java/com/springcool/system/api/file/domain/dto/SysMaterialDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service-api/cool-system-api/src/main/java/com/springcool/system/api/file/domain/dto/SysMaterialDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service-api/cool-system-api/src/main/java/com/springcool/system/api/file/domain/dto/SysMaterialFolderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service-api/cool-system-api/src/main/java/com/springcool/system/api/file/domain/dto/SysMaterialFolderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-file/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-file/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/vm/sql/sql.sql.vm" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/vm/sql/sql.sql.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-job/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-job/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/system/utils/route/RouterVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/system/utils/route/RouterVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-system/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-system/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/copy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/copy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nacos/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nacos/conf/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nacos/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nacos/dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/redis/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/redis/dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/sql/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/springcool_1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/springcool_2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/springcool_3.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/springcool_config.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/springcool_seata.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +43,18 @@
   <component name="ProjectId" id="29vkeQq4HGCifCCDb3D5d9FbE6y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cool-gateway/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3500473" />
@@ -85,6 +62,11 @@
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cool-gateway/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -433,5 +415,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

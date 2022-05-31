@@ -46,7 +46,7 @@
     <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.76.Final" level="project" />
     <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.4.17" level="project" />
     <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
-    <orderEntry type="module" module-name="springcool-common-core" />
+    <orderEntry type="module" module-name="cool-common-core" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.6.7" level="project" />

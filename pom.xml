@@ -41,6 +41,7 @@
         <mapstruct.version>1.4.2.Final</mapstruct.version>
         <transmittable-thread-local.version>2.12.2</transmittable-thread-local.version>
         <maven.compiler.version>3.8.1</maven.compiler.version>
+        <maven.flatten.version>1.2.1</maven.flatten.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -311,7 +312,77 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>2.6.7</version>
+                    <version>${spring-boot.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven.compiler.version}</version>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                        <annotationProcessorPaths>
+                            <path>
+                                <groupId>org.mapstruct</groupId>
+                                <artifactId>mapstruct-processor</artifactId>
+                                <version>${mapstruct.version}</version>
+                            </path>
+                        </annotationProcessorPaths>
+                        <encoding>${project.build.sourceEncoding}</encoding>
+                    </configuration>
+                </plugin>
+                <!--解析revision 打包插件-->
+                <plugin>
+                    <!--
+                    这个插件的作用是，生成一个压缩版的pom.xml文件，然后在install和deploy阶段使用压缩后的pom.xml文件，替换原来的pom.xml文件，具体压缩策略如下：
+
+                    和构建有关的元素会被删除；
+                    和开发有关的元素默认会被删除；
+                    只包含构件的使用者必须的一些信息；
+                    变量会被解析；
+                    上级关系会被解析，然后被压缩删除；
+                    构建时实际使用的profile会被评估，视情况处理；
+                    由JDK或者OS驱动的profile会被保留，需要时可以动态地控制依赖。
+                    -->
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>flatten-maven-plugin</artifactId>
+                    <version>${maven.flatten.version}</version>
+                    <configuration>
+                        <!--
+                        embedBuildProfileDependencies	Boolean	由OS或者JDK的不同而触发的profile，可能根据环境的不同而产生不同的依赖，但是由属性等触发的profile，就不确定了，如果属性设置为true，profile中的依赖会直接写入生成的pom中，如果设置为false，所有的profile信息都会保留,默认是false。
+                        flattenedPomFilename	String	生成的压缩后的pom.xml文件的文件名，默认为.flattened-pom.xml。
+                        outputDirectory	File	生成的压缩后的pom.xml文件的存放位置，默认为${project.basedir}。
+                        pomElements	FlattenDescriptor	该元素定义了如何处理额外的元素，如果可能，尽量使用flattenMode，这个元素仅仅用于进一步提高灵活性，它可以控制具体的某个元素是保留还是删除，比如要指定删除repositories，可以这样：<pomElements><repositories>flatten</repositories></pomElements>。
+                        updatePomFile	Boolean	插件默认只会处理packaging属性为非pom的，如果要处理packaging为pom的，可将本属性值设置为true。
+                        flattenMode	FlattenMode	插件预定义了若干种压缩模式，下面会详述。
+                            minimum	不推荐使用，会展开pluginRepositories。
+                            bom	会保留dependencyManagement，展开properties。
+                            oss	推荐开源项目使用，会展开ciManagement、contributors、distributionManagement、inceptionYear、issueManagement、mailingLists、organization、prerequisites
+                            ossrh	会展开name、description、url、scm、developers
+                            defaults	会展开repositories
+                            clean	删除全部可选元素
+                        -->
+                        <flattenedPomFilename>flattened-pom.xml</flattenedPomFilename>
+                        <updatePomFile>true</updatePomFile>
+                        <flattenMode>resolveCiFriendliesOnly</flattenMode>
+                        <outputDirectory>${project.build.directory}</outputDirectory>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>flatten</id>
+                            <phase>process-resources</phase>
+                            <goals>
+                                <goal>flatten</goal>
+                            </goals>
+                        </execution>
+                        <execution>
+                            <id>flatten.clean</id>
+                            <phase>clean</phase>
+                            <goals>
+                                <goal>clean</goal>
+                            </goals>
+                        </execution>
+                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -319,19 +390,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.compiler.version}</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <annotationProcessorPaths>
-                        <path>
-                            <groupId>org.mapstruct</groupId>
-                            <artifactId>mapstruct-processor</artifactId>
-                            <version>${mapstruct.version}</version>
-                        </path>
-                    </annotationProcessorPaths>
-                    <encoding>${project.build.sourceEncoding}</encoding>
-                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>flatten-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
