@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @param <Q> Query
  * @param <D> Dto
- * @author xueyi
+ * @author springcool
  */
 public interface ITreeService<Q extends TreeEntity<D>, D extends TreeEntity<D>> extends IBaseService<Q, D> {
 

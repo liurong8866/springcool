@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  * bean对象属性验证
  *
- * @author xueyi
+ * @author springcool
  */
 public class BeanValidators {
 

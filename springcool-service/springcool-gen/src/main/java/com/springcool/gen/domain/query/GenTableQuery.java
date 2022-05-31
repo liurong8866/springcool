@@ -5,7 +5,7 @@ import com.springcool.gen.domain.po.GenTablePo;
 /**
  * 业务 数据查询对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class GenTableQuery extends GenTablePo {
 

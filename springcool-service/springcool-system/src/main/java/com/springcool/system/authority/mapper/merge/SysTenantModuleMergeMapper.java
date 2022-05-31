@@ -7,7 +7,7 @@ import com.springcool.common.web.entity.mapper.BasicMapper;
 /**
  * 租户-模块关联 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysTenantModuleMergeMapper extends BasicMapper<SysTenantModuleMerge> {

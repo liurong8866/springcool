@@ -8,13 +8,13 @@ import java.lang.annotation.*;
  * 自定义feign注解
  * 添加basePackages路径
  *
- * @author xueyi
+ * @author springcool
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @EnableFeignClients
-public @interface EnableRyFeignClients {
+public @interface EnableCustomFeignClients {
     String[] value() default {};
 
     String[] basePackages() default {"com.springcool"};

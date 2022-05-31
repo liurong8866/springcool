@@ -7,7 +7,7 @@ import com.springcool.system.api.model.LoginUser;
 /**
  * Token 权限验证工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class AuthUtil {
 

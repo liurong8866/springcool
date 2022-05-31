@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 业务管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface IGenTableService extends ISubBaseService<GenTableQuery, GenTableDto, GenTableColumnQuery, GenTableColumnDto> {
 

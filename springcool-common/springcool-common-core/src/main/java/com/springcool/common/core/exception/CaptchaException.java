@@ -3,7 +3,7 @@ package com.springcool.common.core.exception;
 /**
  * 验证码错误异常类
  *
- * @author xueyi
+ * @author springcool
  */
 public class CaptchaException extends RuntimeException {
 

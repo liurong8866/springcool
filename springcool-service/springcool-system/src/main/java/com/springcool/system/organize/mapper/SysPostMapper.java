@@ -9,7 +9,7 @@ import com.springcool.system.api.organize.domain.query.SysPostQuery;
 /**
  * 岗位管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysPostMapper extends BaseMapper<SysPostQuery, SysPostDto, SysPostPo> {

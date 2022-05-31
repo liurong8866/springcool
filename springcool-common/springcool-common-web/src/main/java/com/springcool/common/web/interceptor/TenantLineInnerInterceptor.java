@@ -34,7 +34,7 @@ import java.util.*;
 /**
  * 租户拦截器
  *
- * @author xueyi
+ * @author springcool
  */
 public class TenantLineInnerInterceptor extends JsqlParserSupport implements InnerInterceptor {
 

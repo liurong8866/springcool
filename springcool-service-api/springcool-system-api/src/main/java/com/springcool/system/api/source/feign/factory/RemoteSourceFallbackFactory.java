@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 /**
  * 数据源策略加载服务 降级处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class RemoteSourceFallbackFactory implements FallbackFactory<RemoteSourceService> {

@@ -3,7 +3,7 @@ package com.springcool.common.core.exception;
 /**
  * 检查异常
  *
- * @author xueyi
+ * @author springcool
  */
 public class CheckedException extends RuntimeException {
 

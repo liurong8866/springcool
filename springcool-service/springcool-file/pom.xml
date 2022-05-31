@@ -51,13 +51,13 @@
             <version>${minio.version}</version>
         </dependency>
 
-        <!-- XueYi Common Swagger -->
+        <!-- SpringCool Common Swagger -->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-common-swagger</artifactId>
         </dependency>
 
-        <!-- XueYi Api File -->
+        <!-- SpringCool Api File -->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-file-api</artifactId>

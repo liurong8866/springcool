@@ -12,7 +12,7 @@ import javax.validation.constraints.NotNull;
 /**
  * 菜单 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("sys_menu")
 public class SysMenuPo extends TCTreeEntity<SysMenuDto> {

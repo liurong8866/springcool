@@ -7,7 +7,7 @@ import com.springcool.system.api.source.domain.Source;
 /**
  * 策略组管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface SysSourceMapper extends BasicMapper<Source> {

@@ -3,7 +3,7 @@ package com.springcool.common.core.constant.basic;
 /**
  * sql 通用常量
  *
- * @author xueyi
+ * @author springcool
  */
 public class SqlConstants {
 

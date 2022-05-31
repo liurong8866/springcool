@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 租户 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface TeTenantConverter extends BaseConverter<TeTenantQuery, TeTenantDto, TeTenantPo> {

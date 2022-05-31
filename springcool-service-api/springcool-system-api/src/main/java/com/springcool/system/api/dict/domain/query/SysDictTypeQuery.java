@@ -5,7 +5,7 @@ import com.springcool.system.api.dict.domain.po.SysDictTypePo;
 /**
  * 字典类型 数据查询对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysDictTypeQuery extends SysDictTypePo {
 

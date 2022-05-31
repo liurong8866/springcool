@@ -3,6 +3,7 @@ package com.springcool.auth.service;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import com.springcool.auth.form.RegisterBody;
+import com.springcool.common.core.constant.basic.*;
 import com.springcool.common.core.constant.system.OrganizeConstants;
 import com.springcool.common.core.domain.R;
 import com.springcool.common.core.exception.ServiceException;
@@ -20,7 +21,7 @@ import org.springframework.stereotype.Component;
 /**
  * 登录校验方法
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysLoginService {

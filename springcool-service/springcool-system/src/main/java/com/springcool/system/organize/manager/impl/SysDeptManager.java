@@ -31,7 +31,7 @@ import java.util.Collection;
 /**
  * 部门管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysDeptManager extends SubTreeManager<SysDeptQuery, SysDeptDto, SysDeptPo, SysDeptMapper, SysDeptConverter, SysPostQuery, SysPostDto, SysPostPo, SysPostMapper, SysPostConverter> implements ISysDeptManager {

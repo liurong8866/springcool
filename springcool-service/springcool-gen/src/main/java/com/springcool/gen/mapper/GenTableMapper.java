@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 业务管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface GenTableMapper extends SubBaseMapper<GenTableQuery, GenTableDto, GenTablePo, GenTableColumnQuery, GenTableColumnDto, GenTableColumnPo> {
 

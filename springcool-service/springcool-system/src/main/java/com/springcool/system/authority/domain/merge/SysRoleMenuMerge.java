@@ -7,7 +7,7 @@ import com.springcool.common.core.web.tenant.base.TBasisEntity;
 /**
  * 角色-菜单关联 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("sys_role_menu_merge")
 public class SysRoleMenuMerge extends TBasisEntity {

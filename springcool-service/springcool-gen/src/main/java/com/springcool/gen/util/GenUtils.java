@@ -20,7 +20,7 @@ import java.util.Objects;
 /**
  * 代码生成器 工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class GenUtils {
 

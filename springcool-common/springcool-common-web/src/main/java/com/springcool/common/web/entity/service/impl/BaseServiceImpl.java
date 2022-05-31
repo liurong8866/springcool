@@ -19,7 +19,7 @@ import java.util.List;
  * @param <Q>   Query
  * @param <D>   Dto
  * @param <IDG> DtoIManager
- * @author xueyi
+ * @author springcool
  */
 public class BaseServiceImpl<Q extends BaseEntity, D extends BaseEntity, IDG extends IBaseManager<Q, D>> extends BaseHandleServiceImpl<Q, D, IDG> implements IBaseService<Q, D> {
 

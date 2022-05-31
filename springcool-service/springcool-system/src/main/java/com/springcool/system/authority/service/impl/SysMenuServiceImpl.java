@@ -24,7 +24,7 @@ import static com.springcool.common.core.constant.basic.SecurityConstants.CREATE
 /**
  * 菜单管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysMenuServiceImpl extends TreeServiceImpl<SysMenuQuery, SysMenuDto, ISysMenuManager> implements ISysMenuService {

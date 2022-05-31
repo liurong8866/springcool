@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 字典数据 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysDictDataConverter extends BaseConverter<SysDictDataQuery, SysDictDataDto, SysDictDataPo> {

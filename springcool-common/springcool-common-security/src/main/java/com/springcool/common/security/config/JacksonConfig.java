@@ -13,7 +13,7 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 /**
  * Jackson配置
  *
- * @author xueyi
+ * @author springcool
  */
 @Configuration
 public class JacksonConfig {

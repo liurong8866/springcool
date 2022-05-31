@@ -9,7 +9,7 @@ import com.springcool.system.notice.domain.query.SysNoticeQuery;
 /**
  * 通知公告管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysNoticeMapper extends BaseMapper<SysNoticeQuery, SysNoticeDto, SysNoticePo> {

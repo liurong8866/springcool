@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 /**
  * 岗位服务 降级处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class RemotePostFallbackFactory implements FallbackFactory<RemotePostService> {

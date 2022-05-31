@@ -5,7 +5,7 @@ import com.springcool.system.api.organize.domain.po.SysPostPo;
 /**
  * 岗位 数据查询对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysPostQuery extends SysPostPo {
 

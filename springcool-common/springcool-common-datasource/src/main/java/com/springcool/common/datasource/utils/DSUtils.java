@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * 源管理工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class DSUtils {
 

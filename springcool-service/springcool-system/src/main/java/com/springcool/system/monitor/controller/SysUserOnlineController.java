@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * 在线用户监控
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 @RequestMapping("/online")

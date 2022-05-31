@@ -23,7 +23,7 @@ import java.util.List;
  * @param <Q>   Query
  * @param <D>   Dto
  * @param <IDS> DtoService
- * @author xueyi
+ * @author springcool
  */
 public abstract class BaseController<Q extends BaseEntity, D extends BaseEntity, IDS extends IBaseService<Q, D>> extends BaseHandleController<Q, D, IDS> {
 

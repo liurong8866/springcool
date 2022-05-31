@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 全局异常处理器
  *
- * @author xueyi
+ * @author springcool
  */
 @RestControllerAdvice
 public class GlobalExceptionHandler {

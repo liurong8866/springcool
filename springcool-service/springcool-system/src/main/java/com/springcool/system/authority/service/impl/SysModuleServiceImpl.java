@@ -22,7 +22,7 @@ import static com.springcool.common.core.constant.basic.SecurityConstants.CREATE
 /**
  * 模块管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysModuleServiceImpl extends SubBaseServiceImpl<SysModuleQuery, SysModuleDto, ISysModuleManager, SysMenuQuery, SysMenuDto, ISysMenuService> implements ISysModuleService {

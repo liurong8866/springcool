@@ -3,7 +3,7 @@ package com.springcool.common.core.constant.basic;
 /**
  * 字典通用常量
  *
- * @author xueyi
+ * @author springcool
  */
 public class DictConstants {
 

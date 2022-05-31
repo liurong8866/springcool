@@ -3,7 +3,7 @@ package com.springcool.system.monitor.domain;
 /**
  * 当前在线会话
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysUserOnline {
 

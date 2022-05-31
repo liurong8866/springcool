@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 /**
  * 数据源策略管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class TeStrategyServiceImpl extends BaseServiceImpl<TeStrategyQuery, TeStrategyDto, ITeStrategyManager> implements ITeStrategyService {

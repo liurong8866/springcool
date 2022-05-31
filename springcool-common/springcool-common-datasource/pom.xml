@@ -37,13 +37,13 @@
             <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
         </dependency>
 
-        <!-- XueYi Common Security -->
+        <!-- SpringCool Common Security -->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-common-security</artifactId>
         </dependency>
 
-        <!-- XueYi Common Redis-->
+        <!-- SpringCool Common Redis-->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-common-redis</artifactId>

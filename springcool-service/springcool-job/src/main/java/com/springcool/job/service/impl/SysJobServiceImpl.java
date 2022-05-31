@@ -26,7 +26,7 @@ import static com.springcool.common.core.constant.basic.SecurityConstants.CREATE
 /**
  * 调度任务管理 服务层实现
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysJobServiceImpl implements ISysJobService {

@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * 角色管理 业务处理
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 @RequestMapping("/role")

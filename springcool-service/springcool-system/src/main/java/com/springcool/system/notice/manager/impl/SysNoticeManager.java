@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 /**
  * 通知公告管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysNoticeManager extends BaseManager<SysNoticeQuery, SysNoticeDto, SysNoticePo, SysNoticeMapper, SysNoticeConverter> implements ISysNoticeManager {

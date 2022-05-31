@@ -7,7 +7,7 @@ import com.springcool.system.api.dict.domain.query.SysConfigQuery;
 /**
  * 参数配置管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysConfigManager extends IBaseManager<SysConfigQuery, SysConfigDto> {
 

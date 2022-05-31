@@ -7,7 +7,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 参数配置 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysConfigDto extends SysConfigPo {
 

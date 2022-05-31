@@ -17,7 +17,7 @@ import java.io.IOException;
 /**
  * 验证码获取
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class ValidateCodeHandler implements HandlerFunction<ServerResponse> {

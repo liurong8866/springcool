@@ -8,7 +8,7 @@ import com.springcool.common.core.web.tenant.base.TBaseEntity;
 /**
  * 调度日志 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "sys_job_log", excludeProperty = {"createBy","updateBy","remark","updateTime","sort"})
 public class SysJobLogPo extends TBaseEntity {

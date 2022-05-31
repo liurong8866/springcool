@@ -7,7 +7,7 @@ import com.springcool.common.core.web.tenant.base.TBasisEntity;
 /**
  * 角色-模块关联 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("sys_role_module_merge")
 public class SysRoleModuleMerge extends TBasisEntity {

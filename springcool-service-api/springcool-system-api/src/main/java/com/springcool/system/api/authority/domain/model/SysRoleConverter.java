@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 角色 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysRoleConverter extends BaseConverter<SysRoleQuery, SysRoleDto, SysRolePo> {

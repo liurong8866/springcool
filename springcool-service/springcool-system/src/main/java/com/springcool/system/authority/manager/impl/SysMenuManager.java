@@ -34,7 +34,7 @@ import static com.springcool.common.core.constant.basic.SqlConstants.ANCESTORS_F
 /**
  * 菜单管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysMenuManager extends TreeManager<SysMenuQuery, SysMenuDto, SysMenuPo, SysMenuMapper, SysMenuConverter> implements ISysMenuManager {

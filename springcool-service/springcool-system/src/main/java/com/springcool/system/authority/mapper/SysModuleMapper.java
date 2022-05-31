@@ -12,7 +12,7 @@ import com.springcool.system.api.authority.domain.query.SysModuleQuery;
 /**
  * 角色管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface SysModuleMapper extends SubBaseMapper<SysModuleQuery, SysModuleDto, SysModulePo, SysMenuQuery, SysMenuDto, SysMenuPo> {

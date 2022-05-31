@@ -10,7 +10,7 @@ import com.springcool.system.api.organize.domain.query.SysEnterpriseQuery;
 /**
  * 企业管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface SysEnterpriseMapper extends BaseMapper<SysEnterpriseQuery, SysEnterpriseDto, SysEnterprisePo> {

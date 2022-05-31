@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 岗位 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysPostDto extends SysPostPo {
 

@@ -3,7 +3,7 @@ package com.springcool.auth.form;
 /**
  * 用户登录对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class LoginBody {
 

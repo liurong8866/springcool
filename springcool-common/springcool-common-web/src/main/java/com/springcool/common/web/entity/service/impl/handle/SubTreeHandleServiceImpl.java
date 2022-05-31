@@ -22,7 +22,7 @@ import java.util.Collection;
  * @param <SQ>  SubQuery
  * @param <SD>  SubDto
  * @param <ISS> SubIService
- * @author xueyi
+ * @author springcool
  */
 public abstract class SubTreeHandleServiceImpl<Q extends SubTreeEntity<D, SD>, D extends SubTreeEntity<D, SD>, IDG extends ISubTreeManager<Q, D, SQ, SD>, SQ extends BaseEntity, SD extends BaseEntity, ISS extends IBaseService<SQ, SD>> extends TreeServiceImpl<Q, D, IDG> {
 

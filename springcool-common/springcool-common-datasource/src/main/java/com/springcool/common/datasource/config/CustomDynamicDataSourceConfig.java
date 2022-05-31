@@ -16,11 +16,11 @@ import javax.annotation.PostConstruct;
 /**
  * 源访问策略注入
  *
- * @author xueyi
+ * @author springcool
  */
 @Configuration
 @AutoConfigureBefore(DynamicDataSourceAutoConfiguration.class)
-public class MyDynamicDataSourceConfig {
+public class CustomDynamicDataSourceConfig {
 
     @Bean
     public DsProcessor dsProcessor() {

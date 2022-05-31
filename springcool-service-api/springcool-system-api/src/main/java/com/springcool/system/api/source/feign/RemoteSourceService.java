@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 /**
  * 数据源策略加载服务
  *
- * @author xueyi
+ * @author springcool
  */
 @FeignClient(contextId = "remoteSourceService", value = ServiceConstants.SYSTEM_SERVICE, fallbackFactory = RemoteSourceFallbackFactory.class)
 public interface RemoteSourceService {

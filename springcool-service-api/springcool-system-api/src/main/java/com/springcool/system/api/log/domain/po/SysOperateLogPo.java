@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 /**
  * 操作日志 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "sys_operate_log",excludeProperty = {"name","sort","createBy","createTime","updateBy","updateTime","remark"})
 public class SysOperateLogPo extends TBaseEntity {

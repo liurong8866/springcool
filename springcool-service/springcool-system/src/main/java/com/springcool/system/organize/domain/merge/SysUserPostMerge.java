@@ -7,7 +7,7 @@ import com.springcool.common.core.web.tenant.base.TBasisEntity;
 /**
  * 用户-岗位关联 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("sys_user_post_merge")
 public class SysUserPostMerge extends TBasisEntity {

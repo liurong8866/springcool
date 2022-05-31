@@ -9,7 +9,7 @@ import com.springcool.system.api.authority.domain.dto.SysMenuDto;
 /**
  * 模块 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("sys_module")
 public class SysModulePo extends TCSubBaseEntity<SysMenuDto> {

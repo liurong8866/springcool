@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * token 控制
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 public class TokenController {

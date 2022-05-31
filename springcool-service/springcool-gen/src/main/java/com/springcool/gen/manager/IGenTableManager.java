@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 业务管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface IGenTableManager extends ISubBaseManager<GenTableQuery, GenTableDto, GenTableColumnQuery, GenTableColumnDto> {
 

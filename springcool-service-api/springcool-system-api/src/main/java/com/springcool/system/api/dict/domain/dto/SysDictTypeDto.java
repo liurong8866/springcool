@@ -7,7 +7,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 字典类型 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysDictTypeDto extends SysDictTypePo {
 

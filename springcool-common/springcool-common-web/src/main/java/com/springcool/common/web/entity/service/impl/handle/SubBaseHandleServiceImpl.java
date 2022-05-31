@@ -22,7 +22,7 @@ import java.util.Collection;
  * @param <SQ>  SubQuery
  * @param <SD>  SubDto
  * @param <ISS> SubIService
- * @author xueyi
+ * @author springcool
  */
 public abstract class SubBaseHandleServiceImpl<Q extends SubBaseEntity<SD>, D extends SubBaseEntity<SD>, IDG extends ISubBaseManager<Q, D, SQ, SD>, SQ extends BaseEntity, SD extends BaseEntity, ISS extends IBaseService<SQ, SD>> extends BaseServiceImpl<Q, D, IDG> {
 

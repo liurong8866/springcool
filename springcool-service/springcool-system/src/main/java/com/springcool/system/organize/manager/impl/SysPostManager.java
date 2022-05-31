@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * 岗位管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysPostManager extends BaseManager<SysPostQuery, SysPostDto, SysPostPo, SysPostMapper, SysPostConverter> implements ISysPostManager {

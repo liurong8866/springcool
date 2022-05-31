@@ -5,7 +5,7 @@ import cn.hutool.core.util.StrUtil;
 /**
  * 任务调度通用常量
  * 
- * @author xueyi
+ * @author springcool
  */
 public class ScheduleConstants {
 

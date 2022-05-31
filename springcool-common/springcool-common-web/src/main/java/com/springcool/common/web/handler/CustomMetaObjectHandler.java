@@ -8,10 +8,10 @@ import org.springframework.stereotype.Component;
 /**
  * 自动填充处理器
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
-public class XueYiMetaObjectHandler implements MetaObjectHandler {
+public class CustomMetaObjectHandler implements MetaObjectHandler {
 
     @Override
     public void insertFill(MetaObject metaObject) {

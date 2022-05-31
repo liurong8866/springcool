@@ -7,7 +7,7 @@ import com.springcool.system.api.log.domain.query.SysLoginLogQuery;
 /**
  * 访问日志管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysLoginLogService extends IBaseService<SysLoginLogQuery, SysLoginLogDto> {
 

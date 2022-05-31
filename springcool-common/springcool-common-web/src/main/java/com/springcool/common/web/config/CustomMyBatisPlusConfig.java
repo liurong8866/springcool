@@ -5,9 +5,9 @@ import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.BlockAttackInnerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.DataPermissionInterceptor;
 import com.github.pagehelper.PageInterceptor;
-import com.springcool.common.datascope.interceptor.XueYiDataScopeHandler;
+import com.springcool.common.datascope.interceptor.DataScopeHandler;
 import com.springcool.common.web.handler.TenantLineHandler;
-import com.springcool.common.web.handler.XueYiMetaObjectHandler;
+import com.springcool.common.web.handler.CustomMetaObjectHandler;
 import com.springcool.common.web.injector.CustomizedSqlInjector;
 import com.springcool.common.web.interceptor.TenantLineInnerInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,13 +17,13 @@ import org.springframework.context.annotation.Configuration;
 /**
  * MP配置
  *
- * @author xueyi
+ * @author springcool
  */
 @Configuration
-public class XueYiMyBatisPlusConfig {
+public class CustomMyBatisPlusConfig {
 
     @Autowired
-    private XueYiDataScopeHandler dataScopeAspect;
+    private DataScopeHandler dataScopeAspect;
 
     @Autowired
     private TenantLineHandler tenantLineHandler;
@@ -50,7 +50,7 @@ public class XueYiMyBatisPlusConfig {
     @Bean
     public GlobalConfig globalConfig() {
         GlobalConfig globalConfig = new GlobalConfig();
-        globalConfig.setMetaObjectHandler(new XueYiMetaObjectHandler());
+        globalConfig.setMetaObjectHandler(new CustomMetaObjectHandler());
         return globalConfig;
     }
 

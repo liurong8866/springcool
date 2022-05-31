@@ -10,7 +10,7 @@ import com.springcool.job.api.domain.query.SysJobLogQuery;
 /**
  * 调度日志管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysJobLogMapper extends BaseMapper<SysJobLogQuery, SysJobLogDto, SysJobLogPo> {

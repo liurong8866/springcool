@@ -3,7 +3,7 @@ package com.springcool.common.core.exception.user;
 /**
  * 用户密码不正确或不符合规范异常类
  * 
- * @author xueyi
+ * @author springcool
  */
 public class UserPasswordNotMatchException extends UserException
 {

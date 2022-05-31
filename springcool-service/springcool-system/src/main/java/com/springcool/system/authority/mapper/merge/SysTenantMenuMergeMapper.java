@@ -7,7 +7,7 @@ import com.springcool.common.web.entity.mapper.BasicMapper;
 /**
  * 租户-菜单关联 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysTenantMenuMergeMapper extends BasicMapper<SysTenantMenuMerge> {

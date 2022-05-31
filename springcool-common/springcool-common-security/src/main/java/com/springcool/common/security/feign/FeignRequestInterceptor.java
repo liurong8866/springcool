@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * feign 请求拦截器
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class FeignRequestInterceptor implements RequestInterceptor {

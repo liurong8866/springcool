@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 调度任务 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysJobConverter extends SubBaseConverter<SysJobQuery, SysJobDto, SysJobPo> {

@@ -9,7 +9,7 @@ import com.springcool.system.api.authority.domain.query.SysRoleQuery;
 /**
  * 岗位管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysRoleMapper extends BaseMapper<SysRoleQuery, SysRoleDto, SysRolePo> {

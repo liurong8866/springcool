@@ -8,7 +8,7 @@ import java.util.List;
  * SubBase 基类
  *
  * @param <S> SubDto
- * @author xueyi
+ * @author springcool
  */
 public class SubBaseEntity<S> extends BaseEntity {
 

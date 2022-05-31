@@ -6,7 +6,7 @@ import com.springcool.system.api.model.LoginUser;
 /**
  * 在线用户 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysUserOnlineService {
 

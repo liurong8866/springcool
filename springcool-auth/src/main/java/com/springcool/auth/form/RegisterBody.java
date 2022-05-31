@@ -10,7 +10,7 @@ import com.springcool.tenant.api.tenant.domain.dto.TeTenantDto;
 /**
  * 用户注册对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class RegisterBody {
 

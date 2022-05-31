@@ -19,19 +19,19 @@
             <artifactId>spring-webmvc</artifactId>
         </dependency>
 
-        <!-- XueYi Api System -->
+        <!-- SpringCool Api System -->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-system-api</artifactId>
         </dependency>
 
-        <!-- XueYi Api Tenant -->
+        <!-- SpringCool Api Tenant -->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-tenant-api</artifactId>
         </dependency>
 
-        <!-- XueYi Common Redis-->
+        <!-- SpringCool Common Redis-->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-common-redis</artifactId>

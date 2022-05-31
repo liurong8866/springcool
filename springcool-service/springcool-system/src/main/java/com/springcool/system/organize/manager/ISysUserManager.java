@@ -11,7 +11,7 @@ import java.util.Collection;
 /**
  * 用户管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysUserManager extends IBaseManager<SysUserQuery, SysUserDto> {
 

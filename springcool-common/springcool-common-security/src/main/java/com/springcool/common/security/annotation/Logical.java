@@ -3,7 +3,7 @@ package com.springcool.common.security.annotation;
 /**
  * 权限注解的验证模式
  *
- * @author xueyi
+ * @author springcool
  */
 public enum Logical {
     /**

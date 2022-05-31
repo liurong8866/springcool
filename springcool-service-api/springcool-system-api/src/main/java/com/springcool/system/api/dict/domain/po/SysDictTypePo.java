@@ -14,7 +14,7 @@ import javax.validation.constraints.Size;
 /**
  * 字典类型 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "sys_dict_type", excludeProperty = {"delFlag"})
 public class SysDictTypePo extends SubBaseEntity<SysDictDataDto> {

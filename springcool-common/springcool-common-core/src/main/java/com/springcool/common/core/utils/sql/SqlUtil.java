@@ -6,7 +6,7 @@ import com.springcool.common.core.utils.StringUtils;
 /**
  * sql操作工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class SqlUtil {
 

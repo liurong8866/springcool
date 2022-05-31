@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 /**
  * 操作日志管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysOperateLogManager extends BaseManager<SysOperateLogQuery, SysOperateLogDto, SysOperateLogPo, SysOperateLogMapper, SysOperateLogConverter> implements ISysOperateLogManager {

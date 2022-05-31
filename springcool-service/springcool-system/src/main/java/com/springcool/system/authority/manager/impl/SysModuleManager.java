@@ -38,7 +38,7 @@ import java.util.stream.Collectors;
 /**
  * 模块管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysModuleManager extends SubBaseManager<SysModuleQuery, SysModuleDto, SysModulePo, SysModuleMapper, SysModuleConverter, SysMenuQuery, SysMenuDto, SysMenuPo, SysMenuMapper, SysMenuConverter> implements ISysModuleManager {

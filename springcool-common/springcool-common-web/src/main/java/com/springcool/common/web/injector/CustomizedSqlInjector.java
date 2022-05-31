@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * sql注入器
  *
- * @author xueyi
+ * @author springcool
  */
 public class CustomizedSqlInjector extends DefaultSqlInjector {
 

@@ -3,7 +3,7 @@ package com.springcool.common.core.exception.file;
 /**
  * 文件名称超长限制异常类
  * 
- * @author xueyi
+ * @author springcool
  */
 public class FileNameLengthLimitExceededException extends FileException
 {

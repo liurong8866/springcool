@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 /**
  * 权限管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysAuthManager implements ISysAuthManager {

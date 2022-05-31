@@ -11,7 +11,7 @@ import javax.validation.constraints.Size;
 /**
  * 企业 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("te_tenant")
 public class SysEnterprisePo extends BaseEntity {

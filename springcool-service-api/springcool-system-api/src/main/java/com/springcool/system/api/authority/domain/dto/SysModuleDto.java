@@ -7,7 +7,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 模块 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysModuleDto extends SysModulePo {
 

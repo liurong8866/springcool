@@ -7,7 +7,7 @@ import com.springcool.common.web.entity.mapper.BasicMapper;
 /**
  * 组织-角色关联（角色绑定） 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysOrganizeRoleMergeMapper extends BasicMapper<SysOrganizeRoleMerge> {

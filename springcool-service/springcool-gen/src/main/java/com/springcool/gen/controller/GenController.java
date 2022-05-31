@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * 代码生成管理 业务处理
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 @RequestMapping("/gen")
@@ -193,7 +193,7 @@ public class GenController extends SubBaseController<GenTableQuery, GenTableDto,
      */
     private void genCode(HttpServletResponse response, byte[] data) throws IOException {
         response.reset();
-        response.setHeader("Content-Disposition", "attachment; filename=\"xueyi.zip\"");
+        response.setHeader("Content-Disposition", "attachment; filename=\"springcool.zip\"");
         response.addHeader("Content-Length", "" + data.length);
         response.setContentType("application/octet-stream; charset=UTF-8");
         IOUtils.write(data, response.getOutputStream());

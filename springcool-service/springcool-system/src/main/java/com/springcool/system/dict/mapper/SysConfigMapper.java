@@ -9,7 +9,7 @@ import com.springcool.system.api.dict.domain.query.SysConfigQuery;
 /**
  * 参数配置管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface SysConfigMapper extends BaseMapper<SysConfigQuery, SysConfigDto, SysConfigPo> {

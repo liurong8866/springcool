@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 组织管理 业务处理
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 @RequestMapping("/organize")

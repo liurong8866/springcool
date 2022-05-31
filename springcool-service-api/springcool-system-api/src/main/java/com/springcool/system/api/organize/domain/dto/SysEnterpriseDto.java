@@ -9,7 +9,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 企业 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysEnterpriseDto extends SysEnterprisePo {
 

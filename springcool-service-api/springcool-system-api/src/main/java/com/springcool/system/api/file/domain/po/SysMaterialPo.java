@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 /**
  * 素材 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysMaterialPo extends TBaseEntity {
 

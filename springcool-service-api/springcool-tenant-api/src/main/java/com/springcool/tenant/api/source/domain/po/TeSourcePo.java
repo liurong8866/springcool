@@ -8,7 +8,7 @@ import com.springcool.common.core.web.entity.base.BaseEntity;
 /**
  * 数据源 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("te_source")
 public class TeSourcePo extends BaseEntity {

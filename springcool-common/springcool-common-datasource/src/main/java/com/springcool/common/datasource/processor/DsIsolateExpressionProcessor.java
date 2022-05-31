@@ -12,7 +12,7 @@ import static com.springcool.common.core.constant.basic.TenantConstants.ISOLATE;
 /**
  * 租户库源策略
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class DsIsolateExpressionProcessor extends DsProcessor {

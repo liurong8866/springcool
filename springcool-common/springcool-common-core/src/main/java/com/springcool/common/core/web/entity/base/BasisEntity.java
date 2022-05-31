@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * Basis 基类
  *
- * @author xueyi
+ * @author springcool
  */
 public class BasisEntity implements Serializable {
 

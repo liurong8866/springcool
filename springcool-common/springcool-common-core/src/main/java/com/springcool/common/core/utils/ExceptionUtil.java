@@ -9,7 +9,7 @@ import java.io.StringWriter;
 /**
  * 错误信息处理类。
  *
- * @author xueyi
+ * @author springcool
  */
 public class ExceptionUtil {
 

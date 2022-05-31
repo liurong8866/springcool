@@ -5,7 +5,7 @@ import com.springcool.system.api.log.domain.po.SysOperateLogPo;
 /**
  * 操作日志 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysOperateLogDto extends SysOperateLogPo {
 

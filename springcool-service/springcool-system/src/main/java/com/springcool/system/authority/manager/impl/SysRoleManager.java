@@ -29,7 +29,7 @@ import java.util.Collection;
 /**
  * 角色管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysRoleManager extends BaseManager<SysRoleQuery, SysRoleDto, SysRolePo, SysRoleMapper, SysRoleConverter> implements ISysRoleManager {

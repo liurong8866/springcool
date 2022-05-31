@@ -11,7 +11,7 @@ import java.util.List;
  * @param <Q> Query
  * @param <D> Dto
  * @param <P> Po
- * @author xueyi
+ * @author springcool
  */
 public interface BaseConverter<Q extends P, D extends P, P extends BaseEntity> {
 

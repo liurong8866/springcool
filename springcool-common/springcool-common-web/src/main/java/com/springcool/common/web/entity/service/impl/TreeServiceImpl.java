@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
  * @param <Q>   Query
  * @param <D>   Dto
  * @param <IDG> DtoIManager
- * @author xueyi
+ * @author springcool
  */
 public class TreeServiceImpl<Q extends TreeEntity<D>, D extends TreeEntity<D>, IDG extends ITreeManager<Q, D>> extends TreeHandleServiceImpl<Q, D, IDG> implements ITreeService<Q, D> {
 

@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 字典类型 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysDictTypeConverter extends SubBaseConverter<SysDictTypeQuery, SysDictTypeDto, SysDictTypePo> {

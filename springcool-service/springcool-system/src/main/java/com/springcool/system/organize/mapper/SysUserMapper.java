@@ -9,7 +9,7 @@ import com.springcool.system.api.organize.domain.query.SysUserQuery;
 /**
  * 用户管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysUserMapper extends BaseMapper<SysUserQuery, SysUserDto, SysUserPo> {

@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 用户 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysUserDto extends SysUserPo {
 

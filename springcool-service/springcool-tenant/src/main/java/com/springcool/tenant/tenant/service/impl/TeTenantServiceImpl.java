@@ -33,7 +33,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 租户管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class TeTenantServiceImpl extends BaseServiceImpl<TeTenantQuery, TeTenantDto, TeTenantManager> implements ITeTenantService {

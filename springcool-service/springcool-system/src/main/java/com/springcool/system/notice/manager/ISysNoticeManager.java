@@ -7,7 +7,7 @@ import com.springcool.common.web.entity.manager.IBaseManager;
 /**
  * 通知公告管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysNoticeManager extends IBaseManager<SysNoticeQuery, SysNoticeDto> {
 }

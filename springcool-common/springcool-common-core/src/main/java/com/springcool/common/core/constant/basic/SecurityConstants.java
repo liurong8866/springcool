@@ -3,7 +3,7 @@ package com.springcool.common.core.constant.basic;
 /**
  * 安全相关通用常量
  *
- * @author xueyi
+ * @author springcool
  */
 public class SecurityConstants {
 

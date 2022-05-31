@@ -23,7 +23,7 @@ import static com.springcool.common.core.constant.basic.SecurityConstants.CREATE
 /**
  * 角色管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysRoleServiceImpl extends BaseServiceImpl<SysRoleQuery, SysRoleDto, ISysRoleManager> implements ISysRoleService {

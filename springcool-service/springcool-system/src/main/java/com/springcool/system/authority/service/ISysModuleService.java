@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * 模块管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysModuleService extends ISubBaseService<SysModuleQuery, SysModuleDto, SysMenuQuery, SysMenuDto> {
 

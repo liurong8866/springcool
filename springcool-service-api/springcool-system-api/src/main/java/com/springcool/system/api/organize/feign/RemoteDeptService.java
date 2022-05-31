@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 /**
  * 部门服务
  *
- * @author xueyi
+ * @author springcool
  */
 @FeignClient(contextId = "remoteDeptService", value = ServiceConstants.SYSTEM_SERVICE, fallbackFactory = RemoteDeptFallbackFactory.class)
 public interface RemoteDeptService {

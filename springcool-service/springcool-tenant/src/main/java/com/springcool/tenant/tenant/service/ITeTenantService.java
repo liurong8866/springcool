@@ -8,7 +8,7 @@ import com.springcool.tenant.tenant.domain.model.TeTenantRegister;
 /**
  * 租户管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ITeTenantService extends IBaseService<TeTenantQuery, TeTenantDto> {
 

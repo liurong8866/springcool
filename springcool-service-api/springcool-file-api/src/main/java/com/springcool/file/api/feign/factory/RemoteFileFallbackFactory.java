@@ -12,7 +12,7 @@ import com.springcool.file.api.domain.SysFile;
 /**
  * 文件服务 降级处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class RemoteFileFallbackFactory implements FallbackFactory<RemoteFileService> {

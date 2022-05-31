@@ -17,7 +17,7 @@ import java.lang.reflect.Type;
  * @param <D>  Dto
  * @param <P>  Po
  * @param <PM> PoMapper
- * @author xueyi
+ * @author springcool
  */
 
 public class BaseHandleManager<Q extends P, D extends P, P extends BaseEntity, PM extends BaseMapper<Q, D, P>, CT extends BaseConverter<Q, D, P>> {

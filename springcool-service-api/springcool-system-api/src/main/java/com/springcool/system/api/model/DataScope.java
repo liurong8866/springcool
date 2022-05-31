@@ -9,7 +9,7 @@ import java.util.Set;
 /**
  * 数据权限
  *
- * @author xueyi
+ * @author springcool
  */
 public class DataScope implements Serializable {
 

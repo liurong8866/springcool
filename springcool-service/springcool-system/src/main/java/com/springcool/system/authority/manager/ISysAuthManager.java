@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 权限管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysAuthManager {
 

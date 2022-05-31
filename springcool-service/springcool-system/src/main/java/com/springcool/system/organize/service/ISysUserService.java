@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * 用户管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysUserService extends IBaseService<SysUserQuery, SysUserDto> {
 

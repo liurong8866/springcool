@@ -6,7 +6,7 @@ import com.springcool.common.core.web.entity.base.BaseEntity;
 /**
  * Base 租户基类
  *
- * @author xueyi
+ * @author springcool
  */
 public class TBaseEntity extends BaseEntity {
 

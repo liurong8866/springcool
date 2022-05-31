@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 /**
  * 定时任务调度测试
  *
- * @author xueyi
+ * @author springcool
  */
 @Component("ryTask")
-public class RyTask {
+public class CustomTask {
 
     public void ryMultipleParams(Long enterpriseId, String isLessor, String sourceName, String s, Boolean b, Long l, Double d, Integer i) {
         System.out.println(StrUtil.format("执行多参方法：企业Id{}, 租户类型{}, 源{}, 字符串类型{}，布尔类型{}，长整型{}，浮点型{}，整形{}", enterpriseId, isLessor, sourceName, s, b, l, d, i));

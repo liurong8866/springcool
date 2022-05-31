@@ -3,7 +3,7 @@ package com.springcool.common.core.exception.base;
 /**
  * 基础异常
  *
- * @author xueyi
+ * @author springcool
  */
 public class BaseException extends RuntimeException {
 

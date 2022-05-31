@@ -5,7 +5,7 @@ import cn.hutool.core.util.StrUtil;
 /**
  * 代码生成通用常量
  *
- * @author xueyi
+ * @author springcool
  */
 public class GenConstants {
 

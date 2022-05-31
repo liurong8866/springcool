@@ -10,7 +10,7 @@ import com.springcool.common.core.utils.StringUtils;
  * SubBase 混合基类
  *
  * @param <S> SubDto
- * @author xueyi
+ * @author springcool
  */
 public class CSubBaseEntity<S> extends SubBaseEntity<S> {
 

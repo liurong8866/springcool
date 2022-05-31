@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @param <Q>   Query
  * @param <D>   Dto
  * @param <IDG> DtoIManager
- * @author xueyi
+ * @author springcool
  */
 public class BaseHandleServiceImpl<Q extends BaseEntity, D extends BaseEntity, IDG extends IBaseManager<Q, D>> {
 

@@ -21,7 +21,7 @@ import java.util.List;
  * @param <Q>   Query
  * @param <D>   Dto
  * @param <IDS> DtoService
- * @author xueyi
+ * @author springcool
  */
 public abstract class TreeController<Q extends TreeEntity<D>, D extends TreeEntity<D>, IDS extends ITreeService<Q, D>> extends TreeHandleController<Q, D, IDS> {
 

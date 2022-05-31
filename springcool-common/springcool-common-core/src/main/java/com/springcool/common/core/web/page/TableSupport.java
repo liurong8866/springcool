@@ -6,7 +6,7 @@ import com.springcool.common.core.utils.ServletUtils;
 /**
  * 表格数据处理
  *
- * @author xueyi
+ * @author springcool
  */
 public class TableSupport {
 

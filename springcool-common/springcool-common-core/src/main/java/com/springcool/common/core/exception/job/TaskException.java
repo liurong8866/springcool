@@ -3,7 +3,7 @@ package com.springcool.common.core.exception.job;
 /**
  * 计划策略异常
  *
- * @author xueyi
+ * @author springcool
  */
 public class TaskException extends Exception {
 

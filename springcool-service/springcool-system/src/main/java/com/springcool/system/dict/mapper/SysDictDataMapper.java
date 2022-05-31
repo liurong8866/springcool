@@ -9,7 +9,7 @@ import com.springcool.system.api.dict.domain.query.SysDictDataQuery;
 /**
  * 字典数据管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface SysDictDataMapper extends BaseMapper<SysDictDataQuery, SysDictDataDto, SysDictDataPo> {

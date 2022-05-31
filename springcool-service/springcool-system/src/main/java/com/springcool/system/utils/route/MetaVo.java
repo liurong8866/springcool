@@ -3,7 +3,7 @@ package com.springcool.system.utils.route;
 /**
  * 路由元信息
  *
- * @author xueyi
+ * @author springcool
  */
 public class MetaVo {
 

@@ -26,7 +26,7 @@ import java.util.Map;
 /**
  * 字典类型管理 业务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysDictTypeServiceImpl extends SubBaseServiceImpl<SysDictTypeQuery, SysDictTypeDto, ISysDictTypeManager, SysDictDataQuery, SysDictDataDto, ISysDictDataService> implements ISysDictTypeService {

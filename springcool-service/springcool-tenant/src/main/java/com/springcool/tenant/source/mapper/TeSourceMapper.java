@@ -9,7 +9,7 @@ import com.springcool.tenant.api.source.domain.query.TeSourceQuery;
 /**
  * 数据源管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface TeSourceMapper extends BaseMapper<TeSourceQuery, TeSourceDto, TeSourcePo> {

@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 部门 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysDeptDto extends SysDeptPo {
 

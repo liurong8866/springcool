@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 调度任务管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysJobManager extends ISubBaseManager<SysJobQuery, SysJobDto, SysJobLogQuery, SysJobLogDto> {
 

@@ -22,7 +22,7 @@ import java.util.Objects;
 /**
  * 定时任务工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class ScheduleUtils {
 

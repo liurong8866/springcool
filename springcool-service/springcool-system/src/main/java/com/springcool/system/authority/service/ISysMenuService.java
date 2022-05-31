@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * 菜单管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysMenuService extends ITreeService<SysMenuQuery, SysMenuDto> {
 

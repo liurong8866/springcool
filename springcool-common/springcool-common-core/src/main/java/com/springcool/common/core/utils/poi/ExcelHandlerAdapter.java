@@ -3,7 +3,7 @@ package com.springcool.common.core.utils.poi;
 /**
  * Excel数据格式处理适配器
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ExcelHandlerAdapter {
 

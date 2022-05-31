@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 /**
  * 租户控制过滤注解
  *
- * @author xueyi
+ * @author springcool
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

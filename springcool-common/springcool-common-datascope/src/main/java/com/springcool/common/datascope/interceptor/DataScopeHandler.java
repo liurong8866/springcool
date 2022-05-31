@@ -30,11 +30,11 @@ import java.util.stream.Collectors;
 /**
  * 数据权限处理器
  *
- * @author xueyi
+ * @author springcool
  */
 @Aspect
 @Component
-public class XueYiDataScopeHandler implements DataPermissionHandler {
+public class DataScopeHandler implements DataPermissionHandler {
 
     /**
      * 通过ThreadLocal记录权限相关的属性值

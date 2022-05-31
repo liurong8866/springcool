@@ -8,7 +8,7 @@ import com.springcool.common.core.web.tenant.base.TBasisEntity;
 /**
  * 组织-角色关联（角色绑定） 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("sys_organize_role_merge")
 public class SysOrganizeRoleMerge extends TBasisEntity {

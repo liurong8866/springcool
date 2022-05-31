@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 /**
  * 登录管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysLoginServiceImpl implements ISysLoginService {

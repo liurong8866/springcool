@@ -49,7 +49,7 @@ import java.util.zip.ZipOutputStream;
 /**
  * 业务管理 业务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class GenTableServiceImpl extends SubBaseServiceImpl<GenTableQuery, GenTableDto, IGenTableManager, GenTableColumnQuery, GenTableColumnDto, IGenTableColumnService> implements IGenTableService {

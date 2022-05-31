@@ -9,7 +9,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 业务字段 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class GenTableColumnDto extends GenTableColumnPo {
 

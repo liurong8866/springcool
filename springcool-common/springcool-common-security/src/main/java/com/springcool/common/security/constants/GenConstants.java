@@ -3,7 +3,7 @@ package com.springcool.common.security.constants;
 /**
  * 代码生成模块 权限标识常量
  *
- * @author xueyi
+ * @author springcool
  */
 public interface GenConstants {
 

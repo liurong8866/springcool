@@ -10,7 +10,7 @@ import static com.baomidou.mybatisplus.annotation.SqlCondition.LIKE;
 /**
  * Base 基类
  *
- * @author xueyi
+ * @author springcool
  */
 public class BaseEntity extends BasisEntity {
 

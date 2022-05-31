@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 /**
  * 调度任务日志管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysJobLogManager extends BaseManager<SysJobLogQuery, SysJobLogDto, SysJobLogPo, SysJobLogMapper, SysJobLogConverter> implements ISysJobLogManager {

@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 聚合系统接口
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SwaggerProvider implements SwaggerResourcesProvider, WebFluxConfigurer {

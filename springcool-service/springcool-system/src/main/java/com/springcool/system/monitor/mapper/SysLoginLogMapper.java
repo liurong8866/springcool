@@ -9,7 +9,7 @@ import com.springcool.system.api.log.domain.query.SysLoginLogQuery;
 /**
  * 访问日志管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysLoginLogMapper extends BaseMapper<SysLoginLogQuery, SysLoginLogDto, SysLoginLogPo> {

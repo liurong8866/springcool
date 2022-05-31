@@ -9,7 +9,7 @@ import com.springcool.system.api.authority.domain.query.SysMenuQuery;
 /**
  * 菜单管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface SysMenuMapper extends TreeMapper<SysMenuQuery, SysMenuDto, SysMenuPo> {

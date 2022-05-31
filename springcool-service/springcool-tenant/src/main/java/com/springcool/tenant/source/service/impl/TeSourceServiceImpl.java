@@ -17,7 +17,7 @@ import java.util.Collection;
 /**
  * 数据源管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class TeSourceServiceImpl extends BaseServiceImpl<TeSourceQuery, TeSourceDto, TeSourceManager> implements ITeSourceService {

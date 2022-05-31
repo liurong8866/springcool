@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 调度任务管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysJobService {
 

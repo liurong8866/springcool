@@ -3,7 +3,7 @@ package com.springcool.common.core.exception;
 /**
  * 内部认证异常
  *
- * @author xueyi
+ * @author springcool
  */
 public class InnerAuthException extends RuntimeException {
 

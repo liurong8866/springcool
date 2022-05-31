@@ -23,7 +23,7 @@ import java.util.Map;
 /**
  * 参数配置管理 服务层实现
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysConfigServiceImpl extends BaseServiceImpl<SysConfigQuery, SysConfigDto, ISysConfigManager> implements ISysConfigService {

@@ -24,7 +24,7 @@ import static com.springcool.common.core.constant.basic.SqlConstants.ANCESTORS_F
  * @param <D>  Dto
  * @param <P>  Po
  * @param <PM> PoMapper
- * @author xueyi
+ * @author springcool
  */
 public class TreeManager<Q extends P, D extends P, P extends TreeEntity<D>, PM extends TreeMapper<Q, D, P>, CT extends BaseConverter<Q, D, P>> extends TreeHandleManager<Q, D, P, PM, CT> implements ITreeManager<Q, D> {
 

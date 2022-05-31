@@ -67,7 +67,7 @@
             <artifactId>kaptcha</artifactId>
         </dependency>
 
-        <!-- XueYi Common Redis-->
+        <!-- SpringCool Common Redis-->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-common-redis</artifactId>

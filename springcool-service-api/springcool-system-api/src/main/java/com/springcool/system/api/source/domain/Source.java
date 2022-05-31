@@ -9,7 +9,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 源策略 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "te_strategy", excludeProperty = {"name", "sort", "remark", "createBy", "createTime", "updateBy", "updateTime"})
 public class Source extends BaseEntity {

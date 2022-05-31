@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 策略组管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysSourceManager implements ISysSourceManager {

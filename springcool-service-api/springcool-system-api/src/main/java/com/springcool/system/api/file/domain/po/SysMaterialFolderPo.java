@@ -10,7 +10,7 @@ import com.springcool.common.core.web.tenant.base.TSubTreeEntity;
  *
  * @param <D> Dto
  * @param <S> SubDto
- * @author xueyi
+ * @author springcool
  */
 public class SysMaterialFolderPo<D,S> extends TSubTreeEntity<D,S> {
 

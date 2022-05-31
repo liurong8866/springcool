@@ -8,7 +8,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 素材分类 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "xy_material_folder", excludeProperty = {"remark"})
 public class SysMaterialFolderDto extends SysMaterialFolderPo<SysMaterialFolderDto, SysMaterialDto> {

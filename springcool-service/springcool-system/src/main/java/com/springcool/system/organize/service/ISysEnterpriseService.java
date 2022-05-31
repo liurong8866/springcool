@@ -7,7 +7,7 @@ import com.springcool.system.api.organize.domain.query.SysEnterpriseQuery;
 /**
  * 企业管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysEnterpriseService extends IBaseService<SysEnterpriseQuery, SysEnterpriseDto> {
 

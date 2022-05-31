@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 参数配置 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysConfigConverter extends BaseConverter<SysConfigQuery, SysConfigDto, SysConfigPo> {

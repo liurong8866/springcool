@@ -10,7 +10,7 @@ import static com.springcool.common.core.constant.basic.TenantConstants.MASTER;
 /**
  * 主库源策略
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class DsMasterExpressionProcessor extends DsProcessor {

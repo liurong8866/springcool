@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 /**
  * 访问日志管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysLoginLogServiceImpl extends BaseServiceImpl<SysLoginLogQuery, SysLoginLogDto, ISysLoginLogManager> implements ISysLoginLogService {

@@ -9,7 +9,7 @@ import static com.springcool.common.core.constant.basic.TenantConstants.MASTER;
 /**
  * 主数据源
  *
- * @author xueyi
+ * @author springcool
  */
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

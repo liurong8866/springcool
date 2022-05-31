@@ -12,7 +12,7 @@ import com.springcool.common.core.web.entity.base.SubTreeEntity;
  * @param <SQ> SubQuery
  * @param <SD> SubDto
  * @param <SP> SubPo
- * @author xueyi
+ * @author springcool
  */
 public interface SubTreeMapper<Q extends P, D extends P, P extends SubTreeEntity<D, SD>, SQ extends SP, SD extends SP, SP extends BaseEntity> extends TreeMapper<Q, D, P> {
 }

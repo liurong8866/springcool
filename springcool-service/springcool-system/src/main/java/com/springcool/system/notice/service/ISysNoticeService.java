@@ -7,7 +7,7 @@ import com.springcool.common.web.entity.service.IBaseService;
 /**
  * 通知公告管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysNoticeService extends IBaseService<SysNoticeQuery, SysNoticeDto> {
 }

@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * 文件处理工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class FileUtils {
 

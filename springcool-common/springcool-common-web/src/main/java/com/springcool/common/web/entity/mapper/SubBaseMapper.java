@@ -12,7 +12,7 @@ import com.springcool.common.core.web.entity.base.SubBaseEntity;
  * @param <SQ> SubQuery
  * @param <SD> SubDto
  * @param <SP> SubPo
- * @author xueyi
+ * @author springcool
  */
 public interface SubBaseMapper<Q extends P, D extends P, P extends SubBaseEntity<SD>, SQ extends SP, SD extends SP, SP extends BaseEntity> extends BaseMapper<Q, D, P> {
 }

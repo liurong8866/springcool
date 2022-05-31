@@ -12,7 +12,7 @@ import com.springcool.system.api.dict.domain.query.SysDictTypeQuery;
 /**
  * 字典类型管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface SysDictTypeMapper extends SubBaseMapper<SysDictTypeQuery, SysDictTypeDto, SysDictTypePo, SysDictDataQuery, SysDictDataDto, SysDictDataPo> {

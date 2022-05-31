@@ -7,7 +7,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 通知公告 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysNoticeDto extends SysNoticePo {
 

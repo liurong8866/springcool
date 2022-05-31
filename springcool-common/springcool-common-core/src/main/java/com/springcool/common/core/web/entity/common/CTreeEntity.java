@@ -10,7 +10,7 @@ import com.springcool.common.core.utils.StringUtils;
  * Tree 混合基类
  *
  * @param <D> Dto
- * @author xueyi
+ * @author springcool
  */
 public class CTreeEntity<D> extends TreeEntity<D> {
 

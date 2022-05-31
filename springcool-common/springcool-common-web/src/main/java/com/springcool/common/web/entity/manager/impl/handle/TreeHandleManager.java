@@ -12,7 +12,7 @@ import com.springcool.common.web.entity.manager.impl.BaseManager;
  * @param <D>  Dto
  * @param <P>  Po
  * @param <PM> PoMapper
- * @author xueyi
+ * @author springcool
  */
 public class TreeHandleManager<Q extends P, D extends P, P extends TreeEntity<D>, PM extends TreeMapper<Q, D, P>, CT extends BaseConverter<Q, D, P>> extends BaseManager<Q, D, P, PM, CT> {
 }

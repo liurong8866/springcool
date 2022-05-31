@@ -17,7 +17,7 @@ import java.util.Date;
 /**
  * 调度任务 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "sys_job", excludeProperty = {"sort"})
 public class SysJobPo extends TSubBaseEntity<SysJobLogDto> {

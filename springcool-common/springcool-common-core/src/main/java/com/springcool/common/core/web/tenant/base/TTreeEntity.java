@@ -7,7 +7,7 @@ import com.springcool.common.core.web.entity.base.TreeEntity;
  * Tree 租户基类
  *
  * @param <D> Dto
- * @author xueyi
+ * @author springcool
  */
 public class TTreeEntity<D> extends TreeEntity<D> {
 

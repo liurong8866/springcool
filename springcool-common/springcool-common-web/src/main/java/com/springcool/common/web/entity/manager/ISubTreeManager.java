@@ -10,7 +10,7 @@ import com.springcool.common.core.web.entity.base.SubTreeEntity;
  * @param <D>  Dto
  * @param <SQ> SubQuery
  * @param <SD> SubDto
- * @author xueyi
+ * @author springcool
  */
 public interface ISubTreeManager<Q extends SubTreeEntity<D, SD>, D extends SubTreeEntity<D, SD>, SQ extends BaseEntity, SD extends BaseEntity> extends ISubManager<Q, D, SQ, SD>, ITreeManager<Q, D> {
 }

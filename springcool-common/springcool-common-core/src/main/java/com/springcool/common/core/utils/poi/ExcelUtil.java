@@ -35,7 +35,7 @@ import java.util.stream.Collectors;
 /**
  * Excel相关处理
  *
- * @author xueyi
+ * @author springcool
  */
 public class ExcelUtil<T> {
 

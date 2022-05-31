@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * 拦截器配置
  *
- * @author xueyi
+ * @author springcool
  */
 public class WebMvcConfig implements WebMvcConfigurer {
 

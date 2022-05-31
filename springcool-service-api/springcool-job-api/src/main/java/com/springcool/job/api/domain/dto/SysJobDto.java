@@ -7,7 +7,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 调度任务 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysJobDto extends SysJobPo {
 

@@ -31,7 +31,7 @@ import java.util.List;
 /**
  * 数据源策略管理 业务处理
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 @RequestMapping("/strategy")

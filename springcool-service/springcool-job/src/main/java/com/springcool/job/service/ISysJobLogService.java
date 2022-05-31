@@ -7,7 +7,7 @@ import com.springcool.job.api.domain.query.SysJobLogQuery;
 /**
  * 调度日志管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysJobLogService extends IBaseService<SysJobLogQuery, SysJobLogDto> {
 

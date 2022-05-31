@@ -9,7 +9,7 @@ import java.util.List;
  *
  * @param <D>  Dto
  * @param <SD> SubDto
- * @author xueyi
+ * @author springcool
  */
 public class SubTreeEntity<D, SD> extends TreeEntity<D> {
 

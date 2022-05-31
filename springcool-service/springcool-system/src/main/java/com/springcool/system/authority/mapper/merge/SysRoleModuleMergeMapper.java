@@ -7,7 +7,7 @@ import com.springcool.system.authority.domain.merge.SysRoleModuleMerge;
 /**
  * 角色-模块关联 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysRoleModuleMergeMapper extends BasicMapper<SysRoleModuleMerge> {

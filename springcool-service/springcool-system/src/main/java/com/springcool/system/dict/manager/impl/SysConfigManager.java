@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 /**
  * 参数配置管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysConfigManager extends BaseManager<SysConfigQuery, SysConfigDto, SysConfigPo, SysConfigMapper, SysConfigConverter> implements ISysConfigManager {

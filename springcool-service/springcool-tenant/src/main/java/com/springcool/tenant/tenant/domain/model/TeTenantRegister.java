@@ -11,7 +11,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 租户初始化对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class TeTenantRegister extends BasisEntity {
 

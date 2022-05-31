@@ -9,7 +9,7 @@ import com.springcool.common.core.web.entity.base.BaseEntity;
 /**
  * 参数配置 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "sys_config", excludeProperty = {"status", "delFlag"})
 public class SysConfigPo extends BaseEntity {

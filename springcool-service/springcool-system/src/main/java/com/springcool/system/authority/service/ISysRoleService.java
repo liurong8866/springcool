@@ -7,7 +7,7 @@ import com.springcool.system.api.authority.domain.query.SysRoleQuery;
 /**
  * 角色管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysRoleService extends IBaseService<SysRoleQuery, SysRoleDto> {
 

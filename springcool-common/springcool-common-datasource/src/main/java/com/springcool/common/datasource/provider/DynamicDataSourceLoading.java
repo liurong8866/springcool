@@ -20,7 +20,7 @@ import static com.springcool.common.core.constant.basic.SourceConstants.Details;
 /**
  * 子数据源加载
  *
- * @author xueyi
+ * @author springcool
  */
 @Configuration
 public class DynamicDataSourceLoading {

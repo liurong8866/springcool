@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 组织对象 合成通用结构
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysOrganizeTree {
 

@@ -7,7 +7,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 角色 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysRoleDto extends SysRolePo {
 

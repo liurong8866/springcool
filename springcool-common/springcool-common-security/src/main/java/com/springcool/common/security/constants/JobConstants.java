@@ -3,7 +3,7 @@ package com.springcool.common.security.constants;
 /**
  * 定时任务模块 权限标识常量
  *
- * @author xueyi
+ * @author springcool
  */
 public interface JobConstants {
 

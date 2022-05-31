@@ -23,7 +23,7 @@ import java.util.List;
  * @param <SQ>  SubQuery
  * @param <SD>  SubDto
  * @param <ISS> SubService
- * @author xueyi
+ * @author springcool
  */
 public abstract class SubBaseController<Q extends SubBaseEntity<SD>, D extends SubBaseEntity<SD>, IDS extends ISubBaseService<Q, D, SQ, SD>, SQ extends BaseEntity, SD extends BaseEntity, ISS extends IBaseService<SQ, SD>> extends SubBaseHandleController<Q, D, IDS, SQ, SD, ISS> {
 

@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 菜单 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysMenuConverter extends TreeConverter<SysMenuQuery, SysMenuDto, SysMenuPo> {

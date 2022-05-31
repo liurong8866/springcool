@@ -7,7 +7,7 @@ import com.springcool.tenant.api.source.domain.query.TeSourceQuery;
 /**
  * 数据源管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ITeSourceService extends IBaseService<TeSourceQuery, TeSourceDto> {
 

@@ -39,7 +39,7 @@ services:
 #          '--lower-case-table-names=1'
 #        ]
 #    environment:
-#      MYSQL_DATABASE: 'xy-cloud'
+#      MYSQL_DATABASE: 'springcool-cloud'
 #      MYSQL_ROOT_PASSWORD: password
 #  springcool-redis:
 #    container_name: springcool-redis
@@ -49,9 +49,9 @@ services:
 #    ports:
 #      - "6379:6379"
 #    volumes:
-#      - ./docker/redis/conf/redis.conf:/home/xueyi/redis/redis.conf
+#      - ./docker/redis/conf/redis.conf:/home/springcool/redis/redis.conf
 #      - ./docker/redis/data:/data
-#    command: redis-server /home/xueyi/redis/redis.conf
+#    command: redis-server /home/springcool/redis/redis.conf
   springcool-gateway:
     container_name: springcool-gateway
     build:
@@ -146,7 +146,7 @@ services:
     ports:
       - "9300:9300"
     volumes:
-    - ./xueyi/uploadPath:/home/xueyi/uploadPath
+    - ./springcool/uploadPath:/home/springcool/uploadPath
   springcool-visual-monitor:
     container_name: springcool-visual-monitor
     build:

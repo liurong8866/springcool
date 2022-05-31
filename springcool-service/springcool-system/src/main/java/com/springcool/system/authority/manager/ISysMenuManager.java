@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * 菜单管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysMenuManager extends ITreeManager<SysMenuQuery, SysMenuDto> {
 

@@ -11,7 +11,7 @@ import com.springcool.common.core.utils.StringUtils;
  *
  * @param <D> Dto
  * @param <S> SubDto
- * @author xueyi
+ * @author springcool
  */
 public class CSubTreeEntity<D, S> extends SubTreeEntity<D, S> {
 

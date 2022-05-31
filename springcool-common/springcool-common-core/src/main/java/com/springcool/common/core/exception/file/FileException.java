@@ -5,7 +5,7 @@ import com.springcool.common.core.exception.base.BaseException;
 /**
  * 文件信息异常类
  * 
- * @author xueyi
+ * @author springcool
  */
 public class FileException extends BaseException
 {

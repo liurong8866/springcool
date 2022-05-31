@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 /**
  * 调度日志 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysJobLogDto extends SysJobLogPo {
 

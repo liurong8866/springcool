@@ -43,7 +43,7 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 		
-        <!-- XueYi Common Security-->
+        <!-- SpringCool Common Security-->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-common-security</artifactId>

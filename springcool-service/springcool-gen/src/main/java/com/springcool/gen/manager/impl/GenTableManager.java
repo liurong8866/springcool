@@ -24,7 +24,7 @@ import java.util.List;
 /**
  * 业务管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class GenTableManager extends SubBaseManager<GenTableQuery, GenTableDto, GenTablePo, GenTableMapper, GenTableConverter, GenTableColumnQuery, GenTableColumnDto, GenTableColumnPo, GenTableColumnMapper, GenTableColumnConverter> implements IGenTableManager {

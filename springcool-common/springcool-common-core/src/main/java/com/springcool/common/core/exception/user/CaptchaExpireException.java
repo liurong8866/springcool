@@ -3,7 +3,7 @@ package com.springcool.common.core.exception.user;
 /**
  * 验证码失效异常类
  * 
- * @author xueyi
+ * @author springcool
  */
 public class CaptchaExpireException extends UserException
 {

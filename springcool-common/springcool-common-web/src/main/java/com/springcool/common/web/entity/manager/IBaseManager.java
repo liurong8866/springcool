@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @param <Q> Query
  * @param <D> Dto
- * @author xueyi
+ * @author springcool
  */
 public interface IBaseManager<Q extends BaseEntity, D extends BaseEntity> {
 

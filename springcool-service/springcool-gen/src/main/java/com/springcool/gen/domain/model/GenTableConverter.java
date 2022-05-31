@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 业务 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface GenTableConverter extends SubBaseConverter<GenTableQuery, GenTableDto, GenTablePo> {

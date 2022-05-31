@@ -9,7 +9,7 @@ import com.springcool.tenant.api.tenant.domain.query.TeStrategyQuery;
 /**
  * 数据源策略管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface TeStrategyMapper extends BaseMapper<TeStrategyQuery, TeStrategyDto, TeStrategyPo> {

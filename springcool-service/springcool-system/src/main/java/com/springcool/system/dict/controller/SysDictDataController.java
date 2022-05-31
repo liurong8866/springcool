@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * 字典数据管理 业务处理
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 @RequestMapping("/dict/data")

@@ -11,7 +11,7 @@ import javax.validation.constraints.Size;
 /**
  * 角色 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("sys_role")
 public class SysRolePo extends TBaseEntity {

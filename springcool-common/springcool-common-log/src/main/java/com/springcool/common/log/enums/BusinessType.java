@@ -3,7 +3,7 @@ package com.springcool.common.log.enums;
 /**
  * 业务操作类型
  *
- * @author xueyi
+ * @author springcool
  */
 public enum BusinessType {
 

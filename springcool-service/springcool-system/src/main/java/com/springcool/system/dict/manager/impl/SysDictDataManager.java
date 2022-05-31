@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 字典数据管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysDictDataManager extends BaseManager<SysDictDataQuery, SysDictDataDto, SysDictDataPo, SysDictDataMapper, SysDictDataConverter> implements ISysDictDataManager {

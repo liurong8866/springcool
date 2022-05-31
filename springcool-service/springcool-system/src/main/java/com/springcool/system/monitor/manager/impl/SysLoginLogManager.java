@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 /**
  * 访问日志管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysLoginLogManager extends BaseManager<SysLoginLogQuery, SysLoginLogDto, SysLoginLogPo, SysLoginLogMapper, SysLoginLogConverter> implements ISysLoginLogManager {

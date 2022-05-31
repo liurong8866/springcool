@@ -5,7 +5,7 @@ import com.springcool.job.api.domain.po.SysJobLogPo;
 /**
  * 调度日志 数据查询对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysJobLogQuery extends SysJobLogPo {
 

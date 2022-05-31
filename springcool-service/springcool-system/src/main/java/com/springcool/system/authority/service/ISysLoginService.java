@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * 登录管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysLoginService {
 

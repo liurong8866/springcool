@@ -7,7 +7,7 @@ import com.springcool.common.core.web.entity.base.SubBaseEntity;
  * SubBase 租户基类
  *
  * @param <S> SubDto
- * @author xueyi
+ * @author springcool
  */
 public class TSubBaseEntity<S> extends SubBaseEntity<S> {
 

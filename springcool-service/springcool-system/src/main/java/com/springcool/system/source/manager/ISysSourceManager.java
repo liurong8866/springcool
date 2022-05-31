@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 策略组管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysSourceManager {
 

@@ -3,7 +3,7 @@ package com.springcool.common.core.exception;
 /**
  * 演示模式异常
  *
- * @author xueyi
+ * @author springcool
  */
 public class DemoModeException extends RuntimeException {
 

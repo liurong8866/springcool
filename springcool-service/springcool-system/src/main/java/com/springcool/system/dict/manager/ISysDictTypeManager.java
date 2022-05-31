@@ -9,7 +9,7 @@ import com.springcool.system.api.dict.domain.query.SysDictTypeQuery;
 /**
  * 字典类型管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysDictTypeManager extends ISubBaseManager<SysDictTypeQuery, SysDictTypeDto, SysDictDataQuery, SysDictDataDto> {
 

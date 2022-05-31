@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 数据源策略 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface TeStrategyConverter extends BaseConverter<TeStrategyQuery, TeStrategyDto, TeStrategyPo> {

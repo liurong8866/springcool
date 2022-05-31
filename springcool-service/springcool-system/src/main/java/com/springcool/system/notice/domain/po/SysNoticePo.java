@@ -8,7 +8,7 @@ import com.springcool.common.core.web.entity.base.BaseEntity;
 /**
  * 通知公告 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "sys_notice",excludeProperty = {"sort"})
 public class SysNoticePo extends BaseEntity {

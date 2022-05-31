@@ -5,7 +5,7 @@ import com.springcool.system.api.dict.domain.po.SysConfigPo;
 /**
  * 参数配置 数据查询对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysConfigQuery extends SysConfigPo {
 

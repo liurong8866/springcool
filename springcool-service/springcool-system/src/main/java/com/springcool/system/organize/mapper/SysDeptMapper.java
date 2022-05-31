@@ -13,7 +13,7 @@ import com.springcool.system.api.organize.domain.query.SysPostQuery;
 /**
  * 部门管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysDeptMapper extends SubTreeMapper<SysDeptQuery, SysDeptDto, SysDeptPo, SysPostQuery, SysPostDto, SysPostPo> {

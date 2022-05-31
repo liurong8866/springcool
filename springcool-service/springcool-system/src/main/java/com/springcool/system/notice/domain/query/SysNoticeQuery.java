@@ -5,7 +5,7 @@ import com.springcool.system.notice.domain.po.SysNoticePo;
 /**
  * 通知公告 数据查询对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysNoticeQuery extends SysNoticePo {
 

@@ -12,7 +12,7 @@ import javax.validation.constraints.Size;
 /**
  * 租户 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("te_tenant")
 public class TeTenantPo extends BaseEntity {

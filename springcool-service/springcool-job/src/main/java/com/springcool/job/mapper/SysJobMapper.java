@@ -12,7 +12,7 @@ import com.springcool.job.api.domain.query.SysJobQuery;
 /**
  * 调度任务管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface SysJobMapper extends SubBaseMapper<SysJobQuery, SysJobDto, SysJobPo, SysJobLogQuery, SysJobLogDto, SysJobLogPo> {

@@ -26,7 +26,7 @@ import java.util.List;
  * @param <SD>  SubDto
  * @param <SP>  SubPo
  * @param <SPM> SubPoMapper
- * @author xueyi
+ * @author springcool
  */
 public abstract class SubTreeManager<Q extends P, D extends P, P extends SubTreeEntity<D, SD>, PM extends SubTreeMapper<Q, D, P, SQ, SD, SP>, CT extends BaseConverter<Q, D, P>, SQ extends SP, SD extends SP, SP extends BaseEntity, SPM extends BaseMapper<SQ, SD, SP>, SCT extends BaseConverter<SQ, SD, SP>> extends SubTreeHandleManager<Q, D, P, PM, CT, SQ, SD, SP, SPM, SCT> implements ISubTreeManager<Q, D, SQ, SD> {
 

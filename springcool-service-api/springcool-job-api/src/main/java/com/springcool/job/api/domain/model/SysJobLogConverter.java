@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 调度日志 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysJobLogConverter extends BaseConverter<SysJobLogQuery, SysJobLogDto, SysJobLogPo> {

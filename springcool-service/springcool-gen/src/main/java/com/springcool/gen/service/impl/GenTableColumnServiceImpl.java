@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 业务字段管理 服务层实现
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class GenTableColumnServiceImpl extends BaseServiceImpl<GenTableColumnQuery, GenTableColumnDto, GenTableColumnManager> implements IGenTableColumnService {

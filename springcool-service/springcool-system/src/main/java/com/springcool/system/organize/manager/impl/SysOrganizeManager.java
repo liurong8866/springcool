@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
 /**
  * 组织管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysOrganizeManager implements ISysOrganizeManager {

@@ -5,7 +5,7 @@ import com.springcool.system.api.authority.domain.po.SysMenuPo;
 /**
  * 菜单 数据查询对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysMenuQuery extends SysMenuPo {
 

@@ -6,7 +6,7 @@ import com.springcool.common.core.utils.StringUtils;
 /**
  * 分页数据
  *
- * @author xueyi
+ * @author springcool
  */
 public class PageDomain {
 

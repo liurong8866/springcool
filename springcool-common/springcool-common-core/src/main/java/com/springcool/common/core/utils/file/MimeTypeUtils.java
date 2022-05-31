@@ -3,7 +3,7 @@ package com.springcool.common.core.utils.file;
 /**
  * 媒体类型工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class MimeTypeUtils {
 

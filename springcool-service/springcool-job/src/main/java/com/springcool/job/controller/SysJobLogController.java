@@ -19,7 +19,7 @@ import java.io.Serializable;
 /**
  * 调度日志管理 业务处理
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 @RequestMapping("/job/log")

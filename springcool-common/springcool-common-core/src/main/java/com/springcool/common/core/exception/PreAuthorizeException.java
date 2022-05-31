@@ -3,7 +3,7 @@ package com.springcool.common.core.exception;
 /**
  * 权限异常
  *
- * @author xueyi
+ * @author springcool
  */
 public class PreAuthorizeException extends RuntimeException {
 

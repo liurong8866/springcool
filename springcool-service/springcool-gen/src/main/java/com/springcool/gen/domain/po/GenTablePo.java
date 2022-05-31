@@ -12,7 +12,7 @@ import static com.baomidou.mybatisplus.annotation.SqlCondition.LIKE;
 /**
  * 业务 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "gen_table", excludeProperty = {"status", "sort", "delFlag"})
 public class GenTablePo extends SubBaseEntity<GenTableColumnDto> {

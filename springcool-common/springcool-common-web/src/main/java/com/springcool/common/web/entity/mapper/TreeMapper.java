@@ -8,7 +8,7 @@ import com.springcool.common.core.web.entity.base.TreeEntity;
  * @param <Q> Query
  * @param <D> Dto
  * @param <P> Po
- * @author xueyi
+ * @author springcool
  */
 public interface TreeMapper<Q extends P, D extends P, P extends TreeEntity<D>> extends BaseMapper<Q, D, P> {
 }

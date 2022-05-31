@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 字典缓存管理工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class DictUtils {
 

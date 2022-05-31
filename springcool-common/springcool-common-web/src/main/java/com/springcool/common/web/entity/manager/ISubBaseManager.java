@@ -10,7 +10,7 @@ import com.springcool.common.core.web.entity.base.SubBaseEntity;
  * @param <D>  Dto
  * @param <SQ> SubQuery
  * @param <SD> SubDto
- * @author xueyi
+ * @author springcool
  */
 public interface ISubBaseManager<Q extends SubBaseEntity<SD>, D extends SubBaseEntity<SD>, SQ extends BaseEntity, SD extends BaseEntity> extends ISubManager<Q, D, SQ, SD>, IBaseManager<Q, D> {
 }

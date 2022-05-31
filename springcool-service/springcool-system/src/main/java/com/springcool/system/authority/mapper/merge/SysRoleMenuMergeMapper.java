@@ -7,7 +7,7 @@ import com.springcool.common.web.entity.mapper.BasicMapper;
 /**
  * 角色-菜单关联 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Isolate
 public interface SysRoleMenuMergeMapper extends BasicMapper<SysRoleMenuMerge> {

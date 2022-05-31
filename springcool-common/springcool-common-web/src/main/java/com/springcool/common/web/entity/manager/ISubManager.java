@@ -12,7 +12,7 @@ import java.util.List;
  * @param <D>  Dto
  * @param <SQ> SubQuery
  * @param <SD> SubDto
- * @author xueyi
+ * @author springcool
  */
 public interface ISubManager<Q extends BaseEntity, D extends BaseEntity, SQ extends BaseEntity, SD extends BaseEntity> {
 

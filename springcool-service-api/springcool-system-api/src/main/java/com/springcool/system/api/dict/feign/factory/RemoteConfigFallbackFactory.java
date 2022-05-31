@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 /**
  * 参数服务 降级处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class RemoteConfigFallbackFactory implements FallbackFactory<RemoteConfigService> {

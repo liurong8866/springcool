@@ -20,7 +20,7 @@
             <artifactId>springcool-common-datascope</artifactId>
         </dependency>
 
-        <!-- XueYi Common DataSource -->
+        <!-- SpringCool Common DataSource -->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-common-datasource</artifactId>

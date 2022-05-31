@@ -39,7 +39,7 @@ import java.util.stream.Collectors;
 /**
  * 用户管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysUserManager extends BaseManager<SysUserQuery, SysUserDto, SysUserPo, SysUserMapper, SysUserConverter> implements ISysUserManager {

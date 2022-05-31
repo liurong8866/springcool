@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 /**
  * 权限服务
  *
- * @author xueyi
+ * @author springcool
  */
 @FeignClient(contextId = "remoteAuthService", value = ServiceConstants.SYSTEM_SERVICE, fallbackFactory = RemoteAuthFallbackFactory.class)
 public interface RemoteAuthService {

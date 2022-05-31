@@ -3,7 +3,7 @@ package com.springcool.system.utils.route;
 /**
  * 菜单标签配置信息
  *
- * @author xueyi
+ * @author springcool
  */
 public class TagVo {
 

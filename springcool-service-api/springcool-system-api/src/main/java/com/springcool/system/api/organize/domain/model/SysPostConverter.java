@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 岗位 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysPostConverter extends BaseConverter<SysPostQuery, SysPostDto, SysPostPo> {

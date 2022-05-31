@@ -8,7 +8,7 @@ import com.springcool.common.core.web.page.TableSupport;
 /**
  * 分页工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class PageUtils extends PageHelper {
 

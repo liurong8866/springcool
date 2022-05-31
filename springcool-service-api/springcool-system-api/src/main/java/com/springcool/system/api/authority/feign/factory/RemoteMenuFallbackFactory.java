@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 /**
  * 菜单服务 降级处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class RemoteMenuFallbackFactory implements FallbackFactory<RemoteMenuService> {

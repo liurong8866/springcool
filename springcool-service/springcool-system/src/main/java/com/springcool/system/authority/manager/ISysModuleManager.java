@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * 模块管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysModuleManager extends ISubBaseManager<SysModuleQuery, SysModuleDto, SysMenuQuery, SysMenuDto> {
 

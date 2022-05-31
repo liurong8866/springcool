@@ -8,7 +8,7 @@ import java.lang.annotation.*;
 /**
  * 自定义操作日志记录注解
  * 
- * @author xueyi
+ * @author springcool
  *
  */
 @Target({ ElementType.PARAMETER, ElementType.METHOD })

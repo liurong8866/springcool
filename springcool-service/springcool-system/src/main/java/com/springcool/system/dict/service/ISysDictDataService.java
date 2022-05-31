@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 字典数据管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysDictDataService extends IBaseService<SysDictDataQuery, SysDictDataDto> {
 

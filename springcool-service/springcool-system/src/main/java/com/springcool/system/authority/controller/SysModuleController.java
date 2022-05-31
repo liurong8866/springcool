@@ -34,7 +34,7 @@ import java.util.List;
 /**
  * 模块管理 业务处理
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 @RequestMapping("/module")

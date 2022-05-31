@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 业务字段管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class GenTableColumnManager extends BaseManager<GenTableColumnQuery, GenTableColumnDto, GenTableColumnPo, GenTableColumnMapper, GenTableColumnConverter> implements IGenTableColumnManager {

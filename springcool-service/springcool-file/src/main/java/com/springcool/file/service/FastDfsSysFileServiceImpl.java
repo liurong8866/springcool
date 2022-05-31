@@ -11,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 /**
  * FastDFS 文件存储
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class FastDfsSysFileServiceImpl implements ISysFileService {

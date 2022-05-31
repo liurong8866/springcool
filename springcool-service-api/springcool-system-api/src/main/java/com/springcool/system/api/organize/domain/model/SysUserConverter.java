@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 用户 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysUserConverter extends BaseConverter<SysUserQuery, SysUserDto, SysUserPo> {

@@ -21,7 +21,7 @@ import reactor.core.publisher.Flux;
 /**
  * 验证码过滤器
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class ValidateCodeFilter extends AbstractGatewayFilterFactory<Object> {

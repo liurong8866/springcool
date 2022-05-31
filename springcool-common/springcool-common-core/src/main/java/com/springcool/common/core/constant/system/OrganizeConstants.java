@@ -3,7 +3,7 @@ package com.springcool.common.core.constant.system;
 /**
  * 组织通用常量
  *
- * @author xueyi
+ * @author springcool
  */
 public class OrganizeConstants {
 

@@ -9,7 +9,7 @@ import static com.springcool.common.core.constant.basic.TenantConstants.ISOLATE;
 /**
  * 租户策略源
  *
- * @author xueyi
+ * @author springcool
  */
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

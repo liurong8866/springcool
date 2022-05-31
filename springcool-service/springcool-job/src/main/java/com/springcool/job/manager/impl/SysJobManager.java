@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * 调度任务管理 数据封装层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class SysJobManager extends SubBaseManager<SysJobQuery, SysJobDto, SysJobPo, SysJobMapper, SysJobConverter, SysJobLogQuery, SysJobLogDto, SysJobLogPo, SysJobLogMapper, SysJobLogConverter> implements ISysJobManager {

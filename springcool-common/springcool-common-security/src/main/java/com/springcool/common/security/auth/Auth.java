@@ -8,7 +8,7 @@ import com.springcool.common.security.constants.TenantConstants;
 /**
  * Token 权限标识常量
  *
- * @author xueyi
+ * @author springcool
  */
 public class Auth implements SystemConstants, JobConstants, GenConstants, TenantConstants {
 }

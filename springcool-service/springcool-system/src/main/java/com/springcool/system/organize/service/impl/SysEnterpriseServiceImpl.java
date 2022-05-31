@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 /**
  * 企业管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysEnterpriseServiceImpl extends BaseServiceImpl<SysEnterpriseQuery, SysEnterpriseDto, ISysEnterpriseManager> implements ISysEnterpriseService {

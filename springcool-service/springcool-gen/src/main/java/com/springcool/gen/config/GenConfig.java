@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 代码生成相关配置
  *
- * @author xueyi
+ * @author springcool
  */
 @Configuration
 @ConfigurationProperties(prefix = "gen", ignoreUnknownFields = false)

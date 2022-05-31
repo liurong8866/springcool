@@ -6,7 +6,7 @@ import com.springcool.common.core.web.entity.common.CBasisEntity;
 /**
  * Basis 租户混合基类
  *
- * @author xueyi
+ * @author springcool
  */
 public class TCBasisEntity extends CBasisEntity {
 

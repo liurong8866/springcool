@@ -8,7 +8,7 @@ import com.springcool.common.core.web.entity.base.BaseEntity;
  * @param <Q> Query
  * @param <D> Dto
  * @param <P> Po
- * @author xueyi
+ * @author springcool
  */
 public interface BaseMapper<Q extends P, D extends P, P extends BaseEntity> extends BasicMapper<P> {
 }

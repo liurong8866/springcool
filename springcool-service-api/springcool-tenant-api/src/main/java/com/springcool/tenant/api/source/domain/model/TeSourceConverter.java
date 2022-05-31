@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 数据源 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface TeSourceConverter extends BaseConverter<TeSourceQuery, TeSourceDto, TeSourcePo> {

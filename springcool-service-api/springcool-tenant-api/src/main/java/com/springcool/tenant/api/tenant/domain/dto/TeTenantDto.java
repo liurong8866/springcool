@@ -9,7 +9,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 /**
  * 租户 数据传输对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class TeTenantDto extends TeTenantPo {
 

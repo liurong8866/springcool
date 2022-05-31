@@ -14,7 +14,7 @@
 
     <dependencies>
 
-        <!-- XueYi Common Core -->
+        <!-- SpringCool Common Core -->
         <dependency>
             <groupId>com.springcool</groupId>
             <artifactId>springcool-common-core</artifactId>

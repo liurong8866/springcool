@@ -9,7 +9,7 @@ import com.springcool.tenant.api.tenant.domain.query.TeTenantQuery;
 /**
  * 租户管理 数据层
  *
- * @author xueyi
+ * @author springcool
  */
 @Master
 public interface TeTenantMapper extends BaseMapper<TeTenantQuery, TeTenantDto, TeTenantPo> {

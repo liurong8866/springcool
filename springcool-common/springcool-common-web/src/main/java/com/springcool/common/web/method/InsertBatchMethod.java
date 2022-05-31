@@ -18,7 +18,7 @@ import org.apache.ibatis.mapping.SqlSource;
 /**
  * 批量插入 方法体
  *
- * @author xueyi
+ * @author springcool
  */
 public class InsertBatchMethod extends AbstractMethod {
 

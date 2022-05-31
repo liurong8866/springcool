@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 /**
  * 权限服务 降级处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class RemoteAuthFallbackFactory implements FallbackFactory<RemoteAuthService> {

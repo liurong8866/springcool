@@ -3,7 +3,7 @@ package com.springcool.common.core.exception;
 /**
  * 全局异常
  *
- * @author xueyi
+ * @author springcool
  */
 public class GlobalException extends RuntimeException {
 

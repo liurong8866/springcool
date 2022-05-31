@@ -32,7 +32,7 @@ import java.util.List;
 /**
  * 部门管理 业务处理
  *
- * @author xueyi
+ * @author springcool
  */
 @RestController
 @RequestMapping("/dept")

@@ -13,7 +13,7 @@ import javax.validation.constraints.Size;
 /**
  * 岗位 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("sys_post")
 public class SysPostPo extends TBaseEntity {

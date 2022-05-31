@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 /**
  * 字典数据管理 业务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysDictDataServiceImpl extends BaseServiceImpl<SysDictDataQuery, SysDictDataDto, ISysDictDataManager> implements ISysDictDataService {

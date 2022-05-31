@@ -9,10 +9,10 @@ import static com.springcool.common.core.constant.basic.BaseConstants.INIT_EXCLU
 /**
  * 租户表控制配置
  *
- * @author xueyi
+ * @author springcool
  */
 @Configuration
-@ConfigurationProperties(prefix = "xueyi.tenant")
+@ConfigurationProperties(prefix = "springcool.tenant")
 public class TenantProperties {
 
     /** 公共表 */

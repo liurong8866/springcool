@@ -8,7 +8,7 @@ import com.springcool.common.core.web.entity.base.SubTreeEntity;
  *
  * @param <D> Dto
  * @param <S> SubDto
- * @author xueyi
+ * @author springcool
  */
 public class TSubTreeEntity<D, S> extends SubTreeEntity<D, S> {
 

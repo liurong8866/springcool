@@ -9,7 +9,7 @@ import com.springcool.system.api.organize.domain.query.SysPostQuery;
 /**
  * 部门管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysDeptService extends ISubTreeService<SysDeptQuery, SysDeptDto, SysPostQuery, SysPostDto> {
 

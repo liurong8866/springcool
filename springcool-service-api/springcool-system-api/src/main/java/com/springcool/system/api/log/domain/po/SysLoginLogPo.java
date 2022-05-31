@@ -14,7 +14,7 @@ import static com.baomidou.mybatisplus.annotation.SqlCondition.LIKE;
 /**
  * 访问日志 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "sys_login_log", excludeProperty = {"name", "sort", "createBy", "createTime", "updateBy", "updateTime", "remark"})
 public class SysLoginLogPo extends TBaseEntity {

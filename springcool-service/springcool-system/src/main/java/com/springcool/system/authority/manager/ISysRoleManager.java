@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * 角色管理 数据封装层
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public interface ISysRoleManager extends IBaseManager<SysRoleQuery, SysRoleDto> {

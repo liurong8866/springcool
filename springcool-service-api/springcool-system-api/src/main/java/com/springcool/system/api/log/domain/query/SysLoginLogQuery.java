@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 /**
  * 访问日志 数据查询对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysLoginLogQuery extends SysLoginLogPo {
 

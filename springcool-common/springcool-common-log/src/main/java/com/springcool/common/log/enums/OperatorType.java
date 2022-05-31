@@ -3,7 +3,7 @@ package com.springcool.common.log.enums;
 /**
  * 操作人类别
  *
- * @author xueyi
+ * @author springcool
  */
 public enum OperatorType {
 

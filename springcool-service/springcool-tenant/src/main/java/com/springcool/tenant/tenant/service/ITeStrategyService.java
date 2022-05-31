@@ -7,7 +7,7 @@ import com.springcool.tenant.api.tenant.domain.query.TeStrategyQuery;
 /**
  * 数据源策略管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ITeStrategyService extends IBaseService<TeStrategyQuery, TeStrategyDto> {
 

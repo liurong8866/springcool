@@ -3,7 +3,7 @@ package com.springcool.common.core.exception;
 /**
  * 工具类异常
  *
- * @author xueyi
+ * @author springcool
  */
 public class UtilException extends RuntimeException {
 

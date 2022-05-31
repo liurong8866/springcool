@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * Jwt工具类
  *
- * @author xueyi
+ * @author springcool
  */
 public class JwtUtils {
     public static String secret = TokenConstants.SECRET;

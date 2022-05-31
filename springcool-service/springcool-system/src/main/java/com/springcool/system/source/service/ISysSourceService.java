@@ -3,7 +3,7 @@ package com.springcool.system.source.service;
 /**
  * 策略组管理 服务层
  *
- * @author xueyi
+ * @author springcool
  */
 public interface ISysSourceService {
 

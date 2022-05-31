@@ -9,7 +9,7 @@ import com.springcool.common.core.utils.StringUtils;
 /**
  * Base 混合基类
  *
- * @author xueyi
+ * @author springcool
  */
 public class CBasisEntity extends BasisEntity {
 

@@ -9,7 +9,7 @@ import java.util.Collection;
  * 数据层 基类通用数据处理
  *
  * @param <P> Po
- * @author xueyi
+ * @author springcool
  */
 public interface BasicMapper<P extends BasisEntity> extends com.baomidou.mybatisplus.core.mapper.BaseMapper<P> {
 

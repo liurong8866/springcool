@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * 通用租户处理器
  *
- * @author xueyi
+ * @author springcool
  */
 public interface BasicLineHandler {
 

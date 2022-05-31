@@ -5,7 +5,7 @@ import com.springcool.system.api.organize.domain.po.SysEnterprisePo;
 /**
  * 企业 数据查询对象
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysEnterpriseQuery extends SysEnterprisePo {
 

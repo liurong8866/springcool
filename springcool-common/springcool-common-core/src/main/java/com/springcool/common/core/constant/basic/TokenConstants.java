@@ -3,7 +3,7 @@ package com.springcool.common.core.constant.basic;
 /**
  * Token的Key通用常量
  *
- * @author xueyi
+ * @author springcool
  */
 public class TokenConstants {
 

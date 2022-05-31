@@ -6,7 +6,7 @@ import cn.hutool.core.util.StrUtil;
 /**
  * 字符串格式化
  *
- * @author xueyi
+ * @author springcool
  */
 public class StrFormatter {
 

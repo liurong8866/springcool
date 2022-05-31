@@ -7,7 +7,7 @@ import com.springcool.common.core.web.tenant.base.TBasisEntity;
 /**
  * 租户-模块关联 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName("sys_tenant_module_merge")
 public class SysTenantModuleMerge extends TBasisEntity {

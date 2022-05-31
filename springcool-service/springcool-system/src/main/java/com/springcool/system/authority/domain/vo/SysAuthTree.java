@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * 权限对象 通用结构
  *
- * @author xueyi
+ * @author springcool
  */
 public class SysAuthTree extends BasisEntity {
 

@@ -24,7 +24,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * 跨站脚本过滤器
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class XssFilter implements GlobalFilter, Ordered {

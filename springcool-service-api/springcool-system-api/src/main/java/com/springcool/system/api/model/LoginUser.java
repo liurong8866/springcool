@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * 用户信息
  *
- * @author xueyi
+ * @author springcool
  */
 public class LoginUser implements Serializable {
 

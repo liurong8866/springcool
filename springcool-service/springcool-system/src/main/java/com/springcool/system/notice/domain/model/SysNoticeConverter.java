@@ -9,7 +9,7 @@ import org.mapstruct.Mapper;
 /**
  * 通知公告 对象映射器
  *
- * @author xueyi
+ * @author springcool
  */
 @Mapper(componentModel = "spring")
 public interface SysNoticeConverter extends BaseConverter<SysNoticeQuery, SysNoticeDto, SysNoticePo> {

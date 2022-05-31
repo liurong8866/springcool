@@ -10,7 +10,7 @@ import com.springcool.common.core.web.entity.base.BaseEntity;
 /**
  * 字典数据 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "sys_dict_data", excludeProperty = {"name", "delFlag"})
 public class SysDictDataPo extends BaseEntity {

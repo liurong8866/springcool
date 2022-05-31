@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 /**
  * 租户服务降级处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Component
 public class RemoteTenantFallbackFactory implements FallbackFactory<RemoteTenantService> {

@@ -9,7 +9,7 @@ import javax.validation.constraints.NotBlank;
 /**
  * 业务字段 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "gen_table_column", excludeProperty = {"status", "remark", "delFlag"})
 public class GenTableColumnPo extends BaseEntity {

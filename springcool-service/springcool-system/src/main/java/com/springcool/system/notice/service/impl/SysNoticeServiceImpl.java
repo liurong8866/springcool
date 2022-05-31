@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 通知公告管理 服务层处理
  *
- * @author xueyi
+ * @author springcool
  */
 @Service
 public class SysNoticeServiceImpl extends BaseServiceImpl<SysNoticeQuery, SysNoticeDto, ISysNoticeManager> implements ISysNoticeService {

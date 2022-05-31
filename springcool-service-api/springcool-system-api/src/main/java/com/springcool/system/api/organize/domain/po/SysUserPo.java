@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 /**
  * 用户 持久化对象
  *
- * @author xueyi
+ * @author springcool
  */
 @TableName(value = "sys_user", excludeProperty = {"name"})
 public class SysUserPo extends TBaseEntity {

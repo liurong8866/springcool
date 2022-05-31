@@ -7,7 +7,7 @@ import com.springcool.common.core.web.entity.common.CTreeEntity;
  * Tree 租户混合基类
  *
  * @param <D> Dto
- * @author xueyi
+ * @author springcool
  */
 public class TCTreeEntity<D> extends CTreeEntity<D> {
 

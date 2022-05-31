@@ -16,7 +16,7 @@ import java.io.Serializable;
  * @param <Q>   Query
  * @param <D>   Dto
  * @param <IDG> DtoIManager
- * @author xueyi
+ * @author springcool
  */
 public class TreeHandleServiceImpl<Q extends TreeEntity<D>, D extends TreeEntity<D>, IDG extends ITreeManager<Q, D>> extends BaseServiceImpl<Q, D, IDG> {
 
