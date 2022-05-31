@@ -195,84 +195,84 @@
             <!-- 核心模块 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-common-core</artifactId>
+                <artifactId>cool-common-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 通信模块 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-common-web</artifactId>
+                <artifactId>cool-common-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 接口模块 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-common-swagger</artifactId>
+                <artifactId>cool-common-swagger</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 安全模块 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-common-security</artifactId>
+                <artifactId>cool-common-security</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 权限范围 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-common-datascope</artifactId>
+                <artifactId>cool-common-datascope</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 多数据源 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-common-datasource</artifactId>
+                <artifactId>cool-common-datasource</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 日志记录 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-common-log</artifactId>
+                <artifactId>cool-common-log</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 缓存服务 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-common-redis</artifactId>
+                <artifactId>cool-common-redis</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 系统接口 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-system-api</artifactId>
+                <artifactId>cool-system-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 租管接口 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-tenant-api</artifactId>
+                <artifactId>cool-tenant-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 文件管理接口 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-file-api</artifactId>
+                <artifactId>cool-file-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- 定时任务接口 -->
             <dependency>
                 <groupId>com.springcool</groupId>
-                <artifactId>springcool-job-api</artifactId>
+                <artifactId>cool-job-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -287,12 +287,12 @@
     </dependencyManagement>
 
     <modules>
-        <module>springcool-auth</module>
-        <module>springcool-gateway</module>
-        <module>springcool-visual</module>
-        <module>springcool-service</module>
-        <module>springcool-service-api</module>
-        <module>springcool-common</module>
+        <module>cool-auth</module>
+        <module>cool-gateway</module>
+        <module>cool-visual</module>
+        <module>cool-service</module>
+        <module>cool-service-api</module>
+        <module>cool-common</module>
     </modules>
 
     <dependencies>

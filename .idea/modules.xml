@@ -2,31 +2,31 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcool-auth/cool-auth.iml" filepath="$PROJECT_DIR$/springcool-auth/cool-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-common/cool-common.iml" filepath="$PROJECT_DIR$/springcool-common/cool-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-core/cool-common-core.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-core/cool-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-datascope/cool-common-datascope.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-datascope/cool-common-datascope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-datasource/cool-common-datasource.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-datasource/cool-common-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-log/cool-common-log.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-log/cool-common-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-redis/cool-common-redis.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-redis/cool-common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-security/cool-common-security.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-security/cool-common-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-swagger/cool-common-swagger.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-swagger/cool-common-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-web/cool-common-web.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-web/cool-common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-file/cool-file.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-file/cool-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/springcool-file-api/cool-file-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/springcool-file-api/cool-file-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-gateway/cool-gateway.iml" filepath="$PROJECT_DIR$/springcool-gateway/cool-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-gen/cool-gen.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-gen/cool-gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-job/cool-job.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-job/cool-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/springcool-job-api/cool-job-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/springcool-job-api/cool-job-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-visual/springcool-monitor/cool-monitor.iml" filepath="$PROJECT_DIR$/springcool-visual/springcool-monitor/cool-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service/cool-service.iml" filepath="$PROJECT_DIR$/springcool-service/cool-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/cool-service-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/cool-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-system/cool-system.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-system/cool-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/springcool-system-api/cool-system-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/springcool-system-api/cool-system-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-tenant/cool-tenant.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-tenant/cool-tenant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/springcool-tenant-api/cool-tenant-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/springcool-tenant-api/cool-tenant-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcool-visual/cool-visual.iml" filepath="$PROJECT_DIR$/springcool-visual/cool-visual.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcool.iml" filepath="$PROJECT_DIR$/.idea/springcool.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-auth/springcool-auth.iml" filepath="$PROJECT_DIR$/springcool-auth/springcool-auth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-core/springcool-common-core.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-core/springcool-common-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-datascope/springcool-common-datascope.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-datascope/springcool-common-datascope.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-datasource/springcool-common-datasource.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-datasource/springcool-common-datasource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-log/springcool-common-log.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-log/springcool-common-log.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-redis/springcool-common-redis.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-redis/springcool-common-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-security/springcool-common-security.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-security/springcool-common-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-swagger/springcool-common-swagger.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-swagger/springcool-common-swagger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-common/springcool-common-web/springcool-common-web.iml" filepath="$PROJECT_DIR$/springcool-common/springcool-common-web/springcool-common-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-file/springcool-file.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-file/springcool-file.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/springcool-file-api/springcool-file-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/springcool-file-api/springcool-file-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-gateway/springcool-gateway.iml" filepath="$PROJECT_DIR$/springcool-gateway/springcool-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-gen/springcool-gen.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-gen/springcool-gen.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-job/springcool-job.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-job/springcool-job.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/springcool-job-api/springcool-job-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/springcool-job-api/springcool-job-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-visual/springcool-monitor/springcool-monitor.iml" filepath="$PROJECT_DIR$/springcool-visual/springcool-monitor/springcool-monitor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-service.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/springcool-service-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/springcool-service-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-system/springcool-system.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-system/springcool-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/springcool-system-api/springcool-system-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/springcool-system-api/springcool-system-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service/springcool-tenant/springcool-tenant.iml" filepath="$PROJECT_DIR$/springcool-service/springcool-tenant/springcool-tenant.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-service-api/springcool-tenant-api/springcool-tenant-api.iml" filepath="$PROJECT_DIR$/springcool-service-api/springcool-tenant-api/springcool-tenant-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcool-visual/springcool-visual.iml" filepath="$PROJECT_DIR$/springcool-visual/springcool-visual.iml" />
     </modules>
   </component>
 </project>
