@@ -1,0 +1,16 @@
+package com.springcool.job.api.domain.model;
+
+import com.springcool.common.core.web.entity.model.BaseConverter;
+import com.springcool.job.api.domain.dto.SysJobLogDto;
+import com.springcool.job.api.domain.po.SysJobLogPo;
+import com.springcool.job.api.domain.query.SysJobLogQuery;
+import org.mapstruct.Mapper;
+
+/**
+ * 调度日志 对象映射器
+ *
+ * @author xueyi
+ */
+@Mapper(componentModel = "spring")
+public interface SysJobLogConverter extends BaseConverter<SysJobLogQuery, SysJobLogDto, SysJobLogPo> {
+}

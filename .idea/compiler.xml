@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for springcool" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../maven/LocalRepository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/LocalRepository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="springcool-common-redis" />
+        <module name="springcool-common-web" />
+        <module name="springcool-common-datascope" />
+        <module name="springcool-job-api" />
+        <module name="springcool-common-core" />
+        <module name="springcool-job" />
+        <module name="springcool-monitor" />
+        <module name="springcool-file-api" />
+        <module name="springcool-common-log" />
+        <module name="springcool-file" />
+        <module name="springcool-system-api" />
+        <module name="springcool-tenant" />
+        <module name="springcool-common-datasource" />
+        <module name="springcool-gen" />
+        <module name="springcool-system" />
+        <module name="springcool-tenant-api" />
+        <module name="springcool-gateway" />
+        <module name="springcool-common-security" />
+        <module name="springcool-auth" />
+        <module name="springcool-common-swagger" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcool" target="1.8" />
+      <module name="springcool-auth" target="1.8" />
+      <module name="springcool-common" target="1.8" />
+      <module name="springcool-common-core" target="1.8" />
+      <module name="springcool-common-datascope" target="1.8" />
+      <module name="springcool-common-datasource" target="1.8" />
+      <module name="springcool-common-log" target="1.8" />
+      <module name="springcool-common-redis" target="1.8" />
+      <module name="springcool-common-security" target="1.8" />
+      <module name="springcool-common-swagger" target="1.8" />
+      <module name="springcool-common-web" target="1.8" />
+      <module name="springcool-file" target="1.8" />
+      <module name="springcool-file-api" target="1.8" />
+      <module name="springcool-gateway" target="1.8" />
+      <module name="springcool-gen" target="1.8" />
+      <module name="springcool-job" target="1.8" />
+      <module name="springcool-job-api" target="1.8" />
+      <module name="springcool-monitor" target="1.8" />
+      <module name="springcool-service" target="1.8" />
+      <module name="springcool-service-api" target="1.8" />
+      <module name="springcool-system" target="1.8" />
+      <module name="springcool-system-api" target="1.8" />
+      <module name="springcool-tenant" target="1.8" />
+      <module name="springcool-tenant-api" target="1.8" />
+      <module name="springcool-visual" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

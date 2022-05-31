@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.springcool.job.api.feign.factory.RemoteJobLogFallbackFactory

@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.springcool.common.web.config.properties.TenantProperties,\
+  com.springcool.common.web.config.XueYiMyBatisPlusConfig,\
+  com.springcool.common.web.handler.XueYiMetaObjectHandler,\
+  com.springcool.common.web.handler.TenantLineHandler

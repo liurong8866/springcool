@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/springcool-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-datascope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-datascope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-common/springcool-common-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service-api/springcool-file-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service-api/springcool-file-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service-api/springcool-job-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service-api/springcool-job-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service-api/springcool-system-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service-api/springcool-system-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service-api/springcool-tenant-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service-api/springcool-tenant-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-gen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-job/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-tenant/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-service/springcool-tenant/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-visual/springcool-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcool-visual/springcool-monitor/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

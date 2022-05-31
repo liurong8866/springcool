@@ -1,0 +1,14 @@
+package ${packageName}.mapper.merge;
+
+import com.springcool.common.datasource.annotation.${sourceMode};
+import BasicMapper;
+import ${packageName}.domain.merge.${ClassName};
+
+/**
+ * ${functionName} 数据层
+ *
+ * @author ${author}
+ */
+@${sourceMode}
+public interface ${ClassName}Mapper extends BasicMapper<${ClassName}> {
+}
