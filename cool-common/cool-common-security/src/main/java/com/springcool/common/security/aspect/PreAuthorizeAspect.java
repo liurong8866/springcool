@@ -30,9 +30,9 @@ public class PreAuthorizeAspect {
     /**
      * 定义AOP签名 (切入所有使用鉴权注解的方法)
      */
-    public static final String POINTCUT_SIGN = " @annotation(RequiresLogin) || "
-            + "@annotation(RequiresPermissions) || "
-            + "@annotation(RequiresRoles)";
+    public static final String POINTCUT_SIGN = " @annotation(com.springcool.common.security.annotation.RequiresLogin) || "
+            + "@annotation(com.springcool.common.security.annotation.RequiresPermissions) || "
+            + "@annotation(com.springcool.common.security.annotation.RequiresRoles)";
 
     /**
      * 声明AOP签名

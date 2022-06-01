@@ -1,11 +1,11 @@
-# DROP DATABASE IF EXISTS `cool-cloud1`;
+# DROP DATABASE IF EXISTS `cool-001`;
 #
-# CREATE DATABASE  `cool-cloud1` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+# CREATE DATABASE  `cool-001` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 # SET NAMES utf8mb4;
 # SET FOREIGN_KEY_CHECKS = 0;
 #
-# USE `cool-cloud1`;
+# USE `cool-001`;
 
 SET NAMES utf8mb4;
 

@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.springcool.common.datascope.interceptor.DataScopeHandler
+  com.springcool.common.datascope.interceptor.CustomDataScopeHandler

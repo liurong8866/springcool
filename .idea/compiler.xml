@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for springcool" enabled="true">
+      <profile name="Annotation profile for cool" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -11,8 +11,8 @@
           <entry name="$PROJECT_DIR$/../../../maven/LocalRepository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
         </processorPath>
         <module name="cool-job" />
-        <module name="cool-gateway" />
         <module name="cool-file" />
+        <module name="cool-gateway" />
         <module name="cool-common-log" />
         <module name="cool-job-api" />
         <module name="cool-common-core" />
@@ -20,8 +20,8 @@
         <module name="cool-monitor" />
         <module name="cool-tenant" />
         <module name="cool-tenant-api" />
-        <module name="cool-common-datasource" />
         <module name="cool-common-datascope" />
+        <module name="cool-common-datasource" />
         <module name="cool-common-swagger" />
         <module name="cool-common-web" />
         <module name="cool-gen" />
@@ -32,32 +32,5 @@
         <module name="cool-common-redis" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cool-auth" target="1.8" />
-      <module name="cool-common" target="1.8" />
-      <module name="cool-common-core" target="1.8" />
-      <module name="cool-common-datascope" target="1.8" />
-      <module name="cool-common-datasource" target="1.8" />
-      <module name="cool-common-log" target="1.8" />
-      <module name="cool-common-redis" target="1.8" />
-      <module name="cool-common-security" target="1.8" />
-      <module name="cool-common-swagger" target="1.8" />
-      <module name="cool-common-web" target="1.8" />
-      <module name="cool-file" target="1.8" />
-      <module name="cool-file-api" target="1.8" />
-      <module name="cool-gateway" target="1.8" />
-      <module name="cool-gen" target="1.8" />
-      <module name="cool-job" target="1.8" />
-      <module name="cool-job-api" target="1.8" />
-      <module name="cool-monitor" target="1.8" />
-      <module name="cool-service" target="1.8" />
-      <module name="cool-service-api" target="1.8" />
-      <module name="cool-system" target="1.8" />
-      <module name="cool-system-api" target="1.8" />
-      <module name="cool-tenant" target="1.8" />
-      <module name="cool-tenant-api" target="1.8" />
-      <module name="cool-visual" target="1.8" />
-      <module name="springcool" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

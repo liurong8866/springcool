@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.BlockAttackInnerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.DataPermissionInterceptor;
 import com.github.pagehelper.PageInterceptor;
-import com.springcool.common.datascope.interceptor.DataScopeHandler;
+import com.springcool.common.datascope.interceptor.CustomDataScopeHandler;
 import com.springcool.common.web.handler.TenantLineHandler;
 import com.springcool.common.web.handler.CustomMetaObjectHandler;
 import com.springcool.common.web.injector.CustomizedSqlInjector;
@@ -23,7 +23,7 @@ import org.springframework.context.annotation.Configuration;
 public class CustomMyBatisPlusConfig {
 
     @Autowired
-    private DataScopeHandler dataScopeAspect;
+    private CustomDataScopeHandler dataScopeAspect;
 
     @Autowired
     private TenantLineHandler tenantLineHandler;

@@ -18,6 +18,6 @@ import com.springcool.common.swagger.annotation.EnableCustomSwagger2;
 public class GenApplication {
     public static void main(String[] args) {
         SpringApplication.run(GenApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  代码生成模块启动成功   ლ(´ڡ`ლ)ﾞ  \n");
+        System.out.println("\n(♥◠‿◠)ﾉﾞ  代码生成模块启动成功   ლ(´ڡ`ლ)ﾞ\n");
     }
 }

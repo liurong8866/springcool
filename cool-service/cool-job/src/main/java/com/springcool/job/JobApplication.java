@@ -18,6 +18,6 @@ import com.springcool.common.swagger.annotation.EnableCustomSwagger2;
 public class JobApplication {
     public static void main(String[] args) {
         SpringApplication.run(JobApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  定时任务模块启动成功   ლ(´ڡ`ლ)ﾞ  \n");
+        System.out.println("\n(♥◠‿◠)ﾉﾞ  定时任务模块启动成功   ლ(´ڡ`ლ)ﾞ\n");
     }
 }
