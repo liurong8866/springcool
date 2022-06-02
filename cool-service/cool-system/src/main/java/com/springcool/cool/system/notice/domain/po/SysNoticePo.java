@@ -4,12 +4,16 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.entity.base.BaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * 通知公告 持久化对象
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName(value = "sys_notice",excludeProperty = {"sort"})
 public class SysNoticePo extends BaseEntity {
 
@@ -29,30 +33,4 @@ public class SysNoticePo extends BaseEntity {
     @Excel(name = "公告状态", readConverterExp = "0=未发送,1=已发送")
     @TableField("status")
     private String status;
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    @Override
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    @Override
-    public String getStatus() {
-        return status;
-    }
 }

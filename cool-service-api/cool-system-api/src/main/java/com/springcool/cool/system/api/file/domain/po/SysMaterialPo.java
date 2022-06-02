@@ -3,6 +3,8 @@ package com.springcool.cool.system.api.file.domain.po;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.tenant.base.TBaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.math.BigDecimal;
 
@@ -11,6 +13,8 @@ import java.math.BigDecimal;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class SysMaterialPo extends TBaseEntity {
 
     private static final long serialVersionUID = 1L;
@@ -49,60 +53,4 @@ public class SysMaterialPo extends TBaseEntity {
     @Excel(name = "素材类型", readConverterExp = "0=默认素材,1=系统素材")
     @TableField("type")
     private String type;
-
-    public Long getFolderId() {
-        return folderId;
-    }
-
-    public void setFolderId(Long folderId) {
-        this.folderId = folderId;
-    }
-
-    public String getNick() {
-        return nick;
-    }
-
-    public void setNick(String nick) {
-        this.nick = nick;
-    }
-
-    public String getOriginalName() {
-        return originalName;
-    }
-
-    public void setOriginalName(String originalName) {
-        this.originalName = originalName;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public String getOriginalUrl() {
-        return originalUrl;
-    }
-
-    public void setOriginalUrl(String originalUrl) {
-        this.originalUrl = originalUrl;
-    }
-
-    public BigDecimal getSize() {
-        return size;
-    }
-
-    public void setSize(BigDecimal size) {
-        this.size = size;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
 }

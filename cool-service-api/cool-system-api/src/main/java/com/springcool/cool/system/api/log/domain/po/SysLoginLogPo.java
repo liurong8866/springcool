@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.tenant.base.TBaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.time.LocalDateTime;
 
@@ -16,6 +18,8 @@ import static com.baomidou.mybatisplus.annotation.SqlCondition.LIKE;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName(value = "sys_login_log", excludeProperty = {"name", "sort", "createBy", "createTime", "updateBy", "updateTime", "remark"})
 public class SysLoginLogPo extends TBaseEntity {
 
@@ -61,70 +65,4 @@ public class SysLoginLogPo extends TBaseEntity {
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     @Excel(name = "访问时间", width = 30, dateFormat = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime accessTime;
-
-    public String getEnterpriseName() {
-        return enterpriseName;
-    }
-
-    public void setEnterpriseName(String enterpriseName) {
-        this.enterpriseName = enterpriseName;
-    }
-
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getUserNick() {
-        return userNick;
-    }
-
-    public void setUserNick(String userNick) {
-        this.userNick = userNick;
-    }
-
-    @Override
-    public String getStatus() {
-        return status;
-    }
-
-    @Override
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    public String getIpaddr() {
-        return ipaddr;
-    }
-
-    public void setIpaddr(String ipaddr) {
-        this.ipaddr = ipaddr;
-    }
-
-    public String getMsg() {
-        return msg;
-    }
-
-    public void setMsg(String msg) {
-        this.msg = msg;
-    }
-
-    public LocalDateTime getAccessTime() {
-        return accessTime;
-    }
-
-    public void setAccessTime(LocalDateTime accessTime) {
-        this.accessTime = accessTime;
-    }
 }

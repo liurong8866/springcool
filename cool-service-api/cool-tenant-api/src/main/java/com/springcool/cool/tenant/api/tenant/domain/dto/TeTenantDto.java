@@ -3,6 +3,8 @@ package com.springcool.cool.tenant.api.tenant.domain.dto;
 import cn.hutool.core.util.StrUtil;
 import com.springcool.cool.tenant.api.tenant.domain.po.TeTenantPo;
 import com.springcool.cool.common.core.constant.system.AuthorityConstants;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
@@ -11,6 +13,8 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class TeTenantDto extends TeTenantPo {
 
     private static final long serialVersionUID = 1L;
@@ -20,22 +24,6 @@ public class TeTenantDto extends TeTenantPo {
 
     /** 权限Ids */
     private Long[] authIds;
-
-    public TeStrategyDto getStrategy() {
-        return strategy;
-    }
-
-    public void setStrategy(TeStrategyDto strategy) {
-        this.strategy = strategy;
-    }
-
-    public Long[] getAuthIds() {
-        return authIds;
-    }
-
-    public void setAuthIds(Long[] authIds) {
-        this.authIds = authIds;
-    }
 
     /** 校验是否非租管租户 */
     public boolean isNotAdmin() {
@@ -50,31 +38,5 @@ public class TeTenantDto extends TeTenantPo {
     /** 校验是否为租管租户 */
     public static boolean isAdmin(String isLessor) {
         return StrUtil.equals(AuthorityConstants.TenantType.ADMIN.getCode(), isLessor);
-    }
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
-                .append("id", getId())
-                .append("strategyId", getStrategyId())
-                .append("strategy", getStrategy())
-                .append("name", getName())
-                .append("systemName", getSystemName())
-                .append("nick", getNick())
-                .append("logo", getLogo())
-                .append("nameFrequency", getNameFrequency())
-                .append("isLessor", getIsLessor())
-                .append("sort", getSort())
-                .append("status", getStatus())
-                .append("remark", getRemark())
-                .append("createBy", getCreateBy())
-                .append("createName", getCreateName())
-                .append("createTime", getCreateTime())
-                .append("updateBy", getUpdateBy())
-                .append("updateName", getUpdateName())
-                .append("updateTime", getUpdateTime())
-                .append("isDefault", getIsDefault())
-                .append("authIds", getAuthIds())
-                .toString();
     }
 }

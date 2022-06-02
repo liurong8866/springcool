@@ -1,10 +1,14 @@
 package com.springcool.cool.system.utils.route;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 /**
  * 菜单标签配置信息
  *
  * @author springcool
  */
+@Data
 public class TagVo {
 
     /** 为true则显示小圆点 */
@@ -15,28 +19,4 @@ public class TagVo {
 
     /** 类型 'error' | 'primary' | 'warn' | 'success' */
     private String type;
-
-    public Boolean getDot() {
-        return dot;
-    }
-
-    public void setDot(Boolean dot) {
-        this.dot = dot;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
 }

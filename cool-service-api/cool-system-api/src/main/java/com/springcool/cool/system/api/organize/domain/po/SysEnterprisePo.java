@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.web.entity.base.BaseEntity;
 import com.springcool.cool.common.core.xss.Xss;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
@@ -13,6 +15,8 @@ import javax.validation.constraints.Size;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName("te_tenant")
 public class SysEnterprisePo extends BaseEntity {
 
@@ -23,10 +27,16 @@ public class SysEnterprisePo extends BaseEntity {
     private Long strategyId;
 
     /** 系统名称 */
+    @Xss(message = "系统名称不能包含脚本字符")
+    @NotBlank(message = "系统名称不能为空")
+    @Size(max = 30, message = "系统名称长度不能超过30个字符")
     @TableField("system_name")
     private String systemName;
 
     /** 企业名称 */
+    @Xss(message = "企业名称不能包含脚本字符")
+    @NotBlank(message = "企业名称不能为空")
+    @Size(max = 30, message = "企业名称长度不能超过30个字符")
     @TableField("nick")
     private String nick;
 
@@ -46,73 +56,12 @@ public class SysEnterprisePo extends BaseEntity {
     @TableField("is_default")
     private String isDefault;
 
-    public Long getStrategyId() {
-        return strategyId;
-    }
-
-    public void setStrategyId(Long strategyId) {
-        this.strategyId = strategyId;
-    }
-
+    @Override
     @Xss(message = "企业账号不能包含脚本字符")
     @NotBlank(message = "企业账号不能为空")
     @Size(max = 30, message = "企业账号长度不能超过30个字符")
     public String getName() {
         return super.getName();
-    }
-
-    @Xss(message = "系统名称不能包含脚本字符")
-    @NotBlank(message = "系统名称不能为空")
-    @Size(max = 30, message = "系统名称长度不能超过30个字符")
-    public String getSystemName() {
-        return systemName;
-    }
-
-    public void setSystemName(String systemName) {
-        this.systemName = systemName;
-    }
-
-    @Xss(message = "企业名称不能包含脚本字符")
-    @NotBlank(message = "企业名称不能为空")
-    @Size(max = 30, message = "企业名称长度不能超过30个字符")
-    public String getNick() {
-        return nick;
-    }
-
-    public void setNick(String nick) {
-        this.nick = nick;
-    }
-
-    public String getLogo() {
-        return logo;
-    }
-
-    public void setLogo(String logo) {
-        this.logo = logo;
-    }
-
-    public String getIsLessor() {
-        return isLessor;
-    }
-
-    public void setIsLessor(String isLessor) {
-        this.isLessor = isLessor;
-    }
-
-    public Long getNameFrequency() {
-        return nameFrequency;
-    }
-
-    public void setNameFrequency(Long nameFrequency) {
-        this.nameFrequency = nameFrequency;
-    }
-
-    public String getIsDefault() {
-        return isDefault;
-    }
-
-    public void setIsDefault(String isDefault) {
-        this.isDefault = isDefault;
     }
 
 }

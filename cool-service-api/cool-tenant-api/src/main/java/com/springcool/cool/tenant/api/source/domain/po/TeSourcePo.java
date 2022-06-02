@@ -4,12 +4,16 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.entity.base.BaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * 数据源 持久化对象
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName("te_source")
 public class TeSourcePo extends BaseEntity {
 
@@ -49,61 +53,4 @@ public class TeSourcePo extends BaseEntity {
     @Excel(name = "默认数据源", readConverterExp = "Y=是,N=否")
     @TableField("is_default")
     private String isDefault;
-
-    public void setSlave(String slave) {
-        this.slave = slave;
-    }
-
-    public String getSlave() {
-        return slave;
-    }
-
-    public void setDriverClassName(String driverClassName) {
-        this.driverClassName = driverClassName;
-    }
-
-    public String getDriverClassName() {
-        return driverClassName;
-    }
-
-    public void setUrlPrepend(String urlPrepend) {
-        this.urlPrepend = urlPrepend;
-    }
-
-    public String getUrlPrepend() {
-        return urlPrepend;
-    }
-
-    public void setUrlAppend(String urlAppend) {
-        this.urlAppend = urlAppend;
-    }
-
-    public String getUrlAppend() {
-        return urlAppend;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setIsDefault(String isDefault) {
-        this.isDefault = isDefault;
-    }
-
-    public String getIsDefault() {
-        return isDefault;
-    }
-
 }

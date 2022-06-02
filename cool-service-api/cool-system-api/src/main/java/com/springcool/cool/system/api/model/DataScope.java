@@ -1,6 +1,8 @@
 package com.springcool.cool.system.api.model;
 
 import cn.hutool.core.collection.CollUtil;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 import java.util.HashSet;
@@ -11,6 +13,7 @@ import java.util.Set;
  *
  * @author springcool
  */
+@Data
 public class DataScope implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -26,36 +29,4 @@ public class DataScope implements Serializable {
 
     /** 权限控制 - 用户 */
     private Set<Long> userScope;
-
-    public String getDataScope() {
-        return dataScope;
-    }
-
-    public void setDataScope(String dataScope) {
-        this.dataScope = dataScope;
-    }
-
-    public Set<Long> getDeptScope() {
-        return CollUtil.isEmpty(deptScope) ? new HashSet<>() : deptScope;
-    }
-
-    public void setDeptScope(Set<Long> deptScope) {
-        this.deptScope = deptScope;
-    }
-
-    public Set<Long> getPostScope() {
-        return CollUtil.isEmpty(postScope) ? new HashSet<>() : postScope;
-    }
-
-    public void setPostScope(Set<Long> postScope) {
-        this.postScope = postScope;
-    }
-
-    public Set<Long> getUserScope() {
-        return CollUtil.isEmpty(userScope) ? new HashSet<>() : userScope;
-    }
-
-    public void setUserScope(Set<Long> userScope) {
-        this.userScope = userScope;
-    }
 }

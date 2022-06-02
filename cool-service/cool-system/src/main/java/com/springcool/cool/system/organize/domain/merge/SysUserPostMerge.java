@@ -3,12 +3,16 @@ package com.springcool.cool.system.organize.domain.merge;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.web.tenant.base.TBasisEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * 用户-岗位关联 持久化对象
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName("sys_user_post_merge")
 public class SysUserPostMerge extends TBasisEntity {
 
@@ -28,21 +32,5 @@ public class SysUserPostMerge extends TBasisEntity {
     public SysUserPostMerge(Long userId, Long postId) {
         setUserId(userId);
         setPostId(postId);
-    }
-
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
-
-    public Long getPostId() {
-        return postId;
-    }
-
-    public void setPostId(Long postId) {
-        this.postId = postId;
     }
 }

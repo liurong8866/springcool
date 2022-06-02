@@ -1,6 +1,8 @@
 package com.springcool.cool.system.api.authority.domain.dto;
 
 import com.springcool.cool.system.api.authority.domain.po.SysRolePo;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
@@ -9,6 +11,8 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class SysRoleDto extends SysRolePo {
 
     private static final long serialVersionUID = 1L;
@@ -18,42 +22,4 @@ public class SysRoleDto extends SysRolePo {
 
     /** 组织Ids（数据权限） */
     private Long[] organizeIds;
-
-    public Long[] getAuthIds() {
-        return authIds;
-    }
-
-    public void setAuthIds(Long[] authIds) {
-        this.authIds = authIds;
-    }
-
-    public Long[] getOrganizeIds() {
-        return organizeIds;
-    }
-
-    public void setOrganizeIds(Long[] organizeIds) {
-        this.organizeIds = organizeIds;
-    }
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
-                .append("id", getId())
-                .append("code", getCode())
-                .append("name", getName())
-                .append("roleKey", getRoleKey())
-                .append("dataScope", getDataScope())
-                .append("sort", getSort())
-                .append("status", getStatus())
-                .append("remark", getRemark())
-                .append("createBy", getCreateBy())
-                .append("createName", getCreateName())
-                .append("createTime", getCreateTime())
-                .append("updateBy", getUpdateBy())
-                .append("updateName", getUpdateName())
-                .append("updateTime", getUpdateTime())
-                .append("authIds", getAuthIds())
-                .append("organizeIds", getOrganizeIds())
-                .toString();
-    }
 }

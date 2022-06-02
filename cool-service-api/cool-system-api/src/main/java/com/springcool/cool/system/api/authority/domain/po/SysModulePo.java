@@ -5,12 +5,16 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.tenant.common.TCSubBaseEntity;
 import com.springcool.cool.system.api.authority.domain.dto.SysMenuDto;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * 模块 持久化对象
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName("sys_module")
 public class SysModulePo extends TCSubBaseEntity<SysMenuDto> {
 
@@ -44,52 +48,4 @@ public class SysModulePo extends TCSubBaseEntity<SysMenuDto> {
     /** 默认模块（Y是 N否） */
     @TableField("is_default")
     private String isDefault;
-
-    public String getLogo() {
-        return logo;
-    }
-
-    public void setLogo(String logo) {
-        this.logo = logo;
-    }
-
-    public String getPath() {
-        return path;
-    }
-
-    public void setPath(String path) {
-        this.path = path;
-    }
-
-    public String getParamPath() {
-        return paramPath;
-    }
-
-    public void setParamPath(String paramPath) {
-        this.paramPath = paramPath;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public String getHideModule() {
-        return hideModule;
-    }
-
-    public void setHideModule(String hideModule) {
-        this.hideModule = hideModule;
-    }
-
-    public String getIsDefault() {
-        return isDefault;
-    }
-
-    public void setIsDefault(String isDefault) {
-        this.isDefault = isDefault;
-    }
 }

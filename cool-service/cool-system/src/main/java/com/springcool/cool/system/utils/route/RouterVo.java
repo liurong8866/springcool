@@ -1,6 +1,8 @@
 package com.springcool.cool.system.utils.route;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.util.List;
 
@@ -9,6 +11,7 @@ import java.util.List;
  *
  * @author springcool
  */
+@Data
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class RouterVo {
 
@@ -38,91 +41,4 @@ public class RouterVo {
 
     /** 子路由 */
     private List<RouterVo> children;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPath() {
-        return path;
-    }
-
-    public void setPath(String path) {
-        this.path = path;
-    }
-
-    public String getRedirect() {
-        return redirect;
-    }
-
-    public void setRedirect(String redirect) {
-        this.redirect = redirect;
-    }
-
-    public String getComponent() {
-        return component;
-    }
-
-    public void setComponent(String component) {
-        this.component = component;
-    }
-
-    public Boolean getDisabled() {
-        return disabled;
-    }
-
-    public void setDisabled(Boolean disabled) {
-        this.disabled = disabled;
-    }
-
-    public TagVo getTag() {
-        return tag;
-    }
-
-    public void setTag(TagVo tag) {
-        this.tag = tag;
-    }
-
-    public String getParamPath() {
-        return paramPath;
-    }
-
-    public void setParamPath(String paramPath) {
-        this.paramPath = paramPath;
-    }
-
-    public MetaVo getMeta() {
-        return meta;
-    }
-
-    public void setMeta(MetaVo meta) {
-        this.meta = meta;
-    }
-
-    public List<RouterVo> getChildren() {
-        return children;
-    }
-
-    public void setChildren(List<RouterVo> children) {
-        this.children = children;
-    }
-
-    @Override
-    public String toString() {
-        return "RouterVo{" +
-                "name='" + name + '\'' +
-                ", path='" + path + '\'' +
-                ", redirect='" + redirect + '\'' +
-                ", component='" + component + '\'' +
-                ", disabled=" + disabled +
-                ", tag=" + tag +
-                ", paramPath='" + paramPath + '\'' +
-                ", meta=" + meta +
-                ", children=" + children +
-                '}';
-    }
 }

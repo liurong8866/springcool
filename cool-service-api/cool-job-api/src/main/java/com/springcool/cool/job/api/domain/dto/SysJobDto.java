@@ -1,6 +1,8 @@
 package com.springcool.cool.job.api.domain.dto;
 
 import com.springcool.cool.job.api.domain.po.SysJobPo;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
@@ -9,29 +11,9 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class SysJobDto extends SysJobPo {
 
     private static final long serialVersionUID = 1L;
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
-                .append("id", getId())
-                .append("name", getName())
-                .append("jobGroup", getJobGroup())
-                .append("invokeTarget", getInvokeTarget())
-                .append("cronExpression", getCronExpression())
-                .append("misfirePolicy", getMisfirePolicy())
-                .append("concurrent", getConcurrent())
-                .append("status", getStatus())
-                .append("remark", getRemark())
-                .append("createBy", getCreateBy())
-                .append("createName", getCreateName())
-                .append("createTime", getCreateTime())
-                .append("updateBy", getUpdateBy())
-                .append("updateName", getUpdateName())
-                .append("updateTime", getUpdateTime())
-                .append("subList", getSubList())
-                .toString();
-    }
 }

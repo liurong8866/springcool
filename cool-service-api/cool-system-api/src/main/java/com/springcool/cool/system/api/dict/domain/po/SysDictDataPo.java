@@ -6,12 +6,16 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.annotation.Excel.ColumnType;
 import com.springcool.cool.common.core.web.entity.base.BaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * 字典数据 持久化对象
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName(value = "sys_dict_data", excludeProperty = {"name", "delFlag"})
 public class SysDictDataPo extends BaseEntity {
 
@@ -44,52 +48,4 @@ public class SysDictDataPo extends BaseEntity {
     @Excel(name = "是否默认", readConverterExp = "Y=是,N=否")
     @TableField("is_default")
     private String isDefault;
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
-    public String getValue() {
-        return value;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
-    }
-
-    public String getLabel() {
-        return label;
-    }
-
-    public void setLabel(String label) {
-        this.label = label;
-    }
-
-    public String getCssClass() {
-        return cssClass;
-    }
-
-    public void setCssClass(String cssClass) {
-        this.cssClass = cssClass;
-    }
-
-    public String getListClass() {
-        return listClass;
-    }
-
-    public void setListClass(String listClass) {
-        this.listClass = listClass;
-    }
-
-    public String getIsDefault() {
-        return isDefault;
-    }
-
-    public void setIsDefault(String isDefault) {
-        this.isDefault = isDefault;
-    }
 }

@@ -7,6 +7,8 @@ import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.annotation.Excel.Type;
 import com.springcool.cool.common.core.web.tenant.base.TBaseEntity;
 import com.springcool.cool.common.core.xss.Xss;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
@@ -18,12 +20,17 @@ import java.time.LocalDateTime;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName(value = "sys_user", excludeProperty = {"name"})
 public class SysUserPo extends TBaseEntity {
 
     private static final long serialVersionUID = 1L;
 
     /** 用户编码 */
+    @Xss(message = "用户编码不能包含脚本字符")
+    @NotBlank(message = "用户编码不能为空")
+    @Size(max = 64, message = "用户编码长度不能超过64个字符")
     @Excel(name = "用户编码(*)")
     @TableField(value = "code", updateStrategy = FieldStrategy.NEVER)
     private String code;
@@ -34,6 +41,9 @@ public class SysUserPo extends TBaseEntity {
     private String userName;
 
     /** 用户昵称 */
+    @Xss(message = "用户编码不能包含脚本字符")
+    @NotBlank(message = "用户账号不能为空")
+    @Size(max = 30, message = "用户昵称长度不能超过30个字符")
     @Excel(name = "用户名称")
     @TableField("nick_name")
     private String nickName;
@@ -43,11 +53,14 @@ public class SysUserPo extends TBaseEntity {
     private String userType;
 
     /** 手机号码 */
+    @Size(max = 11, message = "手机号码长度不能超过11个字符")
     @Excel(name = "手机号码")
     @TableField("phone")
     private String phone;
 
     /** 用户邮箱 */
+    @Email(message = "邮箱格式不正确")
+    @Size(max = 50, message = "邮箱长度不能超过50个字符")
     @Excel(name = "用户邮箱")
     @TableField("email")
     private String email;
@@ -79,112 +92,10 @@ public class SysUserPo extends TBaseEntity {
     @TableField("login_date")
     private LocalDateTime loginDate;
 
-    @Xss(message = "用户编码不能包含脚本字符")
-    @NotBlank(message = "用户编码不能为空")
-    @Size(max = 64, message = "用户编码长度不能超过64个字符")
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
     @Xss(message = "用户账号不能包含脚本字符")
     @NotBlank(message = "用户账号不能为空")
     @Size(max = 30, message = "用户账号长度不能超过30个字符")
     public String getUserName() {
         return userName;
     }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getUserType() {
-        return userType;
-    }
-
-    public void setUserType(String userType) {
-        this.userType = userType;
-    }
-
-    @Xss(message = "用户编码不能包含脚本字符")
-    @NotBlank(message = "用户账号不能为空")
-    @Size(max = 30, message = "用户昵称长度不能超过30个字符")
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
-
-    @Size(max = 11, message = "手机号码长度不能超过11个字符")
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    @Email(message = "邮箱格式不正确")
-    @Size(max = 50, message = "邮箱长度不能超过50个字符")
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
-
-    public String getAvatar() {
-        return avatar;
-    }
-
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
-    }
-
-    public String getProfile() {
-        return profile;
-    }
-
-    public void setProfile(String profile) {
-        this.profile = profile;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getLoginIp() {
-        return loginIp;
-    }
-
-    public void setLoginIp(String loginIp) {
-        this.loginIp = loginIp;
-    }
-
-    public LocalDateTime getLoginDate() {
-        return loginDate;
-    }
-
-    public void setLoginDate(LocalDateTime loginDate) {
-        this.loginDate = loginDate;
-    }
-
 }

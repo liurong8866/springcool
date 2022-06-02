@@ -4,15 +4,21 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.tenant.base.TBaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+
+import static com.baomidou.mybatisplus.annotation.SqlCondition.LIKE;
 
 /**
  * 角色 持久化对象
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName("sys_role")
 public class SysRolePo extends TBaseEntity {
 
@@ -24,6 +30,8 @@ public class SysRolePo extends TBaseEntity {
     private String code;
 
     /** 角色权限字符串 */
+    @NotBlank(message = "权限字符不能为空")
+    @Size(min = 0, max = 100, message = "权限字符长度不能超过100个字符")
     @Excel(name = "角色权限字符串")
     @TableField("role_key")
     private String roleKey;
@@ -33,36 +41,11 @@ public class SysRolePo extends TBaseEntity {
     @TableField("data_scope")
     private String dataScope;
 
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
+    @Override
     @NotBlank(message = "角色名称不能为空")
     @Size(min = 0, max = 30, message = "角色名称长度不能超过30个字符")
     public String getName() {
         return super.getName();
-    }
-
-    @NotBlank(message = "权限字符不能为空")
-    @Size(min = 0, max = 100, message = "权限字符长度不能超过100个字符")
-    public String getRoleKey() {
-        return roleKey;
-    }
-
-    public void setRoleKey(String roleKey) {
-        this.roleKey = roleKey;
-    }
-
-    public String getDataScope() {
-        return dataScope;
-    }
-
-    public void setDataScope(String dataScope) {
-        this.dataScope = dataScope;
     }
 
 }

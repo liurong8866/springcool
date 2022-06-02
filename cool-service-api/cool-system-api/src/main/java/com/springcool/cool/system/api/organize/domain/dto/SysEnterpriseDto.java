@@ -3,6 +3,8 @@ package com.springcool.cool.system.api.organize.domain.dto;
 import cn.hutool.core.util.StrUtil;
 import com.springcool.cool.system.api.organize.domain.po.SysEnterprisePo;
 import com.springcool.cool.common.core.constant.system.AuthorityConstants;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
@@ -21,26 +23,5 @@ public class SysEnterpriseDto extends SysEnterprisePo {
 
     public static boolean isAdmin(String isLessor) {
         return StrUtil.equals(AuthorityConstants.TenantType.ADMIN.getCode(), isLessor);
-    }
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
-                .append("id", getId())
-                .append("systemName", getSystemName())
-                .append("name", getName())
-                .append("nick", getNick())
-                .append("logo", getLogo())
-                .append("isLessor", getIsLessor())
-                .append("nameFrequency", getNameFrequency())
-                .append("status", getStatus())
-                .append("createBy", getCreateBy())
-                .append("createName", getCreateName())
-                .append("createTime", getCreateTime())
-                .append("updateBy", getUpdateBy())
-                .append("updateName", getUpdateName())
-                .append("updateTime", getUpdateTime())
-                .append("remark", getRemark())
-                .toString();
     }
 }

@@ -5,6 +5,8 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.tenant.base.TBaseEntity;
 import com.springcool.cool.common.core.xss.Xss;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -15,39 +17,25 @@ import javax.validation.constraints.Size;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName("sys_post")
 public class SysPostPo extends TBaseEntity {
 
     private static final long serialVersionUID = 1L;
 
     /** 部门Id */
+    @NotNull(message = "归属部门不能为空")
     @TableField("dept_id")
     private Long deptId;
 
     /** 岗位编码 */
-    @Excel(name = "岗位编码(*)")
-    @TableField("code")
-    private String code;
-
-    @NotNull(message = "归属部门不能为空")
-    public Long getDeptId() {
-        return deptId;
-    }
-
-    public void setDeptId(Long deptId) {
-        this.deptId = deptId;
-    }
-
     @Xss(message = "岗位编码不能包含脚本字符")
     @NotBlank(message = "岗位编码不能为空")
     @Size(min = 0, max = 64, message = "岗位编码长度不能超过64个字符")
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
+    @Excel(name = "岗位编码(*)")
+    @TableField("code")
+    private String code;
 
     @Override
     @Xss(message = "岗位名称不能包含脚本字符")

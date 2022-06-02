@@ -9,6 +9,8 @@ import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.tenant.base.TSubBaseEntity;
 import com.springcool.cool.job.api.domain.dto.SysJobLogDto;
 import com.springcool.cool.job.api.utils.CronUtils;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
@@ -19,10 +21,16 @@ import java.util.Date;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName(value = "sys_job", excludeProperty = {"sort"})
 public class SysJobPo extends TSubBaseEntity<SysJobLogDto> {
 
     private static final long serialVersionUID = 1L;
+
+    @NotBlank(message = "任务名称不能为空")
+    @Size(min = 0, max = 64, message = "任务名称不能超过64个字符")
+    public String name;
 
     /** 任务组名 */
     @Excel(name = "任务组名")
@@ -58,37 +66,10 @@ public class SysJobPo extends TSubBaseEntity<SysJobLogDto> {
     @TableField("status")
     private String status;
 
-    @Override
-    @NotBlank(message = "任务名称不能为空")
-    @Size(min = 0, max = 64, message = "任务名称不能超过64个字符")
-    public String getName() {
-        return super.getName();
-    }
-
-    public String getJobGroup() {
-        return jobGroup;
-    }
-
-    public void setJobGroup(String jobGroup) {
-        this.jobGroup = jobGroup;
-    }
-
     @NotBlank(message = "调用目标字符串不能为空")
     @Size(min = 0, max = 500, message = "调用目标字符串长度不能超过500个字符")
     public String getInvokeTarget() {
         return invokeTarget;
-    }
-
-    public void setInvokeTarget(String invokeTarget) {
-        this.invokeTarget = invokeTarget;
-    }
-
-    public String getInvokeTenant() {
-        return invokeTenant;
-    }
-
-    public void setInvokeTenant(String invokeTenant) {
-        this.invokeTenant = invokeTenant;
     }
 
     @NotBlank(message = "Cron执行表达式不能为空")
@@ -97,39 +78,9 @@ public class SysJobPo extends TSubBaseEntity<SysJobLogDto> {
         return cronExpression;
     }
 
-    public void setCronExpression(String cronExpression) {
-        this.cronExpression = cronExpression;
-    }
-
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     public Date getNextValidTime() {
         return StrUtil.isNotEmpty(cronExpression) ? CronUtils.getNextExecution(cronExpression) : null;
-    }
-
-    public String getMisfirePolicy() {
-        return misfirePolicy;
-    }
-
-    public void setMisfirePolicy(String misfirePolicy) {
-        this.misfirePolicy = misfirePolicy;
-    }
-
-    public String getConcurrent() {
-        return concurrent;
-    }
-
-    public void setConcurrent(String concurrent) {
-        this.concurrent = concurrent;
-    }
-
-    @Override
-    public String getStatus() {
-        return status;
-    }
-
-    @Override
-    public void setStatus(String status) {
-        this.status = status;
     }
 
 }

@@ -1,6 +1,8 @@
 package com.springcool.cool.job.api.domain.dto;
 
 import com.springcool.cool.job.api.domain.po.SysJobLogPo;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
@@ -11,6 +13,8 @@ import java.time.LocalDateTime;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class SysJobLogDto extends SysJobLogPo {
 
     private static final long serialVersionUID = 1L;
@@ -20,38 +24,4 @@ public class SysJobLogDto extends SysJobLogPo {
 
     /** 停止时间 */
     private LocalDateTime stopTime;
-
-    public LocalDateTime getStartTime() {
-        return startTime;
-    }
-
-    public void setStartTime(LocalDateTime startTime) {
-        this.startTime = startTime;
-    }
-    
-    public LocalDateTime getStopTime()
-    {
-        return stopTime;
-    }
-
-    public void setStopTime(LocalDateTime stopTime)
-    {
-        this.stopTime = stopTime;
-    }
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
-                .append("id", getId())
-                .append("name", getName())
-                .append("jobGroup", getJobGroup())
-                .append("invokeTarget", getInvokeTarget())
-                .append("jobMessage", getJobMessage())
-                .append("status", getStatus())
-                .append("exceptionInfo", getExceptionInfo())
-                .append("createTime", getCreateTime())
-                .append("startTime", getStartTime())
-                .append("stopTime", getStopTime())
-                .toString();
-    }
 }

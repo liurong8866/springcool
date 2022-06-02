@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.tenant.common.TCTreeEntity;
 import com.springcool.cool.system.api.authority.domain.dto.SysMenuDto;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.validation.constraints.NotNull;
 
@@ -14,6 +16,8 @@ import javax.validation.constraints.NotNull;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName("sys_menu")
 public class SysMenuPo extends TCTreeEntity<SysMenuDto> {
 
@@ -21,6 +25,7 @@ public class SysMenuPo extends TCTreeEntity<SysMenuDto> {
 
     /** 模块Id */
     @TableField("module_id")
+    @NotNull(message = "模块Id不能为空")
     private Long moduleId;
 
     /** 菜单标题 | 多语言 */
@@ -132,189 +137,4 @@ public class SysMenuPo extends TCTreeEntity<SysMenuDto> {
     @Excel(name = "默认菜单", readConverterExp = "Y=是,N=否")
     @TableField("is_default")
     private String isDefault;
-
-    @NotNull(message = "模块Id不能为空")
-    public Long getModuleId() {
-        return moduleId;
-    }
-
-    public void setModuleId(Long moduleId) {
-        this.moduleId = moduleId;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getPath() {
-        return path;
-    }
-
-    public void setPath(String path) {
-        this.path = path;
-    }
-
-    public String getFrameSrc() {
-        return frameSrc;
-    }
-
-    public void setFrameSrc(String frameSrc) {
-        this.frameSrc = frameSrc;
-    }
-
-    public String getComponent() {
-        return component;
-    }
-
-    public void setComponent(String component) {
-        this.component = component;
-    }
-
-    public String getParamPath() {
-        return paramPath;
-    }
-
-    public void setParamPath(String paramPath) {
-        this.paramPath = paramPath;
-    }
-
-    public String getTransitionName() {
-        return transitionName;
-    }
-
-    public void setTransitionName(String transitionName) {
-        this.transitionName = transitionName;
-    }
-
-    public String getIgnoreRoute() {
-        return ignoreRoute;
-    }
-
-    public void setIgnoreRoute(String ignoreRoute) {
-        this.ignoreRoute = ignoreRoute;
-    }
-
-    public String getIsCache() {
-        return isCache;
-    }
-
-    public void setIsCache(String isCache) {
-        this.isCache = isCache;
-    }
-
-    public String getIsAffix() {
-        return isAffix;
-    }
-
-    public void setIsAffix(String isAffix) {
-        this.isAffix = isAffix;
-    }
-
-    public String getIsDisabled() {
-        return isDisabled;
-    }
-
-    public void setIsDisabled(String isDisabled) {
-        this.isDisabled = isDisabled;
-    }
-
-    public String getFrameType() {
-        return frameType;
-    }
-
-    public void setFrameType(String frameType) {
-        this.frameType = frameType;
-    }
-
-    public String getMenuType() {
-        return menuType;
-    }
-
-    public void setMenuType(String menuType) {
-        this.menuType = menuType;
-    }
-
-    public String getHideTab() {
-        return hideTab;
-    }
-
-    public void setHideTab(String hideTab) {
-        this.hideTab = hideTab;
-    }
-
-    public String getHideMenu() {
-        return hideMenu;
-    }
-
-    public void setHideMenu(String hideMenu) {
-        this.hideMenu = hideMenu;
-    }
-
-    public String getHideBreadcrumb() {
-        return hideBreadcrumb;
-    }
-
-    public void setHideBreadcrumb(String hideBreadcrumb) {
-        this.hideBreadcrumb = hideBreadcrumb;
-    }
-
-    public String getHideChildren() {
-        return hideChildren;
-    }
-
-    public void setHideChildren(String hideChildren) {
-        this.hideChildren = hideChildren;
-    }
-
-    public String getHidePathForChildren() {
-        return hidePathForChildren;
-    }
-
-    public void setHidePathForChildren(String hidePathForChildren) {
-        this.hidePathForChildren = hidePathForChildren;
-    }
-
-    public Integer getDynamicLevel() {
-        return dynamicLevel;
-    }
-
-    public void setDynamicLevel(Integer dynamicLevel) {
-        this.dynamicLevel = dynamicLevel;
-    }
-
-    public String getRealPath() {
-        return realPath;
-    }
-
-    public void setRealPath(String realPath) {
-        this.realPath = realPath;
-    }
-
-    public String getPerms() {
-        return perms;
-    }
-
-    public void setPerms(String perms) {
-        this.perms = perms;
-    }
-
-    public String getIcon() {
-        return icon;
-    }
-
-    public void setIcon(String icon) {
-        this.icon = icon;
-    }
-
-    public String getIsDefault() {
-        return isDefault;
-    }
-
-    public void setIsDefault(String isDefault) {
-        this.isDefault = isDefault;
-    }
 }

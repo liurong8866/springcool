@@ -4,12 +4,16 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.tenant.base.TBaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * 调度日志 持久化对象
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName(value = "sys_job_log", excludeProperty = {"createBy","updateBy","remark","updateTime","sort"})
 public class SysJobLogPo extends TBaseEntity {
 
@@ -47,62 +51,4 @@ public class SysJobLogPo extends TBaseEntity {
     @Excel(name = "异常信息")
     @TableField("exception_info")
     private String exceptionInfo;
-
-    public Long getJobId() {
-        return jobId;
-    }
-
-    public void setJobId(Long jobId) {
-        this.jobId = jobId;
-    }
-
-    public String getJobGroup() {
-        return jobGroup;
-    }
-
-    public void setJobGroup(String jobGroup) {
-        this.jobGroup = jobGroup;
-    }
-
-    public String getInvokeTarget() {
-        return invokeTarget;
-    }
-
-    public void setInvokeTarget(String invokeTarget) {
-        this.invokeTarget = invokeTarget;
-    }
-
-    public String getInvokeTenant() {
-        return invokeTenant;
-    }
-
-    public void setInvokeTenant(String invokeTenant) {
-        this.invokeTenant = invokeTenant;
-    }
-
-    public String getJobMessage() {
-        return jobMessage;
-    }
-
-    public void setJobMessage(String jobMessage) {
-        this.jobMessage = jobMessage;
-    }
-
-    @Override
-    public String getStatus() {
-        return status;
-    }
-
-    @Override
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    public String getExceptionInfo() {
-        return exceptionInfo;
-    }
-
-    public void setExceptionInfo(String exceptionInfo) {
-        this.exceptionInfo = exceptionInfo;
-    }
 }

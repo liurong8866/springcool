@@ -4,12 +4,16 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.constant.system.OrganizeConstants;
 import com.springcool.cool.common.core.web.tenant.base.TBasisEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * 组织-角色关联（角色绑定） 持久化对象
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName("sys_organize_role_merge")
 public class SysOrganizeRoleMerge extends TBasisEntity {
 
@@ -47,37 +51,5 @@ public class SysOrganizeRoleMerge extends TBasisEntity {
                 break;
         }
         setRoleId(roleId);
-    }
-
-    public Long getDeptId() {
-        return deptId;
-    }
-
-    public void setDeptId(Long deptId) {
-        this.deptId = deptId;
-    }
-
-    public Long getPostId() {
-        return postId;
-    }
-
-    public void setPostId(Long postId) {
-        this.postId = postId;
-    }
-
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
-
-    public Long getRoleId() {
-        return roleId;
-    }
-
-    public void setRoleId(Long roleId) {
-        this.roleId = roleId;
     }
 }

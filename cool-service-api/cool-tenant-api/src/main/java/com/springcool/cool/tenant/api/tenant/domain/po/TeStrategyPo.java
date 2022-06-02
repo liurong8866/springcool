@@ -4,12 +4,16 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;
 import com.springcool.cool.common.core.web.entity.base.BaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * 数据源策略 持久化对象
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName("te_strategy")
 public class TeStrategyPo extends BaseEntity {
 
@@ -29,29 +33,4 @@ public class TeStrategyPo extends BaseEntity {
     @Excel(name = "默认策略", readConverterExp = "Y=是,N=否")
     @TableField("is_default")
     private String isDefault;
-
-    public void setSourceId(Long sourceId) {
-        this.sourceId = sourceId;
-    }
-
-    public Long getSourceId() {
-        return sourceId;
-    }
-
-    public void setSourceSlave(String sourceSlave) {
-        this.sourceSlave = sourceSlave;
-    }
-
-    public String getSourceSlave() {
-        return sourceSlave;
-    }
-
-    public void setIsDefault(String isDefault) {
-        this.isDefault = isDefault;
-    }
-
-    public String getIsDefault() {
-        return isDefault;
-    }
-
 }

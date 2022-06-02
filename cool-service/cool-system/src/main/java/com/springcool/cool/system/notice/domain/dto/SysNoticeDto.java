@@ -1,6 +1,8 @@
 package com.springcool.cool.system.notice.domain.dto;
 
 import com.springcool.cool.system.notice.domain.po.SysNoticePo;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
@@ -9,25 +11,9 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class SysNoticeDto extends SysNoticePo {
 
     private static final long serialVersionUID = 1L;
-
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
-                .append("id", getId())
-                .append("name", getName())
-                .append("type", getType())
-                .append("content", getContent())
-                .append("status", getStatus())
-                .append("remark", getRemark())
-                .append("createBy", getCreateBy())
-                .append("createName", getCreateName())
-                .append("createTime", getCreateTime())
-                .append("updateBy", getUpdateBy())
-                .append("updateName", getUpdateName())
-                .append("updateTime", getUpdateTime())
-                .toString();
-    }
 }
