@@ -21,6 +21,8 @@
     <file url="file://$PROJECT_DIR$/cool-common/cool-common-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cool-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cool-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cool-nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cool-nacos/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cool-service-api/cool-file-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cool-service-api/cool-file-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cool-service-api/cool-job-api/src/main/java" charset="UTF-8" />

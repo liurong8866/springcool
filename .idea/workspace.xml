@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361f4b5c-5151-42a8-a32e-ba01d948d44d" name="Changes" comment="" />
+    <list default="true" id="361f4b5c-5151-42a8-a32e-ba01d948d44d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/java/com/springcool/common/datasource/config/MyDynamicDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/java/com/springcool/common/datasource/config/CustomDynamicDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +61,71 @@
       </set>
     </option>
   </component>
+  <component name="RunManager" selected="Spring Boot.FileApplication">
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cool-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cool-file" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.file.FileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cool-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cool-gen" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.gen.GenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cool-job" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.job.JobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cool-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.monitor.MonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cool-nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.nacos.NacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cool-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.system.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenantApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cool-tenant" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.tenant.TenantApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -87,9 +156,24 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/gateway/filter/CacheRequestFilter.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/system/authority/controller/SysLoginController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/system/authority/controller/SysLoginController.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cool-auth/src/main/java/com/springcool/auth/controller/TokenController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cool-auth/src/main/java/com/springcool/auth/service/SysLoginService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

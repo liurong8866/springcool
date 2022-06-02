@@ -20,7 +20,7 @@ import javax.annotation.PostConstruct;
  */
 @Configuration
 @AutoConfigureBefore(DynamicDataSourceAutoConfiguration.class)
-public class MyDynamicDataSourceConfig {
+public class CustomDynamicDataSourceConfig {
 
     @Bean
     public DsProcessor dsProcessor() {
