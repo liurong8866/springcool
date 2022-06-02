@@ -5,11 +5,9 @@ target
 .DS_Store
 *.classpath
 *.project
-*.log
 .settings/
 .factorypath
 
-log/
 *.factorypath
 
 # Compiled class file
