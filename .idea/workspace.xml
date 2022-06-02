@@ -5,30 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30989b44-b426-4e96-aae3-800d54855226" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/BasisEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/BasisEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/SubBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/SubBaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/SubTreeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/SubTreeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/TreeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/base/TreeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CBaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CBasisEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CBasisEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CSubBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CSubBaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CSubTreeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CSubTreeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CTreeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/entity/common/CTreeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/page/PageDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/page/PageDomain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/page/TableDataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/page/TableDataInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TBaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TBasisEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TBasisEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TSubBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TSubBaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TSubTreeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TSubTreeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TTreeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/base/TTreeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCBaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCBasisEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCBasisEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCSubBaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCSubBaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCSubTreeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCSubTreeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCTreeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/tenant/common/TCTreeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/vo/TreeSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-core/src/main/java/com/springcool/cool/common/core/web/vo/TreeSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/java/com/springcool/cool/common/datasource/config/properties/SourceProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/java/com/springcool/cool/common/datasource/config/properties/SourceProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-swagger/src/main/java/com/springcool/cool/common/swagger/config/SwaggerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-swagger/src/main/java/com/springcool/cool/common/swagger/config/SwaggerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-web/src/main/java/com/springcool/cool/common/web/config/properties/TenantProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-web/src/main/java/com/springcool/cool/common/web/config/properties/TenantProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/CaptchaProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/CaptchaProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/IgnoreWhiteProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/IgnoreWhiteProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/XssProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/XssProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-service/cool-file/src/main/java/com/springcool/cool/file/config/MinioConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-file/src/main/java/com/springcool/cool/file/config/MinioConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +40,6 @@
   <component name="ProjectId" id="2A1dUNe9I9DM0sVTksoXCIQmsGg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -150,5 +132,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/manager/impl/GenTableManager.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
