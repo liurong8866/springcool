@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.springcool.common.datasource.config.properties.SourceProperties,\
-  com.springcool.common.datasource.config.CustomDynamicDataSourceConfig,\
-  com.springcool.common.datasource.provider.DynamicDataSourceLoading
+  com.springcool.cool.common.datasource.config.properties.SourceProperties,\
+  com.springcool.cool.common.datasource.config.CustomDynamicDataSourceConfig,\
+  com.springcool.cool.common.datasource.provider.DynamicDataSourceLoading

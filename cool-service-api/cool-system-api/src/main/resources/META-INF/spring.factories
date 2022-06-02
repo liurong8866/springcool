@@ -1,10 +1,10 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.springcool.system.api.organize.feign.factory.RemoteDeptFallbackFactory,\
-  com.springcool.system.api.organize.feign.factory.RemotePostFallbackFactory,\
-  com.springcool.system.api.organize.feign.factory.RemoteUserFallbackFactory,\
-  com.springcool.system.api.authority.feign.factory.RemoteLoginFallbackFactory,\
-  com.springcool.system.api.authority.feign.factory.RemoteMenuFallbackFactory,\
-  com.springcool.system.api.authority.feign.factory.RemoteAuthFallbackFactory,\
-  com.springcool.system.api.dict.feign.factory.RemoteConfigFallbackFactory,\
-  com.springcool.system.api.log.feign.factory.RemoteLogFallbackFactory,\
-  com.springcool.system.api.source.feign.factory.RemoteSourceFallbackFactory
+  com.springcool.cool.system.api.organize.feign.factory.RemoteDeptFallbackFactory,\
+  com.springcool.cool.system.api.organize.feign.factory.RemotePostFallbackFactory,\
+  com.springcool.cool.system.api.organize.feign.factory.RemoteUserFallbackFactory,\
+  com.springcool.cool.system.api.authority.feign.factory.RemoteLoginFallbackFactory,\
+  com.springcool.cool.system.api.authority.feign.factory.RemoteMenuFallbackFactory,\
+  com.springcool.cool.system.api.authority.feign.factory.RemoteAuthFallbackFactory,\
+  com.springcool.cool.system.api.dict.feign.factory.RemoteConfigFallbackFactory,\
+  com.springcool.cool.system.api.log.feign.factory.RemoteLogFallbackFactory,\
+  com.springcool.cool.system.api.source.feign.factory.RemoteSourceFallbackFactory

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.springcool.gen.mapper.GenTableColumnMapper">
+<mapper namespace="com.springcool.cool.gen.mapper.GenTableColumnMapper">
     
-    <resultMap type="com.springcool.gen.domain.dto.GenTableColumnDto" id="GenTableColumnResult">
+    <resultMap type="com.springcool.cool.gen.domain.dto.GenTableColumnDto" id="GenTableColumnResult">
         <id     property="id"               column="id"             />
         <result property="name"             column="name"           />
         <result property="comment"          column="comment"        />
