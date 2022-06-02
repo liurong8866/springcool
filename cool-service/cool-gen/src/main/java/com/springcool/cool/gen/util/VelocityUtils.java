@@ -381,8 +381,8 @@ public class VelocityUtils {
      * 获取覆盖与隐藏字段信息
      */
     public static Map<String, Set<String>> getCoverMap(GenTableDto genTable) {
-        Set<String> coverSet = genTable.getSubList().stream().filter(GenTableColumnDto::isCover).map(GenTableColumnDto::getJavaField).collect(Collectors.toSet());
-        Set<String> hideSet = genTable.getSubList().stream().filter(GenTableColumnDto::isHide).map(GenTableColumnDto::getJavaField).collect(Collectors.toSet());
+        Set<String> coverSet = genTable.getSubList().stream().filter(GenTableColumnDto::getIsCover).map(GenTableColumnDto::getJavaField).collect(Collectors.toSet());
+        Set<String> hideSet = genTable.getSubList().stream().filter(GenTableColumnDto::getIsHide).map(GenTableColumnDto::getJavaField).collect(Collectors.toSet());
         switch (Objects.requireNonNull(GenConstants.TemplateType.getValue(genTable.getTplCategory()))) {
             case TREE:
                 Set<String> treeSet = new HashSet<>(Arrays.asList(ArrayUtil.addAll(GenConfig.getEntity().getBack().getBase(), GenConfig.getEntity().getBack().getTree())));

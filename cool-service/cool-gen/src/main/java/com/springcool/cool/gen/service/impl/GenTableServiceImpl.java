@@ -372,7 +372,7 @@ public class GenTableServiceImpl extends SubBaseServiceImpl<GenTableQuery, GenTa
         else if (StrUtil.isEmpty(optionsObj.getString(OptionField.ID.getCode())))
             throw new ServiceException("主键字段不能为空");
         for (GenTableColumnDto column : genTable.getSubList())
-            if (column.isPk() && !ObjectUtil.equals(column.getId(), optionsObj.getLong(OptionField.ID.getCode())))
+            if (column.getIsPk() && !ObjectUtil.equals(column.getId(), optionsObj.getLong(OptionField.ID.getCode())))
                 throw new ServiceException("主键字段只能为数据表主键");
     }
 
@@ -440,7 +440,7 @@ public class GenTableServiceImpl extends SubBaseServiceImpl<GenTableQuery, GenTa
      */
     private void setBaseTable(GenTableDto table, JSONObject optionsObj) {
         table.getSubList().forEach(column -> {
-            if (column.isPk())
+            if (column.getIsPk())
                 table.setPkColumn(column);
         });
     }

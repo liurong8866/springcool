@@ -3,6 +3,8 @@ package com.springcool.cool.gen.domain.dto;
 import cn.hutool.core.util.StrUtil;
 import com.springcool.cool.common.core.utils.StringUtils;
 import com.springcool.cool.gen.domain.po.GenTableColumnPo;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
@@ -11,64 +13,14 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class GenTableColumnDto extends GenTableColumnPo {
 
     private static final long serialVersionUID = 1L;
 
     /** 字典名称 */
     private String dictName;
-
-    public String getDictName() {
-        return dictName;
-    }
-
-    public void setDictName(String dictName) {
-        this.dictName = dictName;
-    }
-
-    public boolean isPk() {
-        return getPk();
-    }
-
-    public boolean isList() {
-        return getList();
-    }
-
-    public boolean isInsert() {
-        return getInsert();
-    }
-
-    public boolean isView() {
-        return getView();
-    }
-
-    public boolean isEdit() {
-        return getEdit();
-    }
-
-    public boolean isRequired() {
-        return getRequired();
-    }
-
-    public boolean isQuery() {
-        return getQuery();
-    }
-
-    public boolean isImport() {
-        return getImport();
-    }
-
-    public boolean isExport() {
-        return getExport();
-    }
-
-    public boolean isHide() {
-        return getHide();
-    }
-
-    public boolean isCover() {
-        return getCover();
-    }
 
     public String readConverterExp() {
         String remarks = StrUtil.subBetween(this.getComment(), "（", "）");
@@ -91,27 +43,4 @@ public class GenTableColumnDto extends GenTableColumnPo {
         return StrUtil.isNotEmpty(this.getComment()) ? this.getComment().replaceAll("(?:\\（)[^\\(\\)]*(?:\\）)", StrUtil.EMPTY) : this.getComment();
     }
 
-    @Override
-    public String toString() {
-        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
-                .append("id", getId())
-                .append("name", getName())
-                .append("comment", getComment())
-                .append("tableId", getTableId())
-                .append("type", getType())
-                .append("javaType", getJavaType())
-                .append("javaField", getJavaField())
-                .append("isPk", getPk())
-                .append("isIncrement", getIncrement())
-                .append("isRequired", getRequired())
-                .append("isInsert", getInsert())
-                .append("isEdit", getEdit())
-                .append("isList", getList())
-                .append("isQuery", getQuery())
-                .append("isUnique", getUnique())
-                .append("queryType", getQueryType())
-                .append("htmlType", getHtmlType())
-                .append("dictType", getDictType())
-                .toString();
-    }
 }

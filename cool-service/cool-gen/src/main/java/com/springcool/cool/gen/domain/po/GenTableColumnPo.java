@@ -3,6 +3,8 @@ package com.springcool.cool.gen.domain.po;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.web.entity.base.BaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.validation.constraints.NotBlank;
 
@@ -11,6 +13,8 @@ import javax.validation.constraints.NotBlank;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName(value = "gen_table_column", excludeProperty = {"status", "remark", "delFlag"})
 public class GenTableColumnPo extends BaseEntity {
 
@@ -100,173 +104,4 @@ public class GenTableColumnPo extends BaseEntity {
     /** 字典类型 */
     @TableField("dict_type")
     private String dictType;
-
-    public Long getTableId() {
-        return tableId;
-    }
-
-    public void setTableId(Long tableId) {
-        this.tableId = tableId;
-    }
-
-    public String getComment() {
-        return comment;
-    }
-
-    public void setComment(String comment) {
-        this.comment = comment;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public String getJavaType() {
-        return javaType;
-    }
-
-    public void setJavaType(String javaType) {
-        this.javaType = javaType;
-    }
-
-    public String getJavaField() {
-        return javaField;
-    }
-
-    public void setJavaField(String javaField) {
-        this.javaField = javaField;
-    }
-
-    public Boolean getPk() {
-        return isPk;
-    }
-
-    public void setPk(Boolean isPk) {
-        this.isPk = isPk;
-    }
-
-    public Boolean getIncrement() {
-        return isIncrement;
-    }
-
-    public void setIncrement(Boolean isIncrement) {
-        this.isIncrement = isIncrement;
-    }
-
-    public Boolean getRequired() {
-        return isRequired;
-    }
-
-    public void setRequired(Boolean isRequired) {
-        this.isRequired = isRequired;
-    }
-
-    public Boolean getView() {
-        return isView;
-    }
-
-    public void setView(Boolean view) {
-        isView = view;
-    }
-
-    public Boolean getInsert() {
-        return isInsert;
-    }
-
-    public void setInsert(Boolean isInsert) {
-        this.isInsert = isInsert;
-    }
-
-    public Boolean getEdit() {
-        return isEdit;
-    }
-
-    public void setEdit(Boolean isEdit) {
-        this.isEdit = isEdit;
-    }
-
-    public Boolean getList() {
-        return isList;
-    }
-
-    public void setList(Boolean isList) {
-        this.isList = isList;
-    }
-
-    public Boolean getQuery() {
-        return isQuery;
-    }
-
-    public void setQuery(Boolean isQuery) {
-        this.isQuery = isQuery;
-    }
-
-    public Boolean getUnique() {
-        return isUnique;
-    }
-
-    public void setUnique(Boolean isUnique) {
-        this.isUnique = isUnique;
-    }
-
-    public Boolean getImport() {
-        return isImport;
-    }
-
-    public void setImport(Boolean anImport) {
-        isImport = anImport;
-    }
-
-    public Boolean getExport() {
-        return isExport;
-    }
-
-    public void setExport(Boolean export) {
-        isExport = export;
-    }
-
-    public Boolean getHide() {
-        return isHide;
-    }
-
-    public void setHide(Boolean hide) {
-        isHide = hide;
-    }
-
-    public Boolean getCover() {
-        return isCover;
-    }
-
-    public void setCover(Boolean cover) {
-        isCover = cover;
-    }
-
-    public String getQueryType() {
-        return queryType;
-    }
-
-    public void setQueryType(String queryType) {
-        this.queryType = queryType;
-    }
-
-    public String getHtmlType() {
-        return htmlType;
-    }
-
-    public void setHtmlType(String htmlType) {
-        this.htmlType = htmlType;
-    }
-
-    public String getDictType() {
-        return dictType;
-    }
-
-    public void setDictType(String dictType) {
-        this.dictType = dictType;
-    }
-
 }

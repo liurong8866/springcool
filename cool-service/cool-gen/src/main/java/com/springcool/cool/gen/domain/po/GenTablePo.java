@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.gen.domain.dto.GenTableColumnDto;
 import com.springcool.cool.common.core.web.entity.base.SubBaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.validation.constraints.NotBlank;
 
@@ -14,6 +16,8 @@ import static com.baomidou.mybatisplus.annotation.SqlCondition.LIKE;
  *
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 @TableName(value = "gen_table", excludeProperty = {"status", "sort", "delFlag"})
 public class GenTablePo extends SubBaseEntity<GenTableColumnDto> {
 
@@ -82,116 +86,4 @@ public class GenTablePo extends SubBaseEntity<GenTableColumnDto> {
     /** 其它生成选项 */
     @TableField("options")
     private String options;
-
-    public String getComment() {
-        return comment;
-    }
-
-    public void setComment(String comment) {
-        this.comment = comment;
-    }
-
-    public String getClassName() {
-        return className;
-    }
-
-    public void setClassName(String className) {
-        this.className = className;
-    }
-
-    public String getPrefix() {
-        return prefix;
-    }
-
-    public void setPrefix(String prefix) {
-        this.prefix = prefix;
-    }
-
-    public String getTplCategory() {
-        return tplCategory;
-    }
-
-    public void setTplCategory(String tplCategory) {
-        this.tplCategory = tplCategory;
-    }
-
-    public String getPackageName() {
-        return packageName;
-    }
-
-    public void setPackageName(String packageName) {
-        this.packageName = packageName;
-    }
-
-    public String getModuleName() {
-        return moduleName;
-    }
-
-    public void setModuleName(String moduleName) {
-        this.moduleName = moduleName;
-    }
-
-    public String getAuthorityName() {
-        return authorityName;
-    }
-
-    public void setAuthorityName(String authorityName) {
-        this.authorityName = authorityName;
-    }
-
-    public String getBusinessName() {
-        return businessName;
-    }
-
-    public void setBusinessName(String businessName) {
-        this.businessName = businessName;
-    }
-
-    public String getFunctionName() {
-        return functionName;
-    }
-
-    public void setFunctionName(String functionName) {
-        this.functionName = functionName;
-    }
-
-    public String getFunctionAuthor() {
-        return functionAuthor;
-    }
-
-    public void setFunctionAuthor(String functionAuthor) {
-        this.functionAuthor = functionAuthor;
-    }
-
-    public String getGenType() {
-        return genType;
-    }
-
-    public void setGenType(String genType) {
-        this.genType = genType;
-    }
-
-    public String getGenPath() {
-        return genPath;
-    }
-
-    public void setGenPath(String genPath) {
-        this.genPath = genPath;
-    }
-
-    public String getUiPath() {
-        return uiPath;
-    }
-
-    public void setUiPath(String uiPath) {
-        this.uiPath = uiPath;
-    }
-
-    public String getOptions() {
-        return options;
-    }
-
-    public void setOptions(String options) {
-        this.options = options;
-    }
 }

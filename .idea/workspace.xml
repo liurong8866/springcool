@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30989b44-b426-4e96-aae3-800d54855226" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/java/com/springcool/cool/common/datasource/config/properties/SourceProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/java/com/springcool/cool/common/datasource/config/properties/SourceProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-swagger/src/main/java/com/springcool/cool/common/swagger/config/SwaggerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-swagger/src/main/java/com/springcool/cool/common/swagger/config/SwaggerProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-web/src/main/java/com/springcool/cool/common/web/config/properties/TenantProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-web/src/main/java/com/springcool/cool/common/web/config/properties/TenantProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/CaptchaProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/CaptchaProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/IgnoreWhiteProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/IgnoreWhiteProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/XssProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/cool/gateway/config/properties/XssProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-file/src/main/java/com/springcool/cool/file/config/MinioConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-file/src/main/java/com/springcool/cool/file/config/MinioConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/domain/dto/GenTableColumnDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/domain/dto/GenTableColumnDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/domain/po/GenTableColumnPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/domain/po/GenTableColumnPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/domain/po/GenTablePo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/domain/po/GenTablePo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/service/impl/GenTableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/service/impl/GenTableServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/util/GenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/util/GenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/util/VelocityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/util/VelocityUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
   <component name="ProjectId" id="2A1dUNe9I9DM0sVTksoXCIQmsGg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -143,16 +143,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/cool/gen/manager/impl/GenTableManager.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
