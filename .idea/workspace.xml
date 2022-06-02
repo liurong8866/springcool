@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361f4b5c-5151-42a8-a32e-ba01d948d44d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/gateway/config/CaptchaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/gateway/config/CaptchaConfig.java" afterDir="false" />
-    </list>
+    <list default="true" id="361f4b5c-5151-42a8-a32e-ba01d948d44d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
