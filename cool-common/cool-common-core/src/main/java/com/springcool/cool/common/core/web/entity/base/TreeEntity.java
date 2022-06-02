@@ -1,6 +1,8 @@
 package com.springcool.cool.common.core.web.entity.base;
 
 import com.baomidou.mybatisplus.annotation.TableField;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.util.List;
 
@@ -10,6 +12,8 @@ import java.util.List;
  * @param <D> Dto
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class TreeEntity<D> extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
@@ -30,35 +34,4 @@ public class TreeEntity<D> extends BaseEntity {
     @TableField(exist = false)
     private List<D> children;
 
-    public Long getParentId() {
-        return parentId;
-    }
-
-    public void setParentId(Long parentId) {
-        this.parentId = parentId;
-    }
-
-    public String getParentName() {
-        return parentName;
-    }
-
-    public void setParentName(String parentName) {
-        this.parentName = parentName;
-    }
-
-    public String getAncestors() {
-        return ancestors;
-    }
-
-    public void setAncestors(String ancestors) {
-        this.ancestors = ancestors;
-    }
-
-    public List<D> getChildren() {
-        return children;
-    }
-
-    public void setChildren(List<D> children) {
-        this.children = children;
-    }
 }

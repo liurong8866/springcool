@@ -2,6 +2,8 @@ package com.springcool.cool.common.core.web.tenant.common;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.springcool.cool.common.core.web.entity.common.CSubBaseEntity;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * SubBase 租户混合基类
@@ -9,6 +11,8 @@ import com.springcool.cool.common.core.web.entity.common.CSubBaseEntity;
  * @param <S> SubDto
  * @author springcool
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
 public class TCSubBaseEntity<S> extends CSubBaseEntity<S> {
 
     private static final long serialVersionUID = 1L;
@@ -16,12 +20,4 @@ public class TCSubBaseEntity<S> extends CSubBaseEntity<S> {
     /** 租户Id */
     @TableField(exist = false)
     private Long enterpriseId;
-
-    public Long getEnterpriseId() {
-        return enterpriseId;
-    }
-
-    public void setEnterpriseId(Long enterpriseId) {
-        this.enterpriseId = enterpriseId;
-    }
 }

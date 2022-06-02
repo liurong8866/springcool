@@ -1,5 +1,8 @@
 package com.springcool.cool.common.core.web.page;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -8,6 +11,7 @@ import java.util.List;
  *
  * @author springcool
  */
+@Data
 public class TableDataInfo implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -33,21 +37,5 @@ public class TableDataInfo implements Serializable {
     public TableDataInfo(List<?> list, int total) {
         this.items = list;
         this.total = total;
-    }
-
-    public long getTotal() {
-        return total;
-    }
-
-    public void setTotal(long total) {
-        this.total = total;
-    }
-
-    public List<?> getItems() {
-        return items;
-    }
-
-    public void setItems(List<?> items) {
-        this.items = items;
     }
 }
