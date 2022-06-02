@@ -5,62 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="361f4b5c-5151-42a8-a32e-ba01d948d44d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cool-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-auth/src/main/java/com/springcool/auth/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-auth/src/main/java/com/springcool/auth/AuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-auth/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-auth/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-auth/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-auth/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-auth/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-auth/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-datascope/src/main/java/com/springcool/common/datascope/interceptor/DataScopeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-datascope/src/main/java/com/springcool/common/datascope/interceptor/CustomDataScopeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-datascope/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-datascope/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-datasource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-datasource/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/java/com/springcool/common/datasource/config/CustomDynamicDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/java/com/springcool/common/datasource/config/MyDynamicDataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-datasource/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-security/src/main/java/com/springcool/common/security/aspect/PreAuthorizeAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-security/src/main/java/com/springcool/common/security/aspect/PreAuthorizeAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-web/src/main/java/com/springcool/common/web/config/CustomMyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-web/src/main/java/com/springcool/common/web/config/CustomMyBatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-file/src/main/java/com/springcool/file/FileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-file/src/main/java/com/springcool/file/FileApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-file/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-file/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-file/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-file/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-file/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-file/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/gen/GenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/java/com/springcool/gen/GenApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-gen/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-job/src/main/java/com/springcool/job/JobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-job/src/main/java/com/springcool/job/JobApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-job/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-job/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-job/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-job/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-job/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-job/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/system/SystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/system/notice/service/impl/SysNoticeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/system/notice/service/impl/SysNoticeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-system/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-system/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-system/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-system/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-system/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-system/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/java/com/springcool/tenant/TenantApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/java/com/springcool/tenant/TenantApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/java/com/springcool/monitor/MonitorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/java/com/springcool/monitor/MonitorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-visual/cool-monitor/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-visual/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-visual/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cool-auth/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cool-auth/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cool-gateway/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cool-gateway/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cool-job/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cool-job/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/1_schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/cool_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/cool_1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/cool_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/cool_2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/cool_config.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/cool_config.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/gateway/config/CaptchaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/gateway/config/CaptchaConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +27,6 @@
         <option name="jdkForImporter" value="1.8" />
       </MavenImportingSettings>
     </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="jdk-1.8" />
-      </list>
-    </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -107,7 +47,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6770115" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -118,64 +58,6 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
-    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cool-auth" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.auth.AuthApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cool-file" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.file.FileApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cool-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.gateway.GatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cool-gen" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.gen.GenApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cool-job" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.job.JobApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cool-monitor" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.monitor.MonitorApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cool-system" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.system.SystemApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TenantApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cool-tenant" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcool.tenant.TenantApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +87,11 @@
           <url>jar://$PROJECT_DIR$/../../../maven/LocalRepository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
           <line>622</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cool-gateway/src/main/java/com/springcool/gateway/filter/CacheRequestFilter.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

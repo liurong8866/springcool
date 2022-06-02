@@ -32,5 +32,30 @@
         <module name="cool-common-redis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcool-auth" target="1.8" />
+      <module name="springcool-codegen" target="1.8" />
+      <module name="springcool-common" target="1.8" />
+      <module name="springcool-common-bom" target="1.8" />
+      <module name="springcool-common-core" target="1.8" />
+      <module name="springcool-common-datasource" target="1.8" />
+      <module name="springcool-common-feign" target="1.8" />
+      <module name="springcool-common-job" target="1.8" />
+      <module name="springcool-common-log" target="1.8" />
+      <module name="springcool-common-mybatis" target="1.8" />
+      <module name="springcool-common-seata" target="1.8" />
+      <module name="springcool-common-security" target="1.8" />
+      <module name="springcool-common-swagger" target="1.8" />
+      <module name="springcool-common-test" target="1.8" />
+      <module name="springcool-gateway" target="1.8" />
+      <module name="springcool-monitor" target="1.8" />
+      <module name="springcool-register" target="1.8" />
+      <module name="springcool-sentinel-dashboard" target="1.8" />
+      <module name="springcool-upms" target="1.8" />
+      <module name="springcool-upms-api" target="1.8" />
+      <module name="springcool-upms-biz" target="1.8" />
+      <module name="springcool-visual" target="1.8" />
+      <module name="springcool-xxl-job-admin" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
