@@ -2,7 +2,7 @@ package com.springcool.cool.system.organize.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;
-import com.springcool.cool.system.organize.domain.vo.SysOrganizeTree;
+import com.springcool.cool.system.api.organize.domain.vo.SysOrganizeTree;
 import com.springcool.cool.common.core.constant.system.OrganizeConstants;
 import com.springcool.cool.common.core.utils.TreeUtils;
 import com.springcool.cool.system.organize.manager.impl.SysOrganizeManager;

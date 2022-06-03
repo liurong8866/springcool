@@ -8,7 +8,7 @@ import com.springcool.cool.common.core.constant.basic.TokenConstants;
 import com.springcool.cool.common.core.context.SecurityContextHolder;
 import com.springcool.cool.common.core.utils.ServletUtils;
 import com.springcool.cool.common.core.utils.StringUtils;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import javax.servlet.http.HttpServletRequest;

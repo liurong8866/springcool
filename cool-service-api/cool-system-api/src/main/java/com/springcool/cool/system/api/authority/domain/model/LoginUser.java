@@ -1,13 +1,11 @@
-package com.springcool.cool.system.api.model;
+package com.springcool.cool.system.api.authority.domain.model;
 
 import com.springcool.cool.system.api.organize.domain.dto.SysEnterpriseDto;
 import com.springcool.cool.system.api.organize.domain.dto.SysUserDto;
 import com.springcool.cool.system.api.source.domain.Source;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 

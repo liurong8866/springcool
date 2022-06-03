@@ -1,7 +1,7 @@
 package com.springcool.cool.system.api.authority.feign;
 
 import com.springcool.cool.system.api.authority.feign.factory.RemoteLoginFallbackFactory;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import com.springcool.cool.common.core.constant.basic.SecurityConstants;
 import com.springcool.cool.common.core.constant.basic.ServiceConstants;
 import com.springcool.cool.common.core.domain.R;

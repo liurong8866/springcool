@@ -10,7 +10,7 @@ import com.springcool.cool.common.core.web.result.AjaxResult;
 import com.springcool.cool.common.security.auth.AuthUtil;
 import com.springcool.cool.common.security.service.TokenService;
 import com.springcool.cool.common.security.utils.SecurityUtils;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;

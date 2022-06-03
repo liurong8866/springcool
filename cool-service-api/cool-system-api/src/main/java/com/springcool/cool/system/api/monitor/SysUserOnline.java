@@ -1,4 +1,4 @@
-package com.springcool.cool.system.monitor.domain;
+package com.springcool.cool.system.api.monitor;
 
 import lombok.Data;
 

@@ -18,7 +18,7 @@ import com.springcool.cool.common.security.annotation.RequiresPermissions;
 import com.springcool.cool.common.security.auth.Auth;
 import com.springcool.cool.common.security.utils.SecurityUtils;
 import com.springcool.cool.common.web.entity.controller.BaseController;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import com.springcool.cool.system.api.organize.domain.dto.SysUserDto;
 import com.springcool.cool.system.api.organize.domain.query.SysUserQuery;
 import com.springcool.cool.system.organize.service.ISysOrganizeService;

@@ -5,7 +5,7 @@ import com.springcool.cool.common.core.web.result.AjaxResult;
 import com.springcool.cool.common.security.annotation.InnerAuth;
 import com.springcool.cool.common.security.utils.SecurityUtils;
 import com.springcool.cool.common.web.entity.controller.BaseController;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import com.springcool.cool.system.api.organize.domain.dto.SysEnterpriseDto;
 import com.springcool.cool.system.api.organize.domain.query.SysEnterpriseQuery;
 import com.springcool.cool.system.organize.service.ISysEnterpriseService;

@@ -1,4 +1,4 @@
-package com.springcool.cool.system.notice.domain.po;
+package com.springcool.cool.system.api.notice.po;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;

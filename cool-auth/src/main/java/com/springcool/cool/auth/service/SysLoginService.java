@@ -12,7 +12,7 @@ import com.springcool.cool.common.core.utils.ip.IpUtils;
 import com.springcool.cool.system.api.authority.feign.RemoteLoginService;
 import com.springcool.cool.system.api.log.domain.dto.SysLoginLogDto;
 import com.springcool.cool.system.api.log.feign.RemoteLogService;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import com.springcool.cool.system.api.organize.domain.dto.SysUserDto;
 import com.springcool.cool.tenant.api.tenant.feign.RemoteTenantService;
 import org.springframework.beans.factory.annotation.Autowired;

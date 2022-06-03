@@ -1,7 +1,7 @@
 package com.springcool.cool.system.notice.service;
 
-import com.springcool.cool.system.notice.domain.dto.SysNoticeDto;
-import com.springcool.cool.system.notice.domain.query.SysNoticeQuery;
+import com.springcool.cool.system.api.notice.dto.SysNoticeDto;
+import com.springcool.cool.system.api.notice.query.SysNoticeQuery;
 import com.springcool.cool.common.web.entity.service.IBaseService;
 
 /**

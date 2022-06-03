@@ -3,8 +3,8 @@ package com.springcool.cool.system.authority.manager;
 import com.springcool.cool.common.web.entity.manager.ITreeManager;
 import com.springcool.cool.system.api.authority.domain.dto.SysMenuDto;
 import com.springcool.cool.system.api.authority.domain.query.SysMenuQuery;
-import com.springcool.cool.system.authority.domain.merge.SysRoleMenuMerge;
-import com.springcool.cool.system.authority.domain.merge.SysTenantMenuMerge;
+import com.springcool.cool.system.api.authority.domain.merge.SysRoleMenuMerge;
+import com.springcool.cool.system.api.authority.domain.merge.SysTenantMenuMerge;
 
 import java.util.List;
 import java.util.Set;

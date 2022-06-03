@@ -1,6 +1,6 @@
 package com.springcool.cool.system.authority.controller;
 
-import com.springcool.cool.system.authority.domain.vo.SysAuthTree;
+import com.springcool.cool.system.api.authority.domain.vo.SysAuthTree;
 import com.springcool.cool.system.authority.service.ISysAuthService;
 import com.springcool.cool.common.core.domain.R;
 import com.springcool.cool.common.core.utils.TreeUtils;

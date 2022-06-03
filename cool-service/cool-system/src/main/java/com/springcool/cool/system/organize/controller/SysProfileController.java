@@ -11,7 +11,7 @@ import com.springcool.cool.common.security.utils.SecurityUtils;
 import com.springcool.cool.common.web.entity.controller.BasisController;
 import com.springcool.cool.file.api.domain.SysFile;
 import com.springcool.cool.file.api.feign.RemoteFileService;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import com.springcool.cool.system.api.organize.domain.dto.SysUserDto;
 import com.springcool.cool.system.organize.service.ISysUserService;
 import org.springframework.beans.factory.annotation.Autowired;

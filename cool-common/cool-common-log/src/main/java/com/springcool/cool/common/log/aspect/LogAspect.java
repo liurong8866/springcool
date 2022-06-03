@@ -13,7 +13,7 @@ import com.springcool.cool.common.core.utils.ip.IpUtils;
 import com.springcool.cool.common.log.enums.BusinessStatus;
 import com.springcool.cool.common.security.service.TokenService;
 import com.springcool.cool.system.api.log.domain.dto.SysOperateLogDto;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;

@@ -1,7 +1,7 @@
 package com.springcool.cool.system.notice.manager;
 
-import com.springcool.cool.system.notice.domain.dto.SysNoticeDto;
-import com.springcool.cool.system.notice.domain.query.SysNoticeQuery;
+import com.springcool.cool.system.api.notice.dto.SysNoticeDto;
+import com.springcool.cool.system.api.notice.query.SysNoticeQuery;
 import com.springcool.cool.common.web.entity.manager.IBaseManager;
 
 /**

@@ -1,7 +1,7 @@
 package com.springcool.cool.system.api.authority.feign.factory;
 
 import com.springcool.cool.system.api.authority.feign.RemoteLoginService;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import com.springcool.cool.common.core.domain.R;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

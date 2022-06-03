@@ -10,11 +10,11 @@ import com.springcool.cool.system.organize.mapper.merge.SysOrganizeRoleMergeMapp
 import com.springcool.cool.system.organize.mapper.merge.SysRoleDeptMergeMapper;
 import com.springcool.cool.system.organize.mapper.merge.SysRolePostMergeMapper;
 import com.springcool.cool.system.organize.mapper.merge.SysUserPostMergeMapper;
-import com.springcool.cool.system.organize.domain.merge.SysOrganizeRoleMerge;
-import com.springcool.cool.system.organize.domain.merge.SysRoleDeptMerge;
-import com.springcool.cool.system.organize.domain.merge.SysRolePostMerge;
-import com.springcool.cool.system.organize.domain.merge.SysUserPostMerge;
-import com.springcool.cool.system.organize.domain.vo.SysOrganizeTree;
+import com.springcool.cool.system.api.organize.domain.merge.SysOrganizeRoleMerge;
+import com.springcool.cool.system.api.organize.domain.merge.SysRoleDeptMerge;
+import com.springcool.cool.system.api.organize.domain.merge.SysRolePostMerge;
+import com.springcool.cool.system.api.organize.domain.merge.SysUserPostMerge;
+import com.springcool.cool.system.api.organize.domain.vo.SysOrganizeTree;
 import com.springcool.cool.common.core.constant.system.OrganizeConstants;
 import com.springcool.cool.system.api.organize.domain.dto.SysDeptDto;
 import com.springcool.cool.system.api.organize.domain.dto.SysPostDto;

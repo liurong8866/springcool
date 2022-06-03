@@ -1,4 +1,4 @@
-package com.springcool.cool.system.organize.domain.merge;
+package com.springcool.cool.system.api.organize.domain.merge;
 
 
 import com.baomidou.mybatisplus.annotation.TableField;

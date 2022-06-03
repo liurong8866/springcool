@@ -1,7 +1,7 @@
 package com.springcool.cool.system.authority.service;
 
 import com.springcool.cool.system.api.authority.domain.dto.SysRoleDto;
-import com.springcool.cool.system.api.model.DataScope;
+import com.springcool.cool.system.api.authority.domain.model.DataScope;
 import com.springcool.cool.system.api.organize.domain.dto.SysEnterpriseDto;
 import com.springcool.cool.system.api.organize.domain.dto.SysUserDto;
 

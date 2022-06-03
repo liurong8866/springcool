@@ -9,7 +9,7 @@ import com.springcool.cool.common.core.utils.ServletUtils;
 import com.springcool.cool.common.core.utils.StringUtils;
 import com.springcool.cool.common.core.utils.ip.IpUtils;
 import com.springcool.cool.common.redis.service.RedisService;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

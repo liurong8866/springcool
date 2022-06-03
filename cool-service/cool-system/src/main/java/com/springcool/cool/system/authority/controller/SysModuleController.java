@@ -6,7 +6,7 @@ import com.springcool.cool.system.api.authority.domain.dto.SysMenuDto;
 import com.springcool.cool.system.api.authority.domain.dto.SysModuleDto;
 import com.springcool.cool.system.api.authority.domain.query.SysMenuQuery;
 import com.springcool.cool.system.api.authority.domain.query.SysModuleQuery;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import com.springcool.cool.system.authority.service.ISysMenuService;
 import com.springcool.cool.system.authority.service.ISysModuleService;
 import com.springcool.cool.common.core.constant.basic.BaseConstants;

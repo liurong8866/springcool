@@ -1,17 +1,15 @@
-package com.springcool.cool.system.authority.domain.vo;
+package com.springcool.cool.system.api.authority.domain.vo;
 
 import cn.hutool.core.util.ObjectUtil;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.springcool.cool.system.organize.domain.vo.SysOrganizeTree;
 import com.springcool.cool.common.core.constant.basic.BaseConstants;
 import com.springcool.cool.common.core.constant.system.AuthorityConstants;
 import com.springcool.cool.common.core.web.entity.base.BasisEntity;
 import com.springcool.cool.system.api.authority.domain.dto.SysMenuDto;
 import com.springcool.cool.system.api.authority.domain.dto.SysModuleDto;
+import com.springcool.cool.system.api.organize.domain.vo.SysOrganizeTree;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.util.List;
 

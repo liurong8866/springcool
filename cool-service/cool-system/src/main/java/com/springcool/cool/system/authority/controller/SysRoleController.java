@@ -3,7 +3,7 @@ package com.springcool.cool.system.authority.controller;
 import cn.hutool.core.util.StrUtil;
 import com.springcool.cool.system.api.authority.domain.dto.SysRoleDto;
 import com.springcool.cool.system.api.authority.domain.query.SysRoleQuery;
-import com.springcool.cool.system.authority.domain.vo.SysAuthTree;
+import com.springcool.cool.system.api.authority.domain.vo.SysAuthTree;
 import com.springcool.cool.system.organize.service.ISysOrganizeService;
 import com.springcool.cool.system.authority.service.ISysAuthService;
 import com.springcool.cool.system.authority.service.ISysRoleService;

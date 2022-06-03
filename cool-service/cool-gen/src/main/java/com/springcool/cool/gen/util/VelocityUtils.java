@@ -279,13 +279,13 @@ public class VelocityUtils {
         String javaPath = PROJECT_PATH + StrUtil.SLASH + StringUtils.replace(packageName, StrUtil.DOT, StrUtil.SLASH);
 
         if (template.contains("query.java.vm"))
-            return StringUtils.format("{}/domain/query/{}Query.java", javaPath, className);
+            return StringUtils.format("{}/monitor/query/{}Query.java", javaPath, className);
         else if (template.contains("dto.java.vm"))
-            return StringUtils.format("{}/domain/dto/{}Dto.java", javaPath, className);
+            return StringUtils.format("{}/monitor/dto/{}Dto.java", javaPath, className);
         else if (template.contains("po.java.vm"))
-            return StringUtils.format("{}/domain/po/{}Po.java", javaPath, className);
+            return StringUtils.format("{}/monitor/po/{}Po.java", javaPath, className);
         else if (template.contains("converter.java.vm"))
-            return StringUtils.format("{}/domain/model/{}Converter.java", javaPath, className);
+            return StringUtils.format("{}/monitor/model/{}Converter.java", javaPath, className);
         else if (template.contains("controller.java.vm"))
             return StringUtils.format("{}/controller/{}Controller.java", javaPath, className);
         else if (template.contains("service.java.vm"))
@@ -299,7 +299,7 @@ public class VelocityUtils {
         else if (template.contains("mapper.java.vm"))
             return StringUtils.format("{}/mapper/{}Mapper.java", javaPath, className);
         else if (template.contains("merge.java.vm"))
-            return StringUtils.format("{}/domain/merge/{}.java", javaPath, className);
+            return StringUtils.format("{}/monitor/merge/{}.java", javaPath, className);
         else if (template.contains("mergeMapper.java.vm"))
             return StringUtils.format("{}/mapper/merge/{}Mapper.java", javaPath, className);
 

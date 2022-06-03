@@ -6,7 +6,7 @@ import com.springcool.cool.common.core.utils.ServletUtils;
 import com.springcool.cool.common.core.utils.StringUtils;
 import com.springcool.cool.common.security.auth.AuthUtil;
 import com.springcool.cool.common.security.utils.SecurityUtils;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.AsyncHandlerInterceptor;
 

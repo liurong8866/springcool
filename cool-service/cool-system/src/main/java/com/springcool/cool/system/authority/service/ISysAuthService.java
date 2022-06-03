@@ -1,6 +1,6 @@
 package com.springcool.cool.system.authority.service;
 
-import com.springcool.cool.system.authority.domain.vo.SysAuthTree;
+import com.springcool.cool.system.api.authority.domain.vo.SysAuthTree;
 
 import java.util.List;
 

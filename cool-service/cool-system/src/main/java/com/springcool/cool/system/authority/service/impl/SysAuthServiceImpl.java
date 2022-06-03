@@ -1,7 +1,7 @@
 package com.springcool.cool.system.authority.service.impl;
 
 import com.baomidou.dynamic.datasource.annotation.DSTransactional;
-import com.springcool.cool.system.authority.domain.vo.SysAuthTree;
+import com.springcool.cool.system.api.authority.domain.vo.SysAuthTree;
 import com.springcool.cool.system.authority.manager.ISysAuthManager;
 import com.springcool.cool.system.authority.service.ISysAuthService;
 import org.springframework.beans.factory.annotation.Autowired;

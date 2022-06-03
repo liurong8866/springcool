@@ -1,7 +1,7 @@
 package com.springcool.cool.system.monitor.service;
 
-import com.springcool.cool.system.monitor.domain.SysUserOnline;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.monitor.SysUserOnline;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 
 /**
  * 在线用户 服务层

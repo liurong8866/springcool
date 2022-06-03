@@ -1,9 +1,9 @@
 package com.springcool.cool.system.notice.manager.impl;
 
-import com.springcool.cool.system.notice.domain.dto.SysNoticeDto;
-import com.springcool.cool.system.notice.domain.model.SysNoticeConverter;
-import com.springcool.cool.system.notice.domain.po.SysNoticePo;
-import com.springcool.cool.system.notice.domain.query.SysNoticeQuery;
+import com.springcool.cool.system.api.notice.dto.SysNoticeDto;
+import com.springcool.cool.system.api.notice.model.SysNoticeConverter;
+import com.springcool.cool.system.api.notice.po.SysNoticePo;
+import com.springcool.cool.system.api.notice.query.SysNoticeQuery;
 import com.springcool.cool.system.notice.mapper.SysNoticeMapper;
 import com.springcool.cool.common.web.entity.manager.impl.BaseManager;
 import com.springcool.cool.system.notice.manager.ISysNoticeManager;

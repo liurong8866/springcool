@@ -1,8 +1,8 @@
 package com.springcool.cool.system.notice.controller;
 
 import com.springcool.cool.system.notice.service.ISysNoticeService;
-import com.springcool.cool.system.notice.domain.dto.SysNoticeDto;
-import com.springcool.cool.system.notice.domain.query.SysNoticeQuery;
+import com.springcool.cool.system.api.notice.dto.SysNoticeDto;
+import com.springcool.cool.system.api.notice.query.SysNoticeQuery;
 import com.springcool.cool.common.core.constant.basic.BaseConstants;
 import com.springcool.cool.common.core.constant.system.NoticeConstants;
 import com.springcool.cool.common.core.web.result.AjaxResult;

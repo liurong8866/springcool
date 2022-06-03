@@ -1,4 +1,4 @@
-package com.springcool.cool.system.authority.domain.merge;
+package com.springcool.cool.system.api.organize.domain.merge;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -6,16 +6,15 @@ import com.springcool.cool.common.core.web.tenant.base.TBasisEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-
 /**
- * 角色-菜单关联 持久化对象
+ * 角色-岗位关联（权限范围） 持久化对象
  *
  * @author springcool
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-@TableName("sys_role_menu_merge")
-public class SysRoleMenuMerge extends TBasisEntity {
+@TableName("sys_role_post_merge")
+public class SysRolePostMerge extends TBasisEntity {
 
     private static final long serialVersionUID = 1L;
 
@@ -23,15 +22,15 @@ public class SysRoleMenuMerge extends TBasisEntity {
     @TableField("role_id")
     private Long roleId;
 
-    /** 菜单Id */
-    @TableField("menu_id")
-    private Long menuId;
+    /** 岗位Id */
+    @TableField("post_id")
+    private Long postId;
 
-    public SysRoleMenuMerge() {
+    public SysRolePostMerge() {
     }
 
-    public SysRoleMenuMerge(Long roleId, Long menuId) {
+    public SysRolePostMerge(Long roleId, Long postId) {
         setRoleId(roleId);
-        setMenuId(menuId);
+        setPostId(postId);
     }
 }

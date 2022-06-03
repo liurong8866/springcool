@@ -1,4 +1,4 @@
-package com.springcool.cool.system.api.model;
+package com.springcool.cool.system.api.authority.domain.model;
 
 import cn.hutool.core.collection.CollUtil;
 import lombok.Data;

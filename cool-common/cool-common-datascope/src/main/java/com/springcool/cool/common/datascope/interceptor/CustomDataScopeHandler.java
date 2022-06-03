@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.extension.plugins.handler.DataPermissionHandler;
 import com.springcool.cool.common.core.constant.system.AuthorityConstants;
 import com.springcool.cool.common.datascope.annotation.DataScope;
 import com.springcool.cool.common.security.utils.SecurityUtils;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import net.sf.jsqlparser.expression.Expression;
 import net.sf.jsqlparser.expression.HexValue;
 import net.sf.jsqlparser.expression.LongValue;

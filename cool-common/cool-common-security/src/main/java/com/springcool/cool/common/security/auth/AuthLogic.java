@@ -11,7 +11,7 @@ import com.springcool.cool.common.core.exception.auth.NotPermissionException;
 import com.springcool.cool.common.core.exception.auth.NotRoleException;
 import com.springcool.cool.common.core.utils.SpringUtils;
 import com.springcool.cool.common.core.utils.StringUtils;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import org.springframework.util.PatternMatchUtils;
 
 import java.util.Collection;

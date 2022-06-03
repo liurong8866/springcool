@@ -1,13 +1,10 @@
-package com.springcool.cool.system.organize.domain.vo;
+package com.springcool.cool.system.api.organize.domain.vo;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.springcool.cool.common.core.constant.system.OrganizeConstants;
 import com.springcool.cool.system.api.organize.domain.dto.SysDeptDto;
 import com.springcool.cool.system.api.organize.domain.dto.SysPostDto;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.io.Serializable;
 import java.util.List;

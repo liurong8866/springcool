@@ -1,10 +1,8 @@
-package com.springcool.cool.system.notice.domain.dto;
+package com.springcool.cool.system.api.notice.dto;
 
-import com.springcool.cool.system.notice.domain.po.SysNoticePo;
+import com.springcool.cool.system.api.notice.po.SysNoticePo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 
 /**
  * 通知公告 数据传输对象

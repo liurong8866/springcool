@@ -1,8 +1,8 @@
 package com.springcool.cool.system.monitor.service.impl;
 
 import com.springcool.cool.common.core.utils.StringUtils;
-import com.springcool.cool.system.monitor.domain.SysUserOnline;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.monitor.SysUserOnline;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 import com.springcool.cool.system.monitor.service.ISysUserOnlineService;
 import org.springframework.stereotype.Service;
 

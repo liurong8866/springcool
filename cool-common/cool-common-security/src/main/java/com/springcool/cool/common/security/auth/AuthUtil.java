@@ -2,7 +2,7 @@ package com.springcool.cool.common.security.auth;
 
 import com.springcool.cool.common.security.annotation.RequiresPermissions;
 import com.springcool.cool.common.security.annotation.RequiresRoles;
-import com.springcool.cool.system.api.model.LoginUser;
+import com.springcool.cool.system.api.authority.domain.model.LoginUser;
 
 /**
  * Token 权限验证工具类

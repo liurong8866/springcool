@@ -1,6 +1,6 @@
 package com.springcool.cool.system.organize.manager;
 
-import com.springcool.cool.system.organize.domain.vo.SysOrganizeTree;
+import com.springcool.cool.system.api.organize.domain.vo.SysOrganizeTree;
 
 import java.util.Collection;
 import java.util.List;
