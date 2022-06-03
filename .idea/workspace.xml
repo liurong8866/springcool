@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30989b44-b426-4e96-aae3-800d54855226" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/admin/src/views/system/system/job/JobDetail.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/admin/src/views/system/system/job/JobModal.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/admin/src/views/system/system/job/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/admin/src/views/system/system/job/job.data.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/service/modules/system/system/job.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/tokens/auth/system/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/tokens/auth/system/system/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/tokens/auth/system/system/job.auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/tokens/enums/system/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/tokens/enums/system/system/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/tokens/enums/system/system/job.enum.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/types/modules/system/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/types/modules/system/system/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiSaas-UI/packages/types/modules/system/system/job.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service-api/cool-system-api/src/main/java/com/springcool/cool/system/api/authority/domain/model/DataScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service-api/cool-system-api/src/main/java/com/springcool/cool/system/api/authority/domain/model/DataScope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service-api/cool-system-api/src/main/java/com/springcool/cool/system/api/authority/domain/model/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service-api/cool-system-api/src/main/java/com/springcool/cool/system/api/authority/domain/model/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service-api/cool-tenant-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service-api/cool-tenant-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service-api/cool-tenant-api/src/main/java/com/springcool/cool/tenant/api/source/domain/po/TeSourcePo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service-api/cool-tenant-api/src/main/java/com/springcool/cool/tenant/api/source/domain/po/TeSourcePo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/java/com/springcool/cool/tenant/tenant/controller/TeTenantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/java/com/springcool/cool/tenant/tenant/controller/TeTenantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/java/com/springcool/cool/tenant/tenant/domain/model/TeTenantRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service-api/cool-tenant-api/src/main/java/com/springcool/cool/tenant/api/source/domain/model/TeTenantRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/java/com/springcool/cool/tenant/tenant/service/ITeTenantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/java/com/springcool/cool/tenant/tenant/service/ITeTenantService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/java/com/springcool/cool/tenant/tenant/service/impl/TeTenantServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-service/cool-tenant/src/main/java/com/springcool/cool/tenant/tenant/service/impl/TeTenantServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-common/cool-common-web/src/main/java/com/springcool/cool/common/web/entity/manager/impl/TreeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/cool-common/cool-common-web/src/main/java/com/springcool/cool/common/web/entity/manager/impl/TreeManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +33,7 @@
   </component>
   <component name="ProjectId" id="2A1dUNe9I9DM0sVTksoXCIQmsGg" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -166,26 +146,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cool-auth/src/main/java/com/springcool/cool/auth/service/SysLoginService.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/cool/system/authority/controller/SysLoginController.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cool-service/cool-system/src/main/java/com/springcool/cool/system/authority/controller/SysLoginController.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

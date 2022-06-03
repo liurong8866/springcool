@@ -181,7 +181,7 @@ public class TreeManager<Q extends P, D extends P, P extends TreeEntity<D>, PM e
      * @return 数据对象
      */
     @Override
-    @TenantIgnore(tenantLine = true)
+//    @TenantIgnore(tenantLine = true)
     public D checkNameUnique(Serializable id, Serializable parentId, String name) {
         P po = baseMapper.selectOne(
                 Wrappers.<P>query().lambda()
