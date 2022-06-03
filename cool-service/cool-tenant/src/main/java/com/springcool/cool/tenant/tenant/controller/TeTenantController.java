@@ -3,7 +3,7 @@ package com.springcool.cool.tenant.tenant.controller;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;
 import com.springcool.cool.tenant.api.tenant.domain.dto.TeTenantDto;
-import com.springcool.cool.tenant.tenant.domain.model.TeTenantRegister;
+import com.springcool.cool.tenant.api.source.domain.model.TeTenantRegister;
 import com.springcool.cool.tenant.tenant.service.ITeTenantService;
 import com.springcool.cool.common.core.constant.basic.BaseConstants;
 import com.springcool.cool.common.core.constant.system.OrganizeConstants;

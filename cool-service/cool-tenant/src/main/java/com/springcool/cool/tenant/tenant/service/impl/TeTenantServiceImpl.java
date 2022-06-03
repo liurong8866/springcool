@@ -4,7 +4,7 @@ import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import com.springcool.cool.tenant.api.tenant.domain.dto.TeStrategyDto;
 import com.springcool.cool.tenant.api.tenant.domain.dto.TeTenantDto;
-import com.springcool.cool.tenant.tenant.domain.model.TeTenantRegister;
+import com.springcool.cool.tenant.api.source.domain.model.TeTenantRegister;
 import com.springcool.cool.tenant.tenant.manager.impl.TeTenantManager;
 import com.springcool.cool.tenant.tenant.service.ITeStrategyService;
 import com.springcool.cool.tenant.tenant.service.ITeTenantService;

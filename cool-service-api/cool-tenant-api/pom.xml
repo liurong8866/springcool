@@ -20,6 +20,11 @@
             <artifactId>cool-common-core</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.springcool</groupId>
+            <artifactId>cool-system-api</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -29,4 +29,16 @@ public class DataScope implements Serializable {
 
     /** 权限控制 - 用户 */
     private Set<Long> userScope;
+
+    public Set<Long> getDeptScope() {
+        return CollUtil.isEmpty(deptScope) ? new HashSet<>() : deptScope;
+    }
+
+    public Set<Long> getPostScope() {
+        return CollUtil.isEmpty(postScope) ? new HashSet<>() : postScope;
+    }
+
+    public Set<Long> getUserScope() {
+        return CollUtil.isEmpty(userScope) ? new HashSet<>() : userScope;
+    }
 }

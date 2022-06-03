@@ -3,7 +3,7 @@ package com.springcool.cool.tenant.tenant.service;
 import com.springcool.cool.common.web.entity.service.IBaseService;
 import com.springcool.cool.tenant.api.tenant.domain.dto.TeTenantDto;
 import com.springcool.cool.tenant.api.tenant.domain.query.TeTenantQuery;
-import com.springcool.cool.tenant.tenant.domain.model.TeTenantRegister;
+import com.springcool.cool.tenant.api.source.domain.model.TeTenantRegister;
 
 /**
  * 租户管理 服务层

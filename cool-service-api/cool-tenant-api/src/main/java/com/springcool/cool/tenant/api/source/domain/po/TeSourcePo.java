@@ -1,5 +1,4 @@
 package com.springcool.cool.tenant.api.source.domain.po;
-
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.springcool.cool.common.core.annotation.Excel;

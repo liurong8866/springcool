@@ -1,5 +1,4 @@
-package com.springcool.cool.tenant.tenant.domain.model;
-
+package com.springcool.cool.tenant.api.source.domain.model;
 import com.springcool.cool.common.core.web.entity.base.BasisEntity;
 import com.springcool.cool.system.api.organize.domain.dto.SysDeptDto;
 import com.springcool.cool.system.api.organize.domain.dto.SysPostDto;

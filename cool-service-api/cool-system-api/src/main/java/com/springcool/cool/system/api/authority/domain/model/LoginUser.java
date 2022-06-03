@@ -6,6 +6,7 @@ import com.springcool.cool.system.api.source.domain.Source;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
@@ -81,4 +82,8 @@ public class LoginUser implements Serializable {
 
     /** 路由路径映射列表 */
     private Map<String, String> routeURL;
+
+    public Map<String, Object> getMenuRoute() {
+        return menuRoute == null ? new HashMap<>() : menuRoute;
+    }
 }
